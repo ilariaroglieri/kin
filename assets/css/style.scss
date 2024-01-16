@@ -207,21 +207,19 @@ ul {
 li {
 }
 
-.container-fluid {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+.container {
+  display: grid;
+  grid-template-columns: minmax(20ch, 17vw) 1fr;
+}
+
+.content {
+  margin: $spacing;
 }
 
 .flex-row{
   margin-right: -#{$half-spacing};
   margin-left: -#{$half-spacing};
   position: relative;
-}
-
-#header {
-  position: fixed;
-  margin: $double-spacing;  
 }
 
 .menu-toggle {
@@ -296,17 +294,21 @@ li {
 }
 
 .navigation {
-  position: fixed;
-  padding: $double-spacing;
-  width: 25vw;
+  position: sticky;
+  padding: $spacing;
   height: 100vh;
   overflow: scroll;
   background-color: $primaryColor;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   #logo a {
     display: inline-block;
     font-size: 24px;
     text-transform: uppercase;
-    margin-bottom: $double-spacing;
+    margin-bottom: $spacing;
   }
 }
 

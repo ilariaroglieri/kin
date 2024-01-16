@@ -17,3 +17,6 @@
 	
 	
 	<body class="<?= $page->parents()->count() ? $page->parent()->uid() . ' ' . $page->uid() : $page->uid(); ?>">
+
+		<div class="container">
+			<?php snippet('menu') ?>
