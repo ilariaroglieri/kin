@@ -1,0 +1,22 @@
+title: Exhibition
+
+sections:
+  info:
+    type: fields
+    fields:
+      category:
+        type: tags
+        max: 1
+        options:
+          type: query
+          query: site.index.pluck("tags", ",", true)
+      starting date:
+        type: date
+      ending date:
+        type: date
+      info:
+        type: textarea
+
+  gallery:
+    type: files
+    layout: cards
