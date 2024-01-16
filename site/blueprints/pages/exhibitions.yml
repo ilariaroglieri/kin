@@ -5,4 +5,5 @@ sections:
     type: pages
     layout: cards
     ratio: 3/4
-    cover: true
+    image:
+      cover: true

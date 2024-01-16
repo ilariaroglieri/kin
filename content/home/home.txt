@@ -2,4 +2,8 @@ Title: Home
 
 ----
 
-Uuid: PzrooUYhgadPVFW4
+Text: Välkommen till KIN! Konstmuseet i Norr, Norrbottens länskonstmuseum, visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
+
+----
+
+Uuid: uetikLHgM67AJ8RR
