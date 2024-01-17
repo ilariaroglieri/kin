@@ -16,7 +16,7 @@
 	  if ($exhibitions->count() > 0) { ?>
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole">
-	  			<h4 class="uppercase spacing t-2 spacing-b-2"><?php echo t('just-nu, Just nu'); ?></h4>
+	  			<h4 class="uppercase spacing t-2 spacing-b-2">Just nu<?php echo t('just-nu, Just nu'); ?></h4>
 	  		</div>
 	  	</div>
 	  	<div class="d-flex flex-row">
@@ -29,6 +29,50 @@
 					?>
 
 			  	<?php if ($startD < $today && $today < $endD): ?>
+						<?php snippet('exhibition-module', array('exhibition' => $exhibition)) ?>
+					<?php endif; ?>
+
+	      <?php endforeach; ?>
+	    </div>
+	  <?php } ?>
+
+	  <!-- Programm & aktuellt -->
+	  <?php if ($exhibitions->count() > 0) { ?>
+	  	<div class="d-flex flex-row">
+	  		<div class="d-whole">
+	  			<h4 class="uppercase spacing t-2 spacing-b-2">Program & Aktuellt<?php echo t('just-nu, Just nu'); ?></h4>
+	  		</div>
+	  	</div>
+	  	<div class="d-flex flex-row">
+			  <?php foreach($exhibitions as $exhibition): 
+					
+					$s = $exhibition->starting_date()->toDate('d-m-Y');
+					$startD = new DateTime($s);
+					?>
+
+			  	<?php if ($startD > $today): ?>
+						<?php snippet('exhibition-module', array('exhibition' => $exhibition)) ?>
+					<?php endif; ?>
+
+	      <?php endforeach; ?>
+	    </div>
+	  <?php } ?>
+
+	  <!-- Tidigare -->
+	  <?php if ($exhibitions->count() > 0) { ?>
+	  	<div class="d-flex flex-row">
+	  		<div class="d-whole">
+	  			<h4 class="uppercase spacing t-2 spacing-b-2">Tidigare<?php echo t('just-nu, Just nu'); ?></h4>
+	  		</div>
+	  	</div>
+	  	<div class="d-flex flex-row">
+			  <?php foreach($exhibitions as $exhibition): 
+					
+					$e = $exhibition->ending_date()->toDate('d-m-Y'); 
+					$endD = new DateTime($e);
+					?>
+
+			  	<?php if ($today > $endD): ?>
 						<?php snippet('exhibition-module', array('exhibition' => $exhibition)) ?>
 					<?php endif; ?>
 
