@@ -2,4 +2,20 @@ Title: Utstallning 2
 
 ----
 
+Category: Outside the city wall
+
+----
+
+Starting-date: 2023-09-04
+
+----
+
+Ending-date: 2023-09-30
+
+----
+
+Info: 
+
+----
+
 Uuid: L3bgTdURfqiko0a5

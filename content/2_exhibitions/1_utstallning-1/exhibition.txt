@@ -6,15 +6,19 @@ Category: Inside the city hall
 
 ----
 
-Starting-date: 
+Starting-date: 2024-01-01
 
 ----
 
-Ending-date: 
+Ending-date: 2024-02-29
 
 ----
 
 Info: 
+
+----
+
+C-image: - file://225feammRGT0VGMW
 
 ----
 

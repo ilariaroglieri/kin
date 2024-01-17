@@ -23,6 +23,18 @@ $thirdColor: #588084;
   font-size: 14px;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 
 // grid system
 $spacing: 28px;
@@ -115,6 +127,10 @@ $col: 8.3333%;
 
 .spacing-b-4 {
   margin-bottom: $triple-spacing;
+}
+
+.spacing-t-half {
+  margin-top: $half-spacing/2;
 }
 
 .spacing-t-1 {

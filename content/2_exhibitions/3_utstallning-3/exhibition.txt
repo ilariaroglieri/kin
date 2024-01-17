@@ -2,4 +2,20 @@ Title: Utstallning 3
 
 ----
 
+Category: Mediation
+
+----
+
+Starting-date: 2024-04-01
+
+----
+
+Ending-date: 2024-04-30
+
+----
+
+Info: 
+
+----
+
 Uuid: k6Tsur6xi174jObg

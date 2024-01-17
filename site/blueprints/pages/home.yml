@@ -1,0 +1,10 @@
+title: Home
+
+sections:
+  fields:
+    type: fields
+    fields:
+      text:
+        type: textarea
+        size: huge
+ 

@@ -12,17 +12,32 @@ columns:
             options:
               type: query
               query: site.index.pluck("tags", ",", true)
-          starting date:
+          starting_date:
             width: 1/2
             type: date
-          ending date:
+            display: D MMM YYYY
+          ending_date:
             width: 1/2
             type: date
+            display: D MMM YYYY
           info:
             type: textarea
 
   - width: 1/2
     sections:
+      cover_image:
+        type: fields
+        fields:
+          c_image:
+            label: Cover Image
+            type: files
+            layout: cards
+            size: medium
+            max: 1
       gallery:
-        type: files
-        layout: cards
+        type: fields
+        fields:
+          images:
+            label: Images
+            type: files
+            layout: cards

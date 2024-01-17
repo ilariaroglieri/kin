@@ -109,10 +109,6 @@ Version: 1.0
   text-align: center;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 
 .button {
   border-radius: $spacing;
@@ -143,7 +139,7 @@ Version: 1.0
 }
 
 .thirdColor {
-  color: $secColor;
+  color: $thirdColor;
 }
 
 .wysiwyg {
@@ -213,7 +209,12 @@ li {
 }
 
 .content {
-  margin: $spacing;
+  margin: 0 $spacing;
+  .d-grid {
+    display: grid;
+    grid-template-columns: minmax(auto, 33vw) minmax(auto, 33vw);
+    grid-gap: 1.44rem;
+  }
 }
 
 .flex-row{
@@ -261,11 +262,6 @@ li {
       top: 20px;
     }
   }
-  &.white {
-    span {
-      background: white;
-    }
-  }
 
   &.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
@@ -295,6 +291,7 @@ li {
 
 .navigation {
   position: sticky;
+  top: 0;
   padding: $spacing;
   height: 100vh;
   overflow: scroll;
@@ -309,6 +306,36 @@ li {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: $spacing;
+  }
+}
+
+.sidebar {
+  position: sticky;
+  top: $spacing;
+  height: calc(100vh - #{$spacing});
+  overflow: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// homeppage
+.home {
+  background-color: $primaryColor;
+}
+
+.exhibition {
+  padding: $half-spacing;
+  border: 1px solid black;
+  .cover_img {
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
   }
 }
 

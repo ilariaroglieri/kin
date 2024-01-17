@@ -12,6 +12,15 @@ Version: 1.0
 .s-small, .wysiwyg.s-small * {
   font-size: 14px; }
 
+.italic {
+  font-style: italic; }
+
+.bold {
+  font-weight: bold; }
+
+.uppercase {
+  text-transform: uppercase; }
+
 .d-one-third {
   width: calc(8.3333%*4 - 28px);
   margin: 0 14px; }
@@ -75,6 +84,9 @@ Version: 1.0
 
 .spacing-b-4 {
   margin-bottom: 84px; }
+
+.spacing-t-half {
+  margin-top: 7px; }
 
 .spacing-t-1 {
   margin-top: 14px; }
@@ -187,9 +199,6 @@ Version: 1.0
 .t-center {
   text-align: center; }
 
-.uppercase {
-  text-transform: uppercase; }
-
 .button {
   border-radius: 28px;
   padding: 5px 15px;
@@ -217,7 +226,7 @@ Version: 1.0
   color: #6662FF; }
 
 .thirdColor {
-  color: #6662FF; }
+  color: #588084; }
 
 .max-width {
   max-width: 500px; }
@@ -262,7 +271,11 @@ ul {
   grid-template-columns: minmax(20ch, 17vw) 1fr; }
 
 .content {
-  margin: 28px; }
+  margin: 0 28px; }
+  .content .d-grid {
+    display: grid;
+    grid-template-columns: minmax(auto, 33vw) minmax(auto, 33vw);
+    grid-gap: 1.44rem; }
 
 .flex-row {
   margin-right: -14px;
@@ -307,8 +320,6 @@ ul {
       top: 10px; }
     .menu-toggle span:nth-child(3) {
       top: 20px; }
-  .menu-toggle.white span {
-    background: white; }
   .menu-toggle.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -329,6 +340,7 @@ ul {
 
 .navigation {
   position: sticky;
+  top: 0;
   padding: 28px;
   height: 100vh;
   overflow: scroll;
@@ -342,6 +354,29 @@ ul {
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 28px; }
+
+.sidebar {
+  position: sticky;
+  top: 28px;
+  height: calc(100vh - 28px);
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none; }
+  .sidebar::-webkit-scrollbar {
+    display: none; }
+
+.home {
+  background-color: #E5EEEE; }
+
+.exhibition {
+  padding: 14px;
+  border: 1px solid black; }
+  .exhibition .cover_img {
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden; }
+    .exhibition .cover_img img {
+      width: 100%; }
 
 @media screen and (max-width: 768px) {
   .t-hidden {
