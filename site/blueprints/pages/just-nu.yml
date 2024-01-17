@@ -1,0 +1,9 @@
+title: Just nu
+
+sections:
+  test:
+    type: files
+
+  current_exhibitions:
+    type: pagesdisplay
+    query: site.index.filterBy('title', '*=', '1')

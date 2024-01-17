@@ -326,6 +326,35 @@ li {
   background-color: $primaryColor;
 }
 
+.exhibition-list {
+  position: relative;
+  &::after {
+    content: " ";
+    display: block;
+    width: 3em;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-19 19 32 32' style='enable-background:new -19 21 32 32;' xml:space='preserve'%3E%3Cpolygon fill='%237a9ba0' points='-1.4,29.4 3.4,34.2 -11.4,34.2 -11.4,35.2 3.4,35.2 -1.4,40 -0.7,40.7 5.4,34.7 -0.7,28.7 '/%3E%3C/svg%3E");
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+  }  
+  a {
+    padding: 12px;
+    border-top: 1px solid black;
+    display: inline-block;
+    width: 100%;
+    &:last-of-type {
+      border-bottom: 1px solid black;
+    }
+    &:hover {
+      background-color: $primaryColor;
+      color: $secColor;
+    }
+  }
+}
+
 .exhibition {
   padding: 24px;
   border: 1px solid black;
@@ -359,26 +388,14 @@ li {
 
   .t-whole {
     width: calc(100% - #{$spacing});
-    margin: 0 #{$half-spacing};
-    margin-bottom: $half-spacing/2;
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-  }
-
-  .t-whole-sm {
-    width: calc(100% - #{$spacing});
-    margin: 0 #{$half-spacing};
-    margin-bottom: $half-spacing/4;
-    &:last-of-type {
-      margin-bottom: 0;
-    }
+    margin-left: 0 #{$half-spacing};
+    margin-right: 0 #{$half-spacing};
   }
 
   .t-half {
     width: calc(50% - #{$spacing});
-    margin: 0 #{$half-spacing};
-    margin-bottom: $half-spacing;
+    margin-left: 0 #{$half-spacing};
+    margin-right: 0 #{$half-spacing};
   }
 }
 
@@ -402,13 +419,13 @@ li {
 
   .m-whole {
     width: calc(100% - #{$spacing});
-    margin: 0 #{$half-spacing};
-    margin-bottom: 0;
+    margin-left: 0 #{$half-spacing};
+    margin-right: 0 #{$half-spacing};
   }
 
   .m-half {
     width: calc(50% - #{$spacing});
-    margin: 0 #{$half-spacing};
-    margin-bottom: 0;
+    margin-left: 0 #{$half-spacing};
+    margin-right: 0 #{$half-spacing};
   }
 }
