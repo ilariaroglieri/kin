@@ -1,1 +1,5 @@
+Caption: <p>Test caption with <a href="https://www.php.net/manual/en/function.empty.php" target="_blank">link</a></p>
+
+----
+
 Uuid: 225feammRGT0VGMW

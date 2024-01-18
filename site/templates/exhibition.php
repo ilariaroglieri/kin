@@ -14,7 +14,17 @@
 
 			<div class="sidebar images">
 				<?php if ($image = $page->images()->first()) : ?>
-					<img src="<?= $image->url(); ?>" />
+					<?php $caption = $image->caption(); ?>
+					<figure class="project">
+						<picture>
+							<img src="<?= $image->url(); ?>" />
+						</picture>
+						<?php if (!(empty($caption))): ?>
+							<figcaption>
+								<h4 class="s-small italic thirdColor"><?= $caption; ?></h4>
+							</figcaption>
+						<?php endif; ?>
+					</figure>
 				<?php endif; ?>
 			</div>
 		</div>

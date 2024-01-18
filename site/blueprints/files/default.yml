@@ -1,0 +1,8 @@
+title: Default File
+
+sections:
+  fields:
+    type: fields
+    fields:
+      caption:
+        type: writer

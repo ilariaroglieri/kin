@@ -413,6 +413,12 @@ li {
     justify-content: space-between;
     flex-flow: column nowrap;
     place-items: center;
+    figcaption {
+      padding: 8px;
+      a {
+        color: $secColor;
+      }
+    }
   }
 }
 
