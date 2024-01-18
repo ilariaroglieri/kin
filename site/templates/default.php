@@ -13,3 +13,5 @@
 			</div>
 		</div>
 	</div>
+
+	<?php snippet('footer') ?>

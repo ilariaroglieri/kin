@@ -14,7 +14,7 @@
 	  			<h4 class="bold spacing-t-2 spacing-b-2">Just nu<?php echo t('just-nu, Just nu'); ?></h4>
 	  		</div>
 	  	</div>
-	  	<div class="d-flex flex-row">
+	  	<div class="d-flex flex-row d-column">
 			  <?php foreach($exhibitions as $exhibition): 
 					
 					$s = $exhibition->starting_date()->toDate('d-m-Y');
@@ -31,3 +31,5 @@
 	    </div>
 	  <?php } ?>
 	</div>
+
+	<?php snippet('footer') ?>

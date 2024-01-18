@@ -80,3 +80,5 @@
 	    </div>
 	  <?php } ?>
 	</div>
+
+	<?php snippet('footer') ?>

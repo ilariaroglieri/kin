@@ -14,11 +14,40 @@ Ending-date: 2024-02-29
 
 ----
 
-Info: 
+Info:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet iaculis quam, vitae semper velit pellentesque vitae. Aliquam condimentum libero ac lorem elementum blandit. Donec blandit, neque ut ornare euismod, dolor ligula feugiat leo, vitae sodales felis enim vel magna. Aenean pharetra non leo eget placerat. Cras efficitur aliquam ornare. Nulla at ex turpis. Fusce sollicitudin cursus quam, eget faucibus ex porta id. Donec non ante ac massa blandit pretium eu vel nisl. Praesent ultricies iaculis nulla. Mauris risus nisl, pulvinar a dolor sit amet, maximus dignissim ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In congue aliquam sem et posuere. Nulla est massa, pretium nec nunc elementum, pulvinar vestibulum lorem. Ut gravida odio blandit quam facilisis dictum.
+
+##PARTICIPATING ARTISTS
+
+Petra Bauer / Tjejerna gör uppror (1977)
+Ida Börjel, Lo Hillarp / Mullvaden (Krtek, i Sverige 1979)
+Andjeas Ejiksson / Drutten och Gena (i Sverige från 1973)
+Annika Eriksson / John Blund (i Sverige 1971
+Jennifer Hayashida / Sesame Street (i Sverige 1976)
+Salad Hilowle / Pippi Långstrump (1969)
+Balsam Karam / Vilse i pannkakan (1975)
+Behzad Khosravi Noori / Professor Balthazar (i Sverige 1970)
+Runo Lagomarsino / Det var en gång (i Sverige 1978)
+Katarina Pirak Sikku / Kung Markatta (i Sverige 1965)
+Olivia Plender / Fablernas värld (i Sverige 1970)
+
+## CURATORERNA ANDJEAS EJIKSSON OCH MARIA LIND OM UTSTÄLLNINGEN
+
+Kan televisionens barnprogram betraktas som del av ett kulturarv? I Sverige skulle svaret vara ja, om vi talar om perioden 1965 till 1985. I utställningen Tevetrampolinen: Från barnteve till samtida konst och litteratur uppmärksammas det här arvet genom nya verk av elva konstnärer och författare. Liksom barnprogrammen på teve lyfter de fram historier och erfarenheter från olika delar av världen och från olika samhällsskikt, perspektiv som komplicerar och belyser kulturarvet.
+Ända sedan slutet av 1800-talet har barndomsminnet varit ett centralt ämne inom konst och litteratur, en matris som blottar vilka vi är och hur vi ser på oss själva och världen omkring oss. För den som växte upp i Sverige på 1960-, 1970- och 1980-talen blev teve en väsentlig del av de här minnena, eftersom barnprogrammen då fick ett allt större inflytande över kulturen. De var med och formade hela generationers föreställningsvärldar.
 
 ----
 
 C-image: - file://225feammRGT0VGMW
+
+----
+
+Images:
+
+- file://YuQ5n6hS8cuPAkkM
+- file://KdaSeDjzbDE7yxUi
+- file://cYKGdG7hrBBd8WUc
 
 ----
 

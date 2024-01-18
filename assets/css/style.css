@@ -6,16 +6,16 @@ Version: 1.0
 .s-medium, body {
   font-size: 18px; }
 
-.s-regular {
+.s-regular, #single-exhibition p {
   font-size: 16px; }
 
-.s-small, .wysiwyg.s-small * {
+.s-small, .wysiwyg.s-small *, #single-exhibition .text .txt h2 {
   font-size: 14px; }
 
 .italic {
   font-style: italic; }
 
-.bold {
+.bold, #single-exhibition .text .txt h2 {
   font-weight: bold; }
 
 .uppercase {
@@ -73,7 +73,7 @@ Version: 1.0
   width: calc(8.3333%*11 - 28px);
   margin: 0 14px; }
 
-.spacing-b-1 {
+.spacing-b-1, #single-exhibition .text .txt h2 {
   margin-bottom: 14px; }
 
 .spacing-b-2 {
@@ -91,7 +91,7 @@ Version: 1.0
 .spacing-t-1 {
   margin-top: 14px; }
 
-.spacing-t-2 {
+.spacing-t-2, #single-exhibition .text .txt h2 {
   margin-top: 28px; }
 
 .spacing-t-3 {
@@ -411,7 +411,7 @@ Version: 1.0
 .secColor, .wysiwyg.secColor * {
   color: #6662FF; }
 
-.thirdColor {
+.thirdColor, #single-exhibition .text .txt h2 {
   color: #588084; }
 
 .max-width {
@@ -556,7 +556,8 @@ ul {
   background-color: #E5EEEE; }
 
 .exhibition-list {
-  position: relative; }
+  position: relative;
+  border-top: 1px solid black; }
   .exhibition-list::after {
     content: " ";
     display: block;
@@ -568,26 +569,53 @@ ul {
     right: 0;
     background-repeat: no-repeat;
     background-position: center; }
+  .exhibition-list:last-of-type {
+    border-bottom: 1px solid black; }
   .exhibition-list a {
     padding: 12px;
-    border-top: 1px solid black;
     display: inline-block;
     width: 100%; }
-    .exhibition-list a:last-of-type {
-      border-bottom: 1px solid black; }
     .exhibition-list a:hover {
       background-color: #E5EEEE;
       color: #6662FF; }
 
 .exhibition {
+  position: relative;
   padding: 24px;
   border: 1px solid black; }
+  .exhibition a.overall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .exhibition a.overall:hover {
+      border-bottom: none; }
   .exhibition .cover_img {
     height: 0;
     padding-bottom: 125%;
     overflow: hidden; }
     .exhibition .cover_img img {
       width: 100%; }
+
+#single-exhibition {
+  margin: 0; }
+  #single-exhibition .d-grid {
+    grid-template-columns: minmax(25ch, 1fr) 2fr; }
+  #single-exhibition h3.dates {
+    font-weight: unset;
+    color: #588084; }
+  #single-exhibition .text {
+    padding: 28px;
+    background-color: #fafbfc; }
+    #single-exhibition .text .txt h2 {
+      line-height: 1.5;
+      letter-spacing: .02rem; }
+  #single-exhibition .images {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    place-items: center; }
 
 @media screen and (max-width: 768px) {
   .t-hidden {

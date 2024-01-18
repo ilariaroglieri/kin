@@ -1,0 +1,29 @@
+Title: Utstallning 1-1
+
+----
+
+Category: Outside the city hall
+
+----
+
+Starting-date: 2024-01-01
+
+----
+
+Ending-date: 2024-03-01
+
+----
+
+Info: 
+
+----
+
+C-image: - file://225feammRGT0VGMW
+
+----
+
+Images: 
+
+----
+
+Uuid: 0Xr0rceuFfuEcXmw
