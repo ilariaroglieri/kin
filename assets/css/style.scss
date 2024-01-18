@@ -381,7 +381,6 @@ li {
     display: none; 
   }
 
-
   .d-flex {
     &.ht-column {
       flex-flow: column;
@@ -401,6 +400,12 @@ li {
     width: calc(50% - #{$spacing});
     margin-left: 0 #{$half-spacing};
     margin-right: 0 #{$half-spacing};
+  }
+
+  .content {
+    .d-grid {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 }
 
@@ -521,6 +526,27 @@ li {
       left: 0;
       background: #4b6568;
       transition: opacity 600ms ease;
+    }
+    .d-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  #single-exhibition {
+    .d-grid {
+      display: flex;
+      flex-flow: column-reverse;
+    }
+    .images {
+      position: static;
+      height: auto;
+      -webkit-scroll-snap-type: none;
+      -ms-scroll-snap-type: none;
+      scroll-snap-type: none;
+      figure {
+        height: auto;
+        padding-bottom: 1.3888888889rem;
+      }
     }
   }
 }
