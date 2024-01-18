@@ -544,6 +544,7 @@ ul {
 .sidebar {
   position: sticky;
   top: 28px;
+  margin-top: 28px;
   height: calc(100vh - 28px);
   overflow: scroll;
   -ms-overflow-style: none;

@@ -312,6 +312,7 @@ li {
 .sidebar {
   position: sticky;
   top: $spacing;
+  margin-top: $spacing;
   height: calc(100vh - #{$spacing});
   overflow: scroll;
   -ms-overflow-style: none; 

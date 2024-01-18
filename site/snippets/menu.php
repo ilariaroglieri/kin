@@ -1,5 +1,6 @@
 <?php 		
-$exhibitions = page('exhibitions')->children()->listed(); 
+$items  = $pages->listed();
+$needle = $items->findBy('title', 'Exhibitions');
 ?>
 
 
@@ -9,9 +10,11 @@ $exhibitions = page('exhibitions')->children()->listed();
   </div>
 
   <ul class="menu">
-   
-    <li id="<?= page('om-kin')->slug(); ?>">
-      <a href="<?= page('om-kin')->url(); ?>"><?= page('om-kin')->title(); ?></a>
-    </li>
+
+    <?php foreach($items as $item): ?>
+      <?php if($item != $needle): ?>
+        <li <?php e($item->isActive(), ' class="bold"') ?>><a href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
+      <?php endif; ?>
+    <?php endforeach ?>
   </ul>
 </nav>
