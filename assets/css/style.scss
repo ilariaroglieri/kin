@@ -383,6 +383,7 @@ li {
 // single exhibition
 #single-exhibition {
   margin: 0;
+  background-color: #fafbfc;
   .d-grid {
     grid-template-columns: minmax(25ch, 1fr) 2fr;
   }
@@ -395,7 +396,6 @@ li {
   }
   .text {
     padding: $spacing;
-    background-color: #fafbfc;
     .txt {
       h2 {
         @extend .thirdColor;
@@ -409,12 +409,32 @@ li {
     }
   }
   .images {
+    margin-top: 0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
     place-items: center;
+    padding: $spacing;
+    scroll-snap-type: y mandatory;
+    figure {
+      scroll-snap-align: start;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column nowrap;
+      flex: none;
+      img {
+        max-width: 100%;
+        height: auto;
+        max-height: 80vh;
+      }
+    }
     figcaption {
-      padding: 8px;
+      padding: 8px 12px;
       a {
         color: $secColor;
       }

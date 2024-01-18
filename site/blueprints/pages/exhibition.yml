@@ -37,7 +37,7 @@ columns:
       gallery:
         type: fields
         fields:
-          images:
-            label: Images
+          gallery_images:
+            label: Gallery
             type: files
             layout: cards

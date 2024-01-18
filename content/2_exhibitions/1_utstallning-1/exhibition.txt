@@ -43,11 +43,103 @@ C-image: - file://225feammRGT0VGMW
 
 ----
 
+Gallery-images:
+
+- file://XKT8FmNMTqEPzMsJ
+- file://cnaPwKTbpMo3SDi3
+- file://ybe71WlG9y5zO0lY
+
+----
+
 Images:
 
-- file://YuQ5n6hS8cuPAkkM
-- file://KdaSeDjzbDE7yxUi
-- file://cYKGdG7hrBBd8WUc
+- 
+  id: rectangle-20-1.jpg
+  image:
+    back: pattern
+    color: orange-500
+    cover: false
+    icon: image
+    url: >
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/3693a056c8-1705418785/rectangle-20-1.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/3693a056c8-1705418785/rectangle-20-1-352x.jpg
+      352w,
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/3693a056c8-1705418785/rectangle-20-1-864x.jpg
+      864w,
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/3693a056c8-1705418785/rectangle-20-1-1408x.jpg
+      1408w
+  info: ""
+  link: >
+    /pages/exhibitions+utstallning-1/files/rectangle-20-1.jpg
+  sortable: true
+  text: rectangle-20-1.jpg
+  uuid: file://KdaSeDjzbDE7yxUi
+  dragText: '(image: rectangle-20-1.jpg)'
+  filename: rectangle-20-1.jpg
+  type: image
+  url: >
+    http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/3693a056c8-1705418785/rectangle-20-1.jpg
+- 
+  id: rectangle-20.jpg
+  image:
+    back: pattern
+    color: orange-500
+    cover: false
+    icon: image
+    url: >
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/72b0c2473e-1705418785/rectangle-20.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/72b0c2473e-1705418785/rectangle-20-352x.jpg
+      352w,
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/72b0c2473e-1705418785/rectangle-20-864x.jpg
+      864w,
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/72b0c2473e-1705418785/rectangle-20-1408x.jpg
+      1408w
+  info: ""
+  link: >
+    /pages/exhibitions+utstallning-1/files/rectangle-20.jpg
+  sortable: true
+  text: rectangle-20.jpg
+  uuid: file://cYKGdG7hrBBd8WUc
+  dragText: '(image: rectangle-20.jpg)'
+  filename: rectangle-20.jpg
+  type: image
+  url: >
+    http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/72b0c2473e-1705418785/rectangle-20.jpg
+- 
+  id: group-1.jpg
+  image:
+    back: pattern
+    color: orange-500
+    cover: false
+    icon: image
+    url: >
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/fc81a9c140-1705579015/group-1.jpg
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/fc81a9c140-1705579015/group-1-352x.jpg
+      352w,
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/fc81a9c140-1705579015/group-1-864x.jpg
+      864w,
+      http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/fc81a9c140-1705579015/group-1-1408x.jpg
+      1408w
+  info: ""
+  link: >
+    /pages/exhibitions+utstallning-1/files/group-1.jpg
+  sortable: true
+  text: group-1.jpg
+  uuid: file://POBOLysPtO4BjwlV
+  dragText: '(image: group-1.jpg)'
+  filename: group-1.jpg
+  type: image
+  url: >
+    http://localhost:8888/kin/media/pages/exhibitions/utstallning-1/fc81a9c140-1705579015/group-1.jpg
 
 ----
 

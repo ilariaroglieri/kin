@@ -13,19 +13,21 @@
 			</div>
 
 			<div class="sidebar images">
-				<?php if ($image = $page->images()->first()) : ?>
-					<?php $caption = $image->caption(); ?>
-					<figure class="project">
-						<picture>
-							<img src="<?= $image->url(); ?>" />
-						</picture>
-						<?php if (!(empty($caption))): ?>
-							<figcaption>
-								<h4 class="s-small italic thirdColor"><?= $caption; ?></h4>
-							</figcaption>
-						<?php endif; ?>
-					</figure>
-				<?php endif; ?>
+				<?php if ($images = $page->gallery_images()->toFiles()) : 
+					foreach ($images as $image): ?>
+						<?php $caption = $image->caption(); ?>
+						<figure class="project">
+							<picture>
+								<img src="<?= $image->url(); ?>" />
+							</picture>
+							<?php if (!(empty($caption))): ?>
+								<figcaption>
+									<h4 class="s-small italic thirdColor"><?= $caption; ?></h4>
+								</figcaption>
+							<?php endif; ?>
+						</figure>
+					<?php endforeach;
+				endif; ?>
 			</div>
 		</div>
 	</div>
