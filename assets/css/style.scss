@@ -32,7 +32,7 @@ Version: 1.0
   display: inline-block;
 }
 
-.d-none {
+.d-none, .th-visible {
   display: none;
 }
 
@@ -190,7 +190,7 @@ a {
   text-decoration: none;
   &:hover {
     color: black;
-    border-bottom: 1px solid;
+    font-weight: bold;
   }
 }
 
@@ -221,72 +221,6 @@ li {
   margin-right: -#{$half-spacing};
   margin-left: -#{$half-spacing};
   position: relative;
-}
-
-.menu-toggle {
-  border: 1px solid transparent;
-  width: 30px;
-  height: 30px;
-  border: none;
-  margin: 0;
-  text-indent: -1000px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  overflow: hidden;
-  padding: 0;
-  z-index: 14000;
-  background: transparent;
-  opacity: 1;
-  cursor: pointer;
-  display: flex;
-  span {
-    position: absolute;
-    height: 2px;
-    width: 30px;
-    background: $primaryColor;
-    opacity: 1;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    @include transition(all .3s);
-
-    &:nth-child(1) {
-      top: 0;
-    }
-    &:nth-child(2) {
-      top: 10px;
-    }
-    &:nth-child(3) {
-      top: 20px;
-    }
-  }
-
-  &.open span:nth-child(1) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    // transform-origin: 50% 0;
-    top: 50%;
-    width: 32px;
-  }
-
-  &.open span:nth-child(2) {
-    width: 0%;
-    opacity: 0;
-  }
-
-  &.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    // transform-origin: 50% 0;
-    top: 50%;
-    width: 32px;
-  }
 }
 
 .navigation {
@@ -442,13 +376,37 @@ li {
   }
 }
 
-@media screen and (max-width: $tablet) {
-  .t-hidden {
+@media screen and (max-width: $htablet) {
+  .ht-hidden {
     display: none; 
   }
 
-  .t-one-col {
-    columns: 1;
+
+  .d-flex {
+    &.ht-column {
+      flex-flow: column;
+    }
+    &.ht-column-reverse {
+      flex-flow: column-reverse;
+    }
+  }
+
+  .ht-whole {
+    width: calc(100% - #{$spacing});
+    margin-left: 0 #{$half-spacing};
+    margin-right: 0 #{$half-spacing};
+  }
+
+  .ht-half {
+    width: calc(50% - #{$spacing});
+    margin-left: 0 #{$half-spacing};
+    margin-right: 0 #{$half-spacing};
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .t-visible {
+    display: flex; 
   }
 
   .d-flex {
@@ -470,6 +428,100 @@ li {
     width: calc(50% - #{$spacing});
     margin-left: 0 #{$half-spacing};
     margin-right: 0 #{$half-spacing};
+  }
+
+  body.nav-active {
+    overflow: hidden;
+    .content {
+      &::before {
+        opacity: 0.5;
+        z-index: 1;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+      }
+    }
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: -40em;
+    height: 100vh;
+    width: calc(100vw - 4.35rem);
+    padding: 25px;
+    padding: 1.3888888889rem;
+    background: white;
+    overflow: auto;
+    transition: left 400ms ease-in;
+    z-index: 10;
+    &.opened {
+      left: 0;
+    }
+  }
+
+  .menu-toggle {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 99;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-top: 1.3888888889rem;
+    margin-right: 25px;
+    margin-right: 1.3888888889rem;
+    cursor: pointer;
+    &::before,
+    &::after {
+      content: " ";
+      width: 1.5rem;
+      display: block;
+      height: 2px;
+      background: #7a9ba0;
+      transition: all 300ms ease;
+    }
+    &::after {
+      margin-top: 0.5rem;
+    }
+    &.active {
+      justify-content: center;
+      &::before {
+        background: #fafbfc;
+        transform: rotate(45deg);
+        margin: 0;
+      }
+      &::after {
+        background: #fafbfc;
+        transform: rotate(-45deg);
+        margin: 0;
+        margin-top: -2px;
+      }
+    }
+  }
+
+  .container {
+    grid-template-columns: 100%;
+  }
+
+  .content {
+    padding-top: 4.1666666667rem;
+    &::before {
+      content: " ";
+      opacity: 0;
+      display: block;
+      z-index: -99;
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: #4b6568;
+      transition: opacity 600ms ease;
+    }
   }
 }
 

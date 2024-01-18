@@ -18,3 +18,5 @@ $needle = $items->findBy('title', 'Exhibitions');
     <?php endforeach ?>
   </ul>
 </nav>
+
+<div class="menu-toggle th-visible"></div>
