@@ -2,7 +2,11 @@ Title: Home
 
 ----
 
-Text: Välkommen till KIN! Konstmuseet i Norr, Norrbottens länskonstmuseum, visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
+Text:
+
+Öppet idag, 10—18
+<br/>
+Välkommen till KIN! Konstmuseet i Norr, Norrbottens länskonstmuseum, visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
 
 ----
 

@@ -1,0 +1,23 @@
+Title: General info
+
+----
+
+Address:
+
+## Adress
+Stadshustorget 1, 
+981 30 Kiruna
+
+----
+
+Opening-hours:
+
+## Öppetider
+Tis—fre: 10—18
+Lör—söndag: 12—16
+Tors: 10—20
+Mån: stängt
+
+----
+
+Uuid: 4yGfiH35VZQqXpAe

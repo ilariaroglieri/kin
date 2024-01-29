@@ -3,7 +3,7 @@
 	<div class="content">
 
 		<?php 	
-		$exhibitions = page('exhibitions')->children()->listed(); 
+		$exhibitions = page('events')->children()->listed(); 
 		$t = date("d-m-Y"); 
 		$today = new DateTime($t);
 

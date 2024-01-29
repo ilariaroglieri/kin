@@ -1,0 +1,21 @@
+title: General info
+
+columns:
+  main:
+    width: 1/2
+    sections:
+      fields:
+        type: fields
+        fields:
+          address:
+            type: textarea
+            size: huge
+  sidebar:
+    width: 1/2
+    sections:
+      links:
+        type: fields
+        fields:
+          opening hours:
+            type: textarea
+            size: huge

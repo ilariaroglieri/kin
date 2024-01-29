@@ -1,6 +1,5 @@
 <?php 		
 $items  = $pages->listed();
-$needle = $items->findBy('title', 'Exhibitions');
 ?>
 
 
@@ -12,9 +11,7 @@ $needle = $items->findBy('title', 'Exhibitions');
   <ul class="menu">
 
     <?php foreach($items as $item): ?>
-      <?php if($item != $needle): ?>
-        <li <?php e($item->isActive(), ' class="bold"') ?>><a href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
-      <?php endif; ?>
+      <li <?php e($item->isActive(), ' class="bold"') ?>><a href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
     <?php endforeach ?>
   </ul>
 </nav>
