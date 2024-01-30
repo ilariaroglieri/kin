@@ -2,7 +2,7 @@ Title: Utstallning 1
 
 ----
 
-Category: Inside the city hall
+Cat: inside
 
 ----
 
@@ -48,6 +48,10 @@ Gallery-images:
 - file://XKT8FmNMTqEPzMsJ
 - file://cnaPwKTbpMo3SDi3
 - file://ybe71WlG9y5zO0lY
+
+----
+
+Category: 
 
 ----
 

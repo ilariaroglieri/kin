@@ -209,7 +209,8 @@ li {
 }
 
 .content {
-  margin: 0 $spacing;
+  margin-left: $spacing;
+  margin-right: $spacing;
   .d-grid {
     display: grid;
     grid-template-columns: minmax(auto, 33vw) minmax(auto, 33vw);
@@ -238,6 +239,7 @@ li {
   #logo a {
     display: inline-block;
     font-size: 24px;
+    line-height: 1;
     text-transform: uppercase;
     margin-bottom: $spacing;
   }

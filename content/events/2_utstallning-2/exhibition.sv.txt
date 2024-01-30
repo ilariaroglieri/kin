@@ -2,7 +2,7 @@ Title: Utstallning 2
 
 ----
 
-Category: Outside the city wall
+Cat: outside
 
 ----
 
@@ -19,6 +19,14 @@ Info:
 ----
 
 C-image: - file://scdVPwcokfwIHu8J
+
+----
+
+Gallery-images: 
+
+----
+
+Category: Outside the city wall
 
 ----
 
