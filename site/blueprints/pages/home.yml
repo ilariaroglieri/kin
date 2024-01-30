@@ -6,5 +6,8 @@ sections:
     fields:
       text:
         type: textarea
-        size: huge
+      related:
+        label: Events to display in home
+        type: pages
+        query: site.find('events')
  

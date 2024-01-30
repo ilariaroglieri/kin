@@ -1,0 +1,17 @@
+title: Events archive
+
+options:
+  access:
+    *: false
+    admin: true
+  list:
+    *: false
+    admin: true
+
+sections:
+  test:
+    type: files
+
+  current_exhibitions:
+    type: pagesdisplay
+    # query: site.index.filterBy('title', '*=', '1')
