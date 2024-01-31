@@ -7,7 +7,7 @@ return [
     'locale' => [
         'LC_ALL' => 'ns'
     ],
-    'name' => 'Northern Sami',
+    'name' => 'Davvisámegiella',
     'translations' => [
 
     ],

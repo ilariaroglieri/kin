@@ -23,23 +23,23 @@ sections:
           ongoing:
             sv: Just nu
             en: Ongoing
-            ns: .
-            mk: .
+            ns: Dušše dal
+            mk: Juuri nyt
           ended:
             sv: Tidigare
-            en: Ended
-            ns: Olggobealde gávpotviesu
-            mk: Kaupungintalon ulkopuolela
+            en: Previous
+            ns: Ovddit
+            mk: Entisiä
           future:
             sv: Kommande
-            en: Future
-            ns: .
-            mk: .
+            en: Upcoming
+            ns: Boahtte
+            mk: Tulevaa
           permanent:
             sv: Alltid
-            en: Permanent
-            ns: .
-            mk: .
+            en: Always on
+            ns: Álo
+            mk: Aina
   current_events:
     type: pagesdisplay
     query: site.pages.find("events").children.filterBy('eventStateInTime', '==', page.time)

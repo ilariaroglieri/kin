@@ -1,0 +1,13 @@
+Title: Schools
+
+----
+
+Slug: schools
+
+----
+
+Text: Lorem ipsum dolor sit amet.
+
+----
+
+Link: 
