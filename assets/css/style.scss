@@ -339,6 +339,7 @@ li {
   }
   .text {
     padding: $spacing;
+    padding-top: 0;
     .txt {
       h2 {
         @extend .thirdColor;

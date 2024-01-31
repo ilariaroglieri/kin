@@ -555,7 +555,8 @@ ul {
     font-weight: unset;
     color: #588084; }
   #single-event .text {
-    padding: 28px; }
+    padding: 28px;
+    padding-top: 0; }
     #single-event .text .txt h2 {
       line-height: 1.5;
       letter-spacing: .02rem; }
