@@ -7,7 +7,8 @@
 		$t = date("d-m-Y"); 
 		$today = new DateTime($t);
 
-		// just nu
+		$archiveTime = $page->time();
+
 	  if ($events->count() > 0): ?>
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole">
@@ -17,19 +18,11 @@
 	  	<div class="d-flex flex-row m-column">
 			  <?php foreach($events as $event): 
 					
-					if (!($event->starting_date()->isEmpty()) && !($event->ending_date()->isEmpty()) ):
+					if ( $event->eventStateInTime() == $archiveTime):
 					
-						$s = $event->starting_date()->toDate('d-m-Y');
-						$startD = new DateTime($s);
-						$e = $event->ending_date()->toDate('d-m-Y'); 
-						$endD = new DateTime($e);
-					?>
+						snippet('event-module', array('event' => $event));
 
-					  <?php if ($startD < $today && $today < $endD): ?>
-							<?php snippet('event-module', array('event' => $event)) ?>
-						<?php endif; ?>
-
-					<?php endif;?>
+					endif;?>
 
 	      <?php endforeach; ?>
 	    </div>

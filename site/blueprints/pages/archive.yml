@@ -4,6 +4,12 @@ options:
   access:
     *: false
     admin: true
+  update:
+    *: false
+    admin: true
+  delete:
+    *: false
+    admin: true
 
 sections:
   type:
@@ -17,8 +23,8 @@ sections:
           ongoing:
             sv: Just nu
             en: Ongoing
-            ns: Gávpotviesus
-            mk: Kaupungintalon sisälä
+            ns: .
+            mk: .
           ended:
             sv: Tidigare
             en: Ended
@@ -27,13 +33,13 @@ sections:
           future:
             sv: Kommande
             en: Future
-            ns: Soabadeapmi
-            mk: Taitheen välittäminen
+            ns: .
+            mk: .
           permanent:
             sv: Alltid
             en: Permanent
-            ns: Iešguđetláganat
-            mk: Muutama asia
+            ns: .
+            mk: .
   current_events:
     type: pagesdisplay
     query: site.pages.find("events").children.filterBy('eventStateInTime', '==', page.time)
