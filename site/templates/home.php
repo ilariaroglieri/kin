@@ -8,44 +8,47 @@
 	<div class="content">
 
 		<div class="d-flex flex-row">
-			<div class="d-whole">
+			<div class="d-two-thirds spacing-t-2">
 				<p><?= $page->text()->kirbytext() ?></p>
 			</div>
 		</div>
 
-		<?php 	
-		$exhibitions = page('events')->children()->listed(); 
-		$t = date("d-m-Y"); 
-		$today = new DateTime($t);
 
-		// just nu
-	  if ($exhibitions->count() > 0) { ?>
+
+		<!-- just nu -->
+	  <?php 
+	  	$home_exhibitions =  $page->related()->toPages();
+	  	if ( $home_exhibitions->count() > 0): 
+	  ?>
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole spacing-t-2">
 	  			<h4 class="uppercase spacing-b-2">Just nu<?php echo t('just-nu, Just nu'); ?></h4>
 	  		</div>
 	  	</div>
 	  	<div class="d-flex flex-row m-column">
-			  <?php foreach($exhibitions as $exhibition): 
+			  <?php foreach($home_exhibitions as $home_exhibition): ?>
+			  	<?php if (!($exhibition->starting_date()->isEmpty()) && !($exhibition->ending_date()->isEmpty()) ):
+						
+							$s = $exhibition->starting_date()->toDate('d-m-Y');
+							$startD = new DateTime($s);
+							$e = $exhibition->ending_date()->toDate('d-m-Y'); 
+							$endD = new DateTime($e);
+						?>
 
-			  	if (!($exhibition->starting_date()->isEmpty()) && !($exhibition->ending_date()->isEmpty()) ):
-					
-						$s = $exhibition->starting_date()->toDate('d-m-Y');
-						$startD = new DateTime($s);
-						$e = $exhibition->ending_date()->toDate('d-m-Y'); 
-						$endD = new DateTime($e);
-					?>
+						  <?php if ($startD < $today && $today < $endD): ?>
+								<?php snippet('exhibition-module', array('exhibition' => $exhibition)) ?>
+							<?php endif; ?>
 
-				  <?php if ($startD < $today && $today < $endD): ?>
-						<?php snippet('exhibition-module', array('exhibition' => $exhibition)) ?>
-					<?php endif; ?>
-
-					<?php endif;
-					?>
-
-	      <?php endforeach; ?>
+						<?php endif;?>
+				<?php endforeach ?>
 	    </div>
-	  <?php } ?>
+	  <?php else: ?>
+	  	<div class="d-flex flex-row">
+	  		<div class="d-whole spacing-t-2">
+	  			<h4 class="spacing-b-2">Nothing to display in home.</h4>
+	  		</div>
+	  	</div>
+	  <?php endif; ?>
 
 	</div>
 

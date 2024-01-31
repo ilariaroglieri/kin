@@ -4,9 +4,6 @@ options:
   access:
     *: false
     admin: true
-  list:
-    *: false
-    admin: true
 
 sections:
   test:
