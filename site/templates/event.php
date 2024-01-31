@@ -1,11 +1,11 @@
 	<?php snippet('header') ?>
 
-	<div id="single-exhibition" class="content">
+	<div id="single-event" class="content">
 		<div class="d-grid">
 			<div class="text spacing-t-2 spacing-b-2">
 				<h1 class="s-medium bold spacing-b-2"><?= $page->title() ?></h1>
 
-				<?php snippet('exhibition-date', array('exhibition' => $page)) ?>
+				<?php snippet('event-date', array('event' => $page)) ?>
 
 				<div class="txt spacing-t-2">
 					<p><?= $page->info()->kirbytext() ?></p>

@@ -17,8 +17,8 @@
 
 		<!-- just nu -->
 	  <?php 
-	  	$home_exhibitions =  $page->related()->toPages();
-	  	if ( $home_exhibitions->count() > 0): 
+	  	$home_events =  $page->related()->toPages();
+	  	if ( $home_events->count() > 0): 
 	  ?>
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole spacing-t-2">
@@ -26,17 +26,17 @@
 	  		</div>
 	  	</div>
 	  	<div class="d-flex flex-row m-column">
-			  <?php foreach($home_exhibitions as $home_exhibition): ?>
-			  	<?php if (!($exhibition->starting_date()->isEmpty()) && !($exhibition->ending_date()->isEmpty()) ):
+			  <?php foreach($home_events as $home_event): ?>
+			  	<?php if (!($event->starting_date()->isEmpty()) && !($event->ending_date()->isEmpty()) ):
 						
-							$s = $exhibition->starting_date()->toDate('d-m-Y');
+							$s = $event->starting_date()->toDate('d-m-Y');
 							$startD = new DateTime($s);
-							$e = $exhibition->ending_date()->toDate('d-m-Y'); 
+							$e = $event->ending_date()->toDate('d-m-Y'); 
 							$endD = new DateTime($e);
 						?>
 
 						  <?php if ($startD < $today && $today < $endD): ?>
-								<?php snippet('exhibition-module', array('exhibition' => $exhibition)) ?>
+								<?php snippet('event-module', array('event' => $event)) ?>
 							<?php endif; ?>
 
 						<?php endif;?>

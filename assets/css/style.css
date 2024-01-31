@@ -6,16 +6,16 @@ Version: 1.0
 .s-medium, body, .navigation .general-info h2 {
   font-size: 18px; }
 
-.s-regular, #single-exhibition p {
+.s-regular, #single-event p {
   font-size: 16px; }
 
-.s-small, .wysiwyg.s-small *, #single-exhibition .text .txt h2 {
+.s-small, .wysiwyg.s-small *, #single-event .text .txt h2 {
   font-size: 14px; }
 
 .italic {
   font-style: italic; }
 
-.bold, #single-exhibition .text .txt h2 {
+.bold, #single-event .text .txt h2 {
   font-weight: bold; }
 
 .uppercase, .navigation .general-info h2 {
@@ -73,7 +73,7 @@ Version: 1.0
   width: calc(8.3333%*11 - 28px);
   margin: 0 14px; }
 
-.spacing-b-1, #single-exhibition .text .txt h2 {
+.spacing-b-1, #single-event .text .txt h2 {
   margin-bottom: 14px; }
 
 .spacing-b-2 {
@@ -91,7 +91,7 @@ Version: 1.0
 .spacing-t-1 {
   margin-top: 14px; }
 
-.spacing-t-2, #single-exhibition .text .txt h2 {
+.spacing-t-2, #single-event .text .txt h2 {
   margin-top: 28px; }
 
 .spacing-t-3 {
@@ -411,7 +411,7 @@ Version: 1.0
 .secColor, .wysiwyg.secColor * {
   color: #6662FF; }
 
-.thirdColor, #single-exhibition .text .txt h2 {
+.thirdColor, #single-event .text .txt h2 {
   color: #588084; }
 
 .max-width {
@@ -503,10 +503,10 @@ ul {
 .home {
   background-color: #E5EEEE; }
 
-.exhibition-list {
+.event-list {
   position: relative;
   border-top: 1px solid black; }
-  .exhibition-list::after {
+  .event-list::after {
     content: " ";
     display: block;
     width: 3em;
@@ -517,49 +517,49 @@ ul {
     right: 0;
     background-repeat: no-repeat;
     background-position: center; }
-  .exhibition-list:last-of-type {
+  .event-list:last-of-type {
     border-bottom: 1px solid black; }
-  .exhibition-list a {
+  .event-list a {
     padding: 12px;
     display: inline-block;
     width: 100%; }
-    .exhibition-list a:hover {
+    .event-list a:hover {
       background-color: #E5EEEE;
       color: #6662FF; }
 
-.exhibition {
+.event {
   position: relative;
   padding: 24px;
   border: 1px solid black; }
-  .exhibition a.overall {
+  .event a.overall {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-    .exhibition a.overall:hover {
+    .event a.overall:hover {
       border-bottom: none; }
-  .exhibition .cover_img {
+  .event .cover_img {
     height: 0;
     padding-bottom: 125%;
     overflow: hidden; }
-    .exhibition .cover_img img {
+    .event .cover_img img {
       width: 100%; }
 
-#single-exhibition {
+#single-event {
   margin: 0;
   background-color: #fafbfc; }
-  #single-exhibition .d-grid {
+  #single-event .d-grid {
     grid-template-columns: minmax(25ch, 1fr) 2fr; }
-  #single-exhibition h3.dates {
+  #single-event h3.dates {
     font-weight: unset;
     color: #588084; }
-  #single-exhibition .text {
+  #single-event .text {
     padding: 28px; }
-    #single-exhibition .text .txt h2 {
+    #single-event .text .txt h2 {
       line-height: 1.5;
       letter-spacing: .02rem; }
-  #single-exhibition .images {
+  #single-event .images {
     margin-top: 0;
     background-color: white;
     display: flex;
@@ -568,7 +568,7 @@ ul {
     place-items: center;
     padding: 28px;
     scroll-snap-type: y mandatory; }
-    #single-exhibition .images figure {
+    #single-event .images figure {
       scroll-snap-align: start;
       text-align: center;
       width: 100%;
@@ -578,13 +578,13 @@ ul {
       justify-content: center;
       flex-flow: column nowrap;
       flex: none; }
-      #single-exhibition .images figure img {
+      #single-event .images figure img {
         max-width: 100%;
         height: auto;
         max-height: 80vh; }
-    #single-exhibition .images figcaption {
+    #single-event .images figcaption {
       padding: 8px 12px; }
-      #single-exhibition .images figcaption a {
+      #single-event .images figcaption a {
         color: #6662FF; }
 
 @media screen and (max-width: 1024px) {
@@ -707,16 +707,16 @@ ul {
     .content .d-grid {
       grid-template-columns: 1fr; }
 
-  #single-exhibition .d-grid {
+  #single-event .d-grid {
     display: flex;
     flex-flow: column-reverse; }
-  #single-exhibition .images {
+  #single-event .images {
     position: static;
     height: auto;
     -webkit-scroll-snap-type: none;
     -ms-scroll-snap-type: none;
     scroll-snap-type: none; }
-    #single-exhibition .images figure {
+    #single-event .images figure {
       height: auto;
       padding-bottom: 1.3888888889rem; } }
 @media screen and (max-width: 640px) {
