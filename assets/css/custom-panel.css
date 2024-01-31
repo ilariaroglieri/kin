@@ -1,0 +1,20 @@
+div[data-language="mk"],
+div[data-language="mk"] .k-header {
+  background-color: aliceblue;
+}
+
+div .k-header {
+  box-shadow: none;
+}
+
+div[data-language="en"],
+div[data-language="en"] .k-header {
+  background-color: lemonchiffon;
+}
+
+
+div[data-language="ns"],
+div[data-language="ns"] .k-header {
+  background-color: honeydew;
+}
+
