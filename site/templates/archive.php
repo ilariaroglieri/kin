@@ -11,7 +11,7 @@
 	  if ($events->count() > 0): ?>
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole">
-	  			<h4 class="bold spacing-t-2 spacing-b-2">Just nu<?php echo t('just-nu, Just nu'); ?></h4>
+	  			<h4 class="bold spacing-t-2 spacing-b-2"><?= $page->title() ?></h4>
 	  		</div>
 	  	</div>
 	  	<div class="d-flex flex-row m-column">

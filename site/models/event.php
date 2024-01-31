@@ -22,7 +22,7 @@
         endif;
 
       else:
-        return 'fixed';
+        return 'permanent';
       endif;
     }
   }

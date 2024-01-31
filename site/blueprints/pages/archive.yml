@@ -6,9 +6,34 @@ options:
     admin: true
 
 sections:
-  test:
-    type: files
-
-  current_exhibitions:
+  type:
+    type: fields
+    fields:
+      time:
+        type: tags
+        translate: false
+        max: 1
+        options:
+          ongoing:
+            sv: Just nu
+            en: Ongoing
+            ns: Gávpotviesus
+            mk: Kaupungintalon sisälä
+          ended:
+            sv: Tidigare
+            en: Ended
+            ns: Olggobealde gávpotviesu
+            mk: Kaupungintalon ulkopuolela
+          future:
+            sv: Kommande
+            en: Future
+            ns: Soabadeapmi
+            mk: Taitheen välittäminen
+          permanent:
+            sv: Alltid
+            en: Permanent
+            ns: Iešguđetláganat
+            mk: Muutama asia
+  current_events:
     type: pagesdisplay
-    # query: site.index.filterBy('title', '*=', '1')
+    query: site.pages.find("events").children.filterBy('eventStateInTime', '==', page.time)
