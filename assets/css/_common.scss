@@ -10,6 +10,45 @@ $primaryColor: #E5EEEE;
 $secColor: #6662FF;
 $thirdColor: #588084;
 
+// Typography
+@font-face {
+  font-family: 'GT Sectra';
+  src:url('../fonts/GT-Sectra-Book.woff2') format('woff2'),
+      url('../fonts/GT-Sectra-Book.woff') format('woff'),
+      url('../fonts/GT-Sectra-Book.ttf') format('ttf'),
+      url('../fonts/GT-Sectra-Book.otf') format('otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'GT Sectra';
+  src:url('../fonts/GT-Sectra-Book-Italic.woff2') format('woff2'),
+      url('../fonts/GT-Sectra-Book-Italic.woff') format('woff'),
+      url('../fonts/GT-Sectra-Book-Italic.ttf') format('ttf'),
+      url('../fonts/GT-Sectra-Book-Italic.otf') format('otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT Sectra';
+  src:url('../fonts/GT-Sectra-Black.woff2') format('woff2'),
+      url('../fonts/GT-Sectra-Black.woff') format('woff'),
+      url('../fonts/GT-Sectra-Black.ttf') format('ttf'),
+      url('../fonts/GT-Sectra-Black.otf') format('otf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'GT Sectra';
+  src:url('../fonts/GT-Sectra-Black-Italic.woff2') format('woff2'),
+      url('../fonts/GT-Sectra-Black-Italic.woff') format('woff'),
+      url('../fonts/GT-Sectra-Black-Italic.ttf') format('ttf'),
+      url('../fonts/GT-Sectra-Black-Italic.otf') format('otf');
+  font-weight: 800;
+  font-style: italic;
+}
+
 
 .s-medium { 
   font-size: 18px;

@@ -7,7 +7,7 @@
 		$t = date("d-m-Y"); 
 		$today = new DateTime($t);
 
-		$archiveTime = $page->time();
+		$archiveTime = $page->time(); echo $archiveTime;
 
 	  if ($events->count() > 0): ?>
 	  	<div class="d-flex flex-row">
@@ -17,8 +17,9 @@
 	  	</div>
 	  	<div class="d-flex flex-row m-column">
 			  <?php foreach($events as $event): 
+			  	$eventTime = $event->eventStateInTime(); echo $eventTime;
 					
-					if ( $event->eventStateInTime() == $archiveTime):
+					if ( $eventTime == $archiveTime):
 					
 						snippet('event-module', array('event' => $event));
 

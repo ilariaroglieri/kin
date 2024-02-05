@@ -169,7 +169,8 @@ Version: 1.0
 
 /* basic elements */
 body {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'GT Sectra', sans-serif;
+  font-weight: 400;
   color: black;
   @extend .s-medium;
   overflow-x: hidden;
@@ -211,6 +212,7 @@ li {
 .content {
   margin-left: $spacing;
   margin-right: $spacing;
+  margin-top: 52px;
   .d-grid {
     display: grid;
     grid-template-columns: minmax(auto, 33vw) minmax(auto, 33vw);
@@ -238,7 +240,8 @@ li {
   }
   #logo a {
     display: inline-block;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 800;
     line-height: 1;
     text-transform: uppercase;
     margin-bottom: $spacing;

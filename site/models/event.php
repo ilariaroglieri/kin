@@ -12,7 +12,7 @@
         $e = $this->ending_date()->toDate('d-m-Y'); 
         $endD = new DateTime($e);
 
-        if ($startD < $today && $today < $endD):
+        if ($startD <= $today && $today <= $endD):
           return 'ongoing';
         elseif ($startD > $today):
           return 'future';

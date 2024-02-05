@@ -11,7 +11,6 @@
 
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 	</head>
 
 	
