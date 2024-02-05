@@ -11,6 +11,15 @@
 				<?php if ($image = $page->images()->first()) : ?>
 					<img src="<?= $image->url(); ?>" />
 				<?php endif; ?>
+
+				<?php
+				$items = $page->link()->toStructure(); ?>
+				<div class="link-list spacing-t-2">
+
+					<?php foreach ($items as $item): ?>
+					  <a href="$item->url()">— <?= $item->title() ?></a>
+					<?php endforeach ?>
+				</div>
 			</div>
 		</div>
 	</div>
