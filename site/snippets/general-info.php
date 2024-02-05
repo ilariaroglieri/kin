@@ -20,7 +20,8 @@
 		      </a>
 		    </li>
 		  <?php endforeach ?>
-		  </ul>
+		</ul>
+		
   </div>
 </div>
 
