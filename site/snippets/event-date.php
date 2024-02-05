@@ -6,5 +6,5 @@
 ?>
 
 <?php if (isset($start) && isset($end)): ?>
-	<h3 class="dates s-small uppercase spacing-t-2"><?= $start ?> - <?= $end ?></h3>
+	<h3 class="dates s-medium uppercase"><?= $start ?> - <?= $end ?></h3>
 <?php endif; ?>

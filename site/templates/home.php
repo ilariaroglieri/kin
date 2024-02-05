@@ -21,7 +21,7 @@
 
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole spacing-t-2">
-	  			<h4 class="uppercase spacing-b-2">Pågår just nu<?php echo t('just-nu, Just nu'); ?></h4>
+	  			<h4 class="bold spacing-b-2">Pågår just nu<?php echo t('just-nu, Pågår just nu'); ?></h4>
 	  		</div>
 	  	</div>
 	  	<div class="d-flex flex-row m-column">

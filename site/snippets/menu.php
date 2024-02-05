@@ -11,7 +11,7 @@ $items  = $pages->listed();
 
     <ul class="menu">
       <?php foreach($items as $item): ?>
-          <li <?php e($item->isActive(), ' class="bold"') ?>><a href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
+          <li <?php e($item->isActive(), ' class="active"') ?>><a href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
       <?php endforeach ?>
     </ul>
   </div>

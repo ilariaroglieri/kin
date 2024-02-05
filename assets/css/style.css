@@ -21,22 +21,22 @@ Version: 1.0
   src: url("../fonts/GT-Sectra-Black-Italic.woff2") format("woff2"), url("../fonts/GT-Sectra-Black-Italic.woff") format("woff"), url("../fonts/GT-Sectra-Black-Italic.ttf") format("ttf"), url("../fonts/GT-Sectra-Black-Italic.otf") format("otf");
   font-weight: 800;
   font-style: italic; }
-.s-medium, body, .navigation .general-info h2 {
-  font-size: 18px; }
+.s-medium {
+  font-size: 19px; }
 
-.s-regular, #single-event p {
-  font-size: 16px; }
+.s-regular, body, .navigation .general-info h2, #single-event p {
+  font-size: 17px; }
 
 .s-small, .wysiwyg.s-small *, #single-event .text .txt h2 {
   font-size: 14px; }
 
-.italic {
+.italic, .navigation .general-info h2 {
   font-style: italic; }
 
 .bold, #single-event .text .txt h2 {
-  font-weight: bold; }
+  font-weight: 800; }
 
-.uppercase, .navigation .general-info h2 {
+.uppercase {
   text-transform: uppercase; }
 
 .d-one-third {
@@ -418,13 +418,13 @@ Version: 1.0
     margin-right: 14px; }
   .button.primaryColor {
     color: white;
-    background-color: #E5EEEE; }
+    background-color: #5ED088; }
     .button.primaryColor:hover {
       color: white;
       background-color: #6662FF; }
 
 .primaryColor {
-  color: #E5EEEE; }
+  color: #5ED088; }
 
 .secColor, .wysiwyg.secColor * {
   color: #6662FF; }
@@ -436,7 +436,7 @@ Version: 1.0
   max-width: 500px; }
 
 .border-bottom {
-  border-bottom: 3px solid #E5EEEE; }
+  border-bottom: 3px solid #5ED088; }
   .border-bottom:last-of-type {
     border-bottom: none; }
 
@@ -448,9 +448,10 @@ Version: 1.0
 body {
   font-family: 'GT Sectra', sans-serif;
   font-weight: 400;
+  text-rendering: geometricPrecision;
   color: black;
   overflow-x: hidden;
-  line-height: 1.3; }
+  line-height: 1.5; }
 
 p {
   margin: 0; }
@@ -461,10 +462,14 @@ h1, h2, h3, h4 {
 
 a {
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
   a:hover {
-    color: black;
-    font-weight: bold; }
+    color: white; }
 
 ul {
   margin: 0;
@@ -495,7 +500,7 @@ ul {
   padding: 28px;
   height: 100vh;
   overflow: scroll;
-  background-color: #E5EEEE;
+  background-color: #5ED088;
   -ms-overflow-style: none;
   scrollbar-width: none; }
   .navigation::-webkit-scrollbar {
@@ -505,10 +510,13 @@ ul {
     font-size: 22px;
     font-weight: 800;
     line-height: 1;
-    text-transform: uppercase;
     margin-bottom: 28px; }
   .navigation .general-info h2 {
     line-height: 1.3; }
+
+li.active a {
+  color: white;
+  pointer-events: none; }
 
 .sidebar {
   position: sticky;
@@ -521,8 +529,8 @@ ul {
   .sidebar::-webkit-scrollbar {
     display: none; }
 
-.home {
-  background-color: #E5EEEE; }
+body {
+  background-color: #5ED088; }
 
 .event-list {
   position: relative;
@@ -545,27 +553,35 @@ ul {
     display: inline-block;
     width: 100%; }
     .event-list a:hover {
-      background-color: #E5EEEE;
+      background-color: #5ED088;
       color: #6662FF; }
 
 .event {
-  position: relative;
-  padding: 24px;
-  border: 1px solid black; }
+  position: relative; }
   .event a.overall {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
-    .event a.overall:hover {
-      border-bottom: none; }
+    height: 100%;
+    z-index: 10; }
+    .event a.overall:hover + .cover_img {
+      opacity: .5; }
   .event .cover_img {
     height: 0;
     padding-bottom: 125%;
-    overflow: hidden; }
+    overflow: hidden;
+    background-size: cover !important;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s; }
     .event .cover_img img {
       width: 100%; }
+  .event .event-info {
+    padding: 24px; }
 
 #single-event {
   margin: 0;

@@ -2,11 +2,12 @@
 	<a class="overall" href="<?= $event->url() ?>"></a>
 
 	<?php if ($image = $event->c_image()->toFile()) { ?>
-		<div class="cover_img">
-			<img src="<?= $image->url(); ?>" />
+		<div class="cover_img" style="background: url('<?= $image->url(); ?>') no-repeat center center;">
 		</div>
 	<?php } ?>
 
-	<?php snippet('event-date', array('event' => $event)) ?>
-	<h2 class="s-medium bold italic spacing-t-half"><?= $event->title()->html() ?></h2>
+	<div class="event-info">
+		<?php snippet('event-date', array('event' => $event)) ?>
+		<h2 class="s-medium bold spacing-t-half"><?= $event->title()->html() ?></h2>
+	</div>
 </div>

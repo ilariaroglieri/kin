@@ -30,7 +30,7 @@
 	<div>
 		<ul class="language-menu">
 		  <?php foreach($orderedLanguages as $language): ?>
-		    <li<?php e($kirby->language() === $language, ' class="bold"') ?>>
+		    <li<?php e($kirby->language() === $language, ' class="active"') ?>>
 		      <a href="<?= $page->url($language->code()) ?>" hreflang="<?php echo $language->code() ?>">
 		        <?= html($language->name()) ?>
 		      </a>
