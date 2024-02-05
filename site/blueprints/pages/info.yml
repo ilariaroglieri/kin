@@ -16,6 +16,6 @@ columns:
       links:
         type: fields
         fields:
-          opening hours:
+          opening_hours:
             type: textarea
             size: huge

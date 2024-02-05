@@ -34,12 +34,12 @@ columns:
           starting_date:
             width: 1/2
             type: date
-            display: D MMM YYYY
+            # display: D MMM YYYY
             translate: false
           ending_date:
             width: 1/2
             type: date
-            display: D MMM YYYY
+            # display: D MMM YYYY
             translate: false
           info:
             type: textarea

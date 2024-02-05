@@ -2,23 +2,23 @@ Title: Utstallning 1
 
 ----
 
-Cat: inside
+Cat: mediation
 
 ----
 
-Starting-date: 2024-01-01
+Starting-date: 2024-01-19
 
 ----
 
-Ending-date: 2024-02-29
+Ending-date: 2024-02-20
 
 ----
 
 Info:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet iaculis quam, vitae semper velit pellentesque vitae. Aliquam condimentum libero ac lorem elementum blandit. Donec blandit, neque ut ornare euismod, dolor ligula feugiat leo, vitae sodales felis enim vel magna. Aenean pharetra non leo eget placerat. Cras efficitur aliquam ornare. Nulla at ex turpis. Fusce sollicitudin cursus quam, eget faucibus ex porta id. Donec non ante ac massa blandit pretium eu vel nisl. Praesent ultricies iaculis nulla. Mauris risus nisl, pulvinar a dolor sit amet, maximus dignissim ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In congue aliquam sem et posuere. Nulla est massa, pretium nec nunc elementum, pulvinar vestibulum lorem. Ut gravida odio blandit quam facilisis dictum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris laoreet iaculis quam, vitae semper velit pellentesque vitae. Aliquam condimentum libero ac lorem elementum blandit. Donec blandit, neque ut ornare euismod, dolor ligula feugiat leo, vitae sodales felis enim vel (link:  text: magn)a. Aenean pharetra non leo eget placerat. Cras efficitur aliquam ornare. Nulla at ex turpis. Fusce sollicitudin cursus quam, eget faucibus ex porta id. Donec non ante ac massa blandit pretium eu vel nisl. Praesent ultricies iaculis nulla. Mauris risus nisl, pulvinar a dolor sit amet, maximus dignissim ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In congue aliquam sem et posuere. Nulla est massa, pretium nec nunc elementum, pulvinar vestibulum lorem. Ut gravida odio blandit quam facilisis dictum.
 
-##PARTICIPATING ARTISTS
+## PARTICIPATING ARTISTS
 
 Petra Bauer / Tjejerna gör uppror (1977)
 Ida Börjel, Lo Hillarp / Mullvaden (Krtek, i Sverige 1979)
@@ -39,7 +39,7 @@ Kan televisionens barnprogram betraktas som del av ett kulturarv? I Sverige skul
 
 ----
 
-C-image: - file://225feammRGT0VGMW
+C-image: - file://ZBf7pSEiPzqKIQg1
 
 ----
 
@@ -48,6 +48,7 @@ Gallery-images:
 - file://XKT8FmNMTqEPzMsJ
 - file://cnaPwKTbpMo3SDi3
 - file://ybe71WlG9y5zO0lY
+- file://6tZJxfihNI2x4yrZ
 
 ----
 
