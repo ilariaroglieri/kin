@@ -2,11 +2,19 @@
 $items  = $pages->listed();
 ?>
 
+<div class="marquee p-absolute">
+  <div class="track">
+    <div class="inner">
+      <h2 class="s-big bold">museum för samtidskonst—Dáládáidaga dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—museum för samtidskonst—Dáládáidaga dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—museum för samtidskonst—Dáládáidaga dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—</h2>
+    </div>
+  </div>
+</div>
 
 <nav class="navigation d-flex d-column space-between" role="navigation">
   <div class="header">
   	<div id="logo">
-      <a href="<?= $site->url() ?>"><?= $site->title() ?></a>
+      <h1><a class="s-big" href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
+
     </div>
 
     <ul class="menu">

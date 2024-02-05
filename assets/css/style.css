@@ -21,6 +21,9 @@ Version: 1.0
   src: url("../fonts/GT-Sectra-Black-Italic.woff2") format("woff2"), url("../fonts/GT-Sectra-Black-Italic.woff") format("woff"), url("../fonts/GT-Sectra-Black-Italic.ttf") format("ttf"), url("../fonts/GT-Sectra-Black-Italic.otf") format("otf");
   font-weight: 800;
   font-style: italic; }
+.s-big {
+  font-size: 22px; }
+
 .s-medium {
   font-size: 19px; }
 
@@ -480,10 +483,14 @@ ul {
   display: grid;
   grid-template-columns: minmax(20ch, 17vw) 1fr; }
 
+.home .marquee {
+  display: inline-block; }
+.home .content {
+  margin-top: 52px; }
+
 .content {
   margin-left: 28px;
-  margin-right: 28px;
-  margin-top: 52px; }
+  margin-right: 28px; }
   .content .d-grid {
     display: grid;
     grid-template-columns: minmax(auto, 33vw) minmax(auto, 33vw);
@@ -507,7 +514,6 @@ ul {
     display: none; }
   .navigation #logo a {
     display: inline-block;
-    font-size: 22px;
     font-weight: 800;
     line-height: 1;
     margin-bottom: 28px; }
@@ -532,6 +538,27 @@ li.active a {
 body {
   background-color: #5ED088; }
 
+@keyframes marquee {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(-50%); } }
+.marquee {
+  display: none;
+  margin-top: 30px;
+  line-height: 1.5;
+  left: 100px;
+  width: calc(100vw - 80px);
+  z-index: 100;
+  max-width: 100%;
+  height: 30px;
+  overflow-x: hidden; }
+  .marquee .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 25s linear .5s infinite; }
+
 .event-list {
   position: relative;
   border-top: 1px solid black; }
@@ -540,7 +567,7 @@ body {
     display: block;
     width: 3em;
     height: 100%;
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-19 19 32 32' style='enable-background:new -19 21 32 32;' xml:space='preserve'%3E%3Cpolygon fill='%237a9ba0' points='-1.4,29.4 3.4,34.2 -11.4,34.2 -11.4,35.2 3.4,35.2 -1.4,40 -0.7,40.7 5.4,34.7 -0.7,28.7 '/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-19 19 32 32' style='enable-background:new -19 21 32 32;' xml:space='preserve'%3E%3Cpolygon fill='black' points='-1.4,29.4 3.4,34.2 -11.4,34.2 -11.4,35.2 3.4,35.2 -1.4,40 -0.7,40.7 5.4,34.7 -0.7,28.7 '/%3E%3C/svg%3E");
     position: absolute;
     top: 0;
     right: 0;
@@ -552,9 +579,6 @@ body {
     padding: 12px;
     display: inline-block;
     width: 100%; }
-    .event-list a:hover {
-      background-color: #5ED088;
-      color: #6662FF; }
 
 .event {
   position: relative; }

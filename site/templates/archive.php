@@ -12,15 +12,15 @@
 	  if ($events->count() > 0): ?>
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole">
-	  			<h4 class="bold spacing-t-2 spacing-b-2"><?= $page->title() ?></h4>
+	  			<h2 class="s-big bold spacing-t-2 spacing-b-2"><?= $page->title() ?></h2>
 	  		</div>
 	  	</div>
-	  	<div class="d-flex flex-row m-column">
+	  	<div class="d-flex flex-row d-column">
 			  <?php foreach($events as $event): 
 					
 					if ( $event->eventStateInTime() == $archiveTime):
 					
-						snippet('event-module', array('event' => $event));
+						snippet('event-module-list', array('event' => $event));
 
 					endif;?>
 
