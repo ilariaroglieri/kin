@@ -51,7 +51,7 @@
 			      <?php endforeach; ?>
 			    </div>
 				<?php endif; ?>
-			<?php endforeach 
+			<?php endforeach; 
 		?>
 
 		<?php if (empty($allcatsarray)): ?>

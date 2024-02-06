@@ -375,13 +375,11 @@ body {
 // single event
 #single-event {
   margin: 0;
-  background-color: #fafbfc;
   .d-grid {
     grid-template-columns: minmax(25ch, 1fr) 2fr;
   }
   h3.dates {
     font-weight: unset;
-    color: $thirdColor;
   }
   p {
     @extend .s-regular;
@@ -391,19 +389,19 @@ body {
     padding-top: 0;
     .txt {
       h2 {
-        @extend .thirdColor;
-        @extend .s-small;
+        @extend .s-regular;
         @extend .bold;
         @extend .spacing-t-2;
         @extend .spacing-b-1;
-        line-height: 1.5;
-        letter-spacing: .02rem;
+      }
+      a {
+        @extend .bold;
+        @extend .italic;
       }
     }
   }
   .images {
     margin-top: 0;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap;
@@ -429,7 +427,7 @@ body {
     figcaption {
       padding: 8px 12px;
       a {
-        color: $secColor;
+        color: white;
       }
     }
   }

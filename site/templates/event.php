@@ -14,6 +14,24 @@
 			</div>
 
 			<div class="sidebar images">
+				<?php 
+					$c_image = $page->c_image()->toFile();
+					$c_caption = $c_image->caption(); 
+				?>
+
+				<?php if ($c_image): ?>
+					<figure class="project">
+						<picture>
+							<img src="<?= $c_image->url(); ?>" />
+						</picture>
+						<?php if (!(empty($c_caption))): ?>
+							<figcaption>
+								<h4 class="s-small italic"><?= $c_caption; ?></h4>
+							</figcaption>
+						<?php endif; ?>
+					</figure>
+				<?php endif; ?>
+
 				<?php if ($images = $page->gallery_images()->toFiles()) : 
 					foreach ($images as $image): ?>
 						<?php $caption = $image->caption(); ?>
@@ -23,7 +41,7 @@
 							</picture>
 							<?php if (!(empty($caption))): ?>
 								<figcaption>
-									<h4 class="s-small italic thirdColor"><?= $caption; ?></h4>
+									<h4 class="s-small italic"><?= $caption; ?></h4>
 								</figcaption>
 							<?php endif; ?>
 						</figure>
