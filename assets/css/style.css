@@ -513,7 +513,7 @@ ul {
   .navigation::-webkit-scrollbar {
     display: none; }
   .navigation #logo a {
-    display: inline-block;
+    display: inherit;
     font-weight: 800;
     line-height: 1;
     margin-bottom: 28px; }
@@ -545,7 +545,7 @@ body {
     transform: translateX(-50%); } }
 .marquee {
   display: none;
-  margin-top: 30px;
+  margin-top: 28px;
   line-height: 1.5;
   left: 100px;
   width: calc(100vw - 80px);
@@ -768,6 +768,9 @@ body {
       transition: opacity 600ms ease; }
     .content .d-grid {
       grid-template-columns: 1fr; }
+
+  .events-category:first-of-type .cat-title {
+    margin-top: 0; }
 
   #single-event .d-grid {
     display: flex;

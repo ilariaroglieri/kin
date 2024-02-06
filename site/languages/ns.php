@@ -9,7 +9,7 @@ return [
     ],
     'name' => 'Davvisámegiella',
     'translations' => [
-
+        'ongoing' => 'Dušše dal'
     ],
     'url' => NULL
 ];

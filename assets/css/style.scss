@@ -249,7 +249,7 @@ li {
     display: none;
   }
   #logo a {
-    display: inline-block;
+    display: inherit;
     font-weight: 800;
     line-height: 1;
     margin-bottom: $spacing;
@@ -297,7 +297,7 @@ body {
 
 .marquee {
   display: none;
-  margin-top: 30px;
+  margin-top: $spacing;
   line-height: 1.5;
   left: 100px;
   width: calc(100vw - 80px);
@@ -588,6 +588,15 @@ body {
     }
     .d-grid {
       grid-template-columns: 1fr;
+    }
+  }
+
+  // archive
+  .events-category {
+    &:first-of-type {
+      .cat-title {
+        margin-top: 0;
+      }
     }
   }
 

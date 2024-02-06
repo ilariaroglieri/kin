@@ -24,6 +24,10 @@
         return 'permanent';
       endif;
     }
+
+    public function eventCat(): string {
+
+    }
   }
 
 ?>
