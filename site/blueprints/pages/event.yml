@@ -8,6 +8,7 @@ columns:
         fields:
           cat:
             type: tags
+            label: Category
             translate: false
             max: 1
             options:
@@ -31,14 +32,19 @@ columns:
                 en: Various
                 ns: Iešguđetláganat
                 mk: Muutama asia
+          add_text:
+            label: Additional info
+            type: text
           starting_date:
             width: 1/2
+            label: Starting date
             type: date
             # display: D MMM YYYY
             translate: false
           ending_date:
             width: 1/2
             type: date
+            label: Ending date
             # display: D MMM YYYY
             translate: false
           info:
