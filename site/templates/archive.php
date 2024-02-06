@@ -18,45 +18,50 @@
   		</div>
   	</div>
 
-		<?php foreach($cats as $cat => $key):
-			$catname = $key[$kirby->language()->code()];
-			$catarray = [];
+		<?php 
+			$allcatsarray = [];
+			foreach($cats as $cat => $key):
+				$catname = $key[$kirby->language()->code()];
+				$catarray = [];
 
-			foreach($events as $event): 
-				if ( $event->eventStateInTime() == $archiveTime && $event->cat()->value() ==  $cat ):
-				$catarray[] = $event;
-				endif;
-			endforeach;
-			
-			if (!empty($catarray)): ?>
-				<div class="d-flex flex-row">
-		  		<div class="d-whole">
-		  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= $catname; ?></h2>
-		  		</div>
-		  	</div>
+				foreach($events as $event): 
+					if ( $event->eventStateInTime() == $archiveTime && $event->cat()->value() ==  $cat ):
+					$catarray[] = $event;
+					endif;
+				endforeach;
 
-		  	<div class="events-row d-flex flex-row d-column">
-				  <?php foreach($events as $event): 
-						
-						if ( $event->eventStateInTime() == $archiveTime && $event->cat()->value() ==  $cat ):
-						
-							snippet('event-module-list', array('event' => $event));
+				if (!empty($catarray)): 
+					$allcatsarray[] = $catarray;
+				endif; 
 
-						endif;?>
+				if (!empty($catarray)):?>
+					<div class="d-flex flex-row">
+			  		<div class="d-whole">
+			  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= $catname; ?></h2>
+			  		</div>
+			  	</div>
 
-		      <?php endforeach; ?>
-		    </div>
-		  <?php else: ?>
-		  	<div class="d-flex flex-row">
-		  		<div class="d-whole">
-		  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1">Currently nothing to show.</h2>
-		  		</div>
-		  	</div>
-			<?php endif; 
+			  	<div class="events-row d-flex flex-row d-column">
+					  <?php foreach($events as $event): 
+							
+							if ( $event->eventStateInTime() == $archiveTime && $event->cat()->value() ==  $cat ):
+								snippet('event-module-list', array('event' => $event));
+							endif;?>
+
+			      <?php endforeach; ?>
+			    </div>
+				<?php endif; ?>
+			<?php endforeach 
 		?>
 
-			
-  	<?php endforeach ?>
+		<?php if (empty($allcatsarray)): ?>
+			<div class="d-flex flex-row">
+	  		<div class="d-whole">
+	  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1">Currently nothing to show.</h2>
+	  		</div>
+	  	</div>
+	  <?php endif; ?>
+
 
 	</div>
 
