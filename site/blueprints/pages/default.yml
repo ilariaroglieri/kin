@@ -1,9 +1,10 @@
 title: Default Page
 
 pages:
-  tmplate:
+  template:
     - default
     - event
+    
 columns:
   main:
     width: 2/3

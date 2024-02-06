@@ -4,7 +4,10 @@
 		<div class="d-grid">
 			<div class="text spacing-t-2 spacing-b-2">
 				<h2 class="s-big bold spacing-b-2"><?= $page->title() ?></h2>
-				<p><?= $page->text()->kirbytext() ?></p>
+
+				<div class="wysiwyg">
+					<?= $page->text()->kirbytext() ?>
+				</div>
 			</div>
 
 			<div class="sidebar">

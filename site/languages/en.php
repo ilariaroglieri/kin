@@ -9,7 +9,13 @@ return [
     ],
     'name' => 'English',
     'translations' => [
-        'ongoing' => 'On now'
+        'ongoing' => 'On now',
+        'newsletter' => 'Newsletter',
+        'submit' => 'Submit',
+        'subscribername' => 'Your name',
+        'subscribermail' => 'E-mail
+',
+        'policyagreement' => 'By clicking you agree to our'
     ],
     'url' => NULL
 ];

@@ -4,6 +4,7 @@ sections:
   events:
     type: pages
     layout: cards
+    template: event
     ratio: 3/4
     image:
       cover: true

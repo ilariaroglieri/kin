@@ -40,6 +40,31 @@
 	  	
 	  <?php endif; ?>
 
+	  <div class="d-flex flex-row">
+  		<div class="d-whole spacing-t-2">
+  			<h4 class="bold spacing-b-2"><?php echo t('newsletter'); ?></h4>
+  		</div>
+  	</div>
+	  <div class="newsletterform">
+		  <form class="d-flex flex-row m-column" action="https://subscribe.minutemailer.com/mKYqgEKP" method="post">
+		  	<div class="d-one-third">
+			    <input type="email" name="email" required placeholder="<?php echo t('subscribermail'); ?>*">
+			  </div>
+			  <div class="d-one-third p-relative">
+			    <input type="text" name="name" required placeholder="<?php echo t('subscribername'); ?>*">
+			    <button class="submit p-absolute" type="submit"></button>
+		    </div>
+			  <div class="d-one-third">
+			    <input type="checkbox" id="policyagree" required name="policyagree" value="policyagree">
+					<label class="s-small" for="policyagree">
+						<?= t('policyagreement'); ?><?php if ($p = page('integritetspolicyn')): ?>
+						  <a href="<?= $p->url() ?>"><?= $p->title() ?></a>
+						<?php endif ?>
+					</label>
+				</div>
+			</form>
+		</div>
+
 	</div>
 
 	<?php snippet('footer') ?>
