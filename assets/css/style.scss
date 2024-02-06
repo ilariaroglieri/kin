@@ -581,6 +581,16 @@ input[type="search"] {
     }
   }
 
+  #logo-mobile {
+    top: $half-spacing + 4px;
+    left: $spacing;
+  }
+
+  .marquee {
+    left: 95px;
+    width: calc(100vw - 175px);
+  }
+
   .navigation {
     position: fixed;
     top: 0;
@@ -589,10 +599,10 @@ input[type="search"] {
     width: calc(100vw - 4.35rem);
     padding: 25px;
     padding: 1.3888888889rem;
-    background: white;
+    background: $primaryColor;
     overflow: auto;
     transition: left 400ms ease-in;
-    z-index: 10;
+    z-index: 200;
     &.opened {
       left: 0;
     }
@@ -610,7 +620,7 @@ input[type="search"] {
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    margin-top: 1.3888888889rem;
+    margin-top: 1.6rem;
     margin-right: 25px;
     margin-right: 1.3888888889rem;
     cursor: pointer;
@@ -620,7 +630,7 @@ input[type="search"] {
       width: 1.5rem;
       display: block;
       height: 2px;
-      background: #7a9ba0;
+      background: black;
       transition: all 300ms ease;
     }
     &::after {

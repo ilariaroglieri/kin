@@ -2,6 +2,10 @@
 $items  = $pages->listed();
 ?>
 
+<div id="logo-mobile" class="p-absolute t-visible">
+  <h1><a class="s-big bold" href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
+</div>
+
 <div class="marquee p-absolute">
   <div class="track">
     <div class="inner">
@@ -14,7 +18,6 @@ $items  = $pages->listed();
   <div class="header">
   	<div id="logo">
       <h1><a class="s-big" href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
-
     </div>
 
     <ul class="menu">

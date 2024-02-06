@@ -61,8 +61,6 @@
 	  		</div>
 	  	</div>
 	  <?php endif; ?>
-
-
 	</div>
 
-	<?php snippet('footer') ?>]
+<?php snippet('footer') ?>

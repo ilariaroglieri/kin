@@ -21,7 +21,7 @@
 
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole spacing-t-2">
-	  			<h4 class="bold spacing-b-2"><?php echo t('ongoing'); ?></h4>
+	  			<h4 class="bold s-medium spacing-b-2"><?php echo t('ongoing'); ?></h4>
 	  		</div>
 	  	</div>
 	  	<div class="d-flex flex-row m-column">
@@ -42,19 +42,19 @@
 
 	  <div class="d-flex flex-row">
   		<div class="d-whole spacing-t-2">
-  			<h4 class="bold spacing-b-2"><?php echo t('newsletter'); ?></h4>
+  			<h4 class="bold s-medium spacing-b-2"><?php echo t('newsletter'); ?></h4>
   		</div>
   	</div>
-	  <div class="newsletterform">
+	  <div class="newsletterform spacing-m-b-4">
 		  <form class="d-flex flex-row m-column" action="https://subscribe.minutemailer.com/mKYqgEKP" method="post">
-		  	<div class="d-one-third">
+		  	<div class="d-one-third m-whole spacing-m-b-2">
 			    <input type="email" name="email" required placeholder="<?php echo t('subscribermail'); ?>*">
 			  </div>
-			  <div class="d-one-third p-relative">
+			  <div class="d-one-third m-whole spacing-m-b-2 p-relative">
 			    <input type="text" name="name" required placeholder="<?php echo t('subscribername'); ?>*">
 			    <button class="submit p-absolute" type="submit"></button>
 		    </div>
-			  <div class="d-one-third">
+			  <div class="d-one-third m-whole spacing-m-b-2">
 			    <input type="checkbox" id="policyagree" required name="policyagree" value="policyagree">
 					<label class="s-small" for="policyagree">
 						<?= t('policyagreement'); ?><?php if ($p = page('integritetspolicyn')): ?>

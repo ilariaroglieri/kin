@@ -20,9 +20,6 @@
 	  </div>
 	<?php endif ?>
 
-
-
-
 	<?php
 		$langOrder = ['sv', 'en', 'ns', 'mk'];
 		$languages = $kirby->languages();

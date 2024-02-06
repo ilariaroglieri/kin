@@ -9,7 +9,6 @@
 
 				<div class="txt spacing-t-2">
 					<p><?= $page->info()->kirbytext() ?></p>
-					<p><?= $page->eventStateInTime() ?></p>
 				</div>
 			</div>
 
