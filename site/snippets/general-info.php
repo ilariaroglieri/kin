@@ -10,6 +10,18 @@
 		<p><?= $infopage->address()->kirbytext() ?></p>
 	</div>
 
+	<?php if ($p = page('sok')): ?>
+		<div class="spacing-b-2">
+			<ul>
+				<li <?php e($p->isActive(), ' class="active"') ?>>
+	  			<a href="<?= $p->url() ?>"><?= $p->title() ?></a>
+	  		</li>
+	  	</ul>
+	  </div>
+	<?php endif ?>
+
+
+
 
 	<?php
 		$langOrder = ['sv', 'en', 'ns', 'mk'];
