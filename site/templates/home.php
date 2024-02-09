@@ -21,10 +21,10 @@
 
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole spacing-t-2">
-	  			<h4 class="bold s-medium spacing-b-2"><?php echo t('ongoing'); ?></h4>
+	  			<h4 class="bold s-big spacing-b-2"><?php echo t('ongoing'); ?></h4>
 	  		</div>
 	  	</div>
-	  	<div class="d-flex flex-row m-column">
+	  	<div class="d-flex flex-row wrap m-column">
 			  <?php foreach($home_events as $event): 
 			  	snippet('event-module', array('event' => $event));
 				endforeach; ?>
@@ -42,7 +42,7 @@
 
 	  <div class="d-flex flex-row">
   		<div class="d-whole spacing-t-2">
-  			<h4 class="bold s-medium spacing-b-2"><?php echo t('newsletter'); ?></h4>
+  			<h4 class="bold s-big spacing-b-2"><?php echo t('newsletter'); ?></h4>
   		</div>
   	</div>
 	  <div class="newsletterform spacing-m-b-4">
@@ -56,7 +56,7 @@
 		    </div>
 			  <div class="d-one-third m-whole spacing-m-b-2">
 			    <input type="checkbox" id="policyagree" required name="policyagree" value="policyagree">
-					<label class="s-small" for="policyagree">
+					<label class="s-regular" for="policyagree">
 						<?= t('policyagreement'); ?><?php if ($p = page('integritetspolicyn')): ?>
 						  <a href="<?= $p->url() ?>"><?= $p->title() ?></a>
 						<?php endif ?>

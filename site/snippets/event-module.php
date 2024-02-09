@@ -8,6 +8,6 @@
 
 	<div class="event-info">
 		<?php snippet('event-date', array('event' => $event)) ?>
-		<h2 class="s-medium bold spacing-t-half"><?= $event->title()->html() ?></h2>
+		<h2 class="s-big bold spacing-t-half"><?= $event->title()->html() ?></h2>
 	</div>
 </div>

@@ -27,12 +27,12 @@ Version: 1.0
 .s-medium, .searchform input[type="search"] {
   font-size: 19px; }
 
-.s-regular, .wysiwyg h2, body, .navigation .general-info h2, #single-event p, #single-event .text .txt h2 {
-  font-size: 17px; }
-
-.s-small, .wysiwyg.s-small *, input[type="email"],
+.s-regular, .wysiwyg h2, body, .navigation .general-info h2, #single-event p, #single-event .text .txt h2, input[type="email"],
 input[type="text"],
 input[type="search"] {
+  font-size: 17px; }
+
+.s-small, .wysiwyg.s-small * {
   font-size: 14px; }
 
 .italic, .wysiwyg a, .navigation .general-info h2, #single-event .text .txt a {
@@ -539,6 +539,8 @@ li.active a {
   scrollbar-width: none; }
   .sidebar::-webkit-scrollbar {
     display: none; }
+  .sidebar img {
+    width: 100%; }
 
 body {
   background-color: #5ED088; }
@@ -654,7 +656,6 @@ input[type="search"] {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid;
-  width: 100%;
   padding: 5px 15px;
   font-family: 'GT Sectra'; }
   input[type="email"]::placeholder,
@@ -684,14 +685,50 @@ input[type="search"] {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
+.newsletterform input[type="email"],
+.newsletterform input[type="text"] {
+  width: calc(100% - 28px); }
 .newsletterform label {
   position: absolute;
   line-height: 1.2;
   max-width: 250px;
   padding: 5px; }
+.newsletterform input[type="checkbox"] {
+  appearance: none;
+  background-color: transparent;
+  width: 17px;
+  height: 17px;
+  border: 1px solid black;
+  margin-top: 5px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+  .newsletterform input[type="checkbox"]:before {
+    content: '';
+    display: flex;
+    position: absolute;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 1px;
+    left: 1px;
+    opacity: 0;
+    background-color: black;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+  .newsletterform input[type="checkbox"]:checked::before {
+    opacity: 1; }
 .newsletterform .submit {
-  right: 0;
-  height: 30px;
+  top: -2px;
+  right: 30px;
+  height: 40px;
   width: 60px;
   cursor: pointer;
   border: none;
@@ -705,7 +742,7 @@ input[type="search"] {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
   .newsletterform .submit:hover {
-    background-position: 30px; }
+    background-position: 28px; }
 
 @media screen and (max-width: 1024px) {
   .ht-hidden {

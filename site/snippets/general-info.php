@@ -21,7 +21,7 @@
 	<?php endif ?>
 
 	<?php
-		$langOrder = ['sv', 'en', 'ns', 'mk'];
+		$langOrder = ['sv', 'ns', 'mk', 'en'];
 		$languages = $kirby->languages();
 		$orderedLanguages = new Kirby\Cms\Languages();
 
