@@ -288,8 +288,7 @@ li {
 
 .sidebar {
   position: sticky;
-  top: $spacing;
-  margin-top: $spacing;
+  // top: $spacing + $half-spacing;
   height: calc(100vh - #{$spacing});
   overflow: scroll;
   -ms-overflow-style: none; 
@@ -351,7 +350,7 @@ body {
   a {
     padding: 12px;
     display: inline-block;
-    width: 100%;
+    width: calc(100% - #{$double-spacing});
     &:hover {
       // color: $secColor;
     }
@@ -375,7 +374,7 @@ body {
   }
   .cover_img {
     height: 0;
-    padding-bottom: 125%;
+    padding-bottom: 120%;
     overflow: hidden;
     background-size: cover !important;
     opacity: 1;
@@ -402,9 +401,6 @@ body {
     @extend .s-regular;
   }
   .text {
-    padding: $spacing;
-    padding-top: 0;
-    .txt {
       h2 {
         @extend .s-regular;
         @extend .bold;
@@ -416,36 +412,51 @@ body {
         @extend .italic;
       }
     }
+}
+
+.text {
+  padding: $spacing;
+  padding-top: 0;
+  .wysiwyg {
+    line-height: 1.3;
   }
-  .images {
-    margin-top: 0;
+}
+
+.images {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  place-items: center;
+  padding: $spacing;
+  padding-top: $spacing + $half-spacing;
+  // scroll-snap-type: y mandatory;
+  figure {
+    // scroll-snap-align: start;
+    text-align: center;
+    width: 100%;
+    // height: 100vh;
+    margin-bottom: 60px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-flow: column nowrap;
-    place-items: center;
-    padding: $spacing;
-    scroll-snap-type: y mandatory;
-    figure {
-      scroll-snap-align: start;
-      text-align: center;
-      width: 100%;
-      height: 100vh;
+    flex: none;
+    picture {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-flow: column nowrap;
-      flex: none;
-      img {
-        max-width: 100%;
-        height: auto;
-        max-height: 80vh;
-      }
+      flex-flow: column;
+      align-items: flex-start;
     }
-    figcaption {
-      padding: 8px $half-spacing;
-      a {
-        color: white;
-      }
+    img {
+      max-width: 100%;
+      height: auto;
+      max-height: 80vh;
+    }
+  }
+  figcaption {
+    padding: 8px $half-spacing;
+    a {
+      color: white;
     }
   }
 }

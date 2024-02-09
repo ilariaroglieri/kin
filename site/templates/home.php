@@ -8,7 +8,7 @@
 	<div class="content">
 
 		<div class="d-flex flex-row">
-			<div class="d-two-thirds spacing-t-2">
+			<div class="d-ten-twelfth t-whole spacing-t-2">
 				<p><?= $page->text()->kirbytext() ?></p>
 			</div>
 		</div>

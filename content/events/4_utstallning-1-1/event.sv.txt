@@ -2,7 +2,11 @@ Title: Utstallning 1-1
 
 ----
 
-Category: Outside the city hall
+Cat: 
+
+----
+
+Add-text: 
 
 ----
 
@@ -18,7 +22,15 @@ Info:
 
 ----
 
-C-image: - file://225feammRGT0VGMW
+C-image: - file://KnW5NwQWAGo2l6gT
+
+----
+
+Gallery-images: 
+
+----
+
+Category: Outside the city hall
 
 ----
 
