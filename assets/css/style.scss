@@ -198,7 +198,7 @@ p {
 
 h1, h2, h3, h4 {
   font-weight: normal;
-  line-height: 1;
+  line-height: 1.3;
 }
 
 a {
@@ -289,7 +289,7 @@ li {
 .sidebar {
   position: sticky;
   // top: $spacing + $half-spacing;
-  height: calc(100vh - #{$spacing});
+  height: 100vh;
   overflow: scroll;
   -ms-overflow-style: none; 
   scrollbar-width: none;
@@ -446,6 +446,7 @@ body {
       display: flex;
       flex-flow: column;
       align-items: flex-start;
+      max-width: 500px;
     }
     img {
       max-width: 100%;
@@ -590,6 +591,10 @@ input[type="search"] {
       grid-template-columns: 1fr 1fr;
     }
   }
+
+  .text {
+    // padding: 0;
+  }
 }
 
 @media screen and (max-width: $tablet) {
@@ -635,6 +640,10 @@ input[type="search"] {
     left: $spacing;
   }
 
+  #navigation #logo a {
+    margin-bottom: $spacing;
+  }
+
   .marquee {
     left: 95px;
     width: calc(100vw - 175px);
@@ -644,13 +653,13 @@ input[type="search"] {
     position: fixed;
     top: 0;
     left: -40em;
-    height: 100vh;
-    width: calc(100vw - 4.35rem);
+    height: 100svh;
+    width: 100vw;
     padding: 25px;
     padding: 1.3888888889rem;
     background: $primaryColor;
     overflow: auto;
-    transition: left 400ms ease-in;
+    transition: left 400ms ease;
     z-index: 200;
     &.opened {
       left: 0;
@@ -664,7 +673,7 @@ input[type="search"] {
     right: 0;
     width: 1.5rem;
     height: 1.5rem;
-    z-index: 99;
+    z-index: 201;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -688,12 +697,12 @@ input[type="search"] {
     &.active {
       justify-content: center;
       &::before {
-        background: #fafbfc;
+        // background: #fafbfc;
         transform: rotate(45deg);
         margin: 0;
       }
       &::after {
-        background: #fafbfc;
+        // background: #fafbfc;
         transform: rotate(-45deg);
         margin: 0;
         margin-top: -2px;

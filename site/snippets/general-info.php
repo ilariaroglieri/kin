@@ -3,15 +3,15 @@
 ?>
 
 <div class="general-info">
-	<div class="spacing-b-2">
+	<div class="spacing-t-2 spacing-b-2 spacing-m-t-1 spacing-m-b-1">
 		<p><?= $infopage->opening_hours()->kirbytext() ?></p>
 	</div>
-	<div class="spacing-b-2">
+	<div class="spacing-b-2 spacing-m-b-1">
 		<p><?= $infopage->address()->kirbytext() ?></p>
 	</div>
 
 	<?php if ($p = page('sok')): ?>
-		<div class="spacing-b-2">
+		<div class="spacing-t-2 spacing-b-2 spacing-m-t-1 spacing-m-b-1">
 			<ul>
 				<li <?php e($p->isActive(), ' class="active"') ?>>
 	  			<a href="<?= $p->url() ?>"><?= $p->title() ?></a>

@@ -7,6 +7,11 @@
 
 				<?php snippet('event-date', array('event' => $page)) ?>
 
+				<?php $addText = $page->add_text(); ?>
+				<?php if ($addText): ?>
+					<h3 class="additional-info s-medium"><?= $addText; ?></h3>
+				<?php endif; ?>
+
 				<div class="wysiwyg s-regular spacing-t-2">
 					<?= $page->info()->kirbytext() ?>
 				</div>
