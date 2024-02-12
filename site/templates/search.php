@@ -16,12 +16,18 @@
   </div>
 
   <div class="d-flex flex-row d-column">
-    <?php foreach ($results as $result): ?>
-      <div class="event-list d-two-thirds t-whole">
-        <a class="bold" href="<?= $result->url() ?>"><?= $result->title() ?></a>
+    <?php if ($results->count() != 0): ?>
+      <?php foreach ($results as $result): ?>
+        <div class="event-list d-two-thirds t-whole">
+          <a class="bold" href="<?= $result->url() ?>"><?= $result->title() ?></a>
+        </div>
+      <?php endforeach ?>
+    <?php else: ?>
+      <div class="no-results d-two-thirds t-whole">
+        <p class="s-regular"><?= t('no-results'); ?></p>
       </div>
-    <?php endforeach ?>
-  </div>
+    <?php endif; ?>
+</div>
 </div>
 
 <?php snippet('footer') ?>

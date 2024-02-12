@@ -57,7 +57,7 @@
 		<?php if (empty($allcatsarray)): ?>
 			<div class="d-flex flex-row">
 	  		<div class="d-whole">
-	  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1">Currently nothing to show.</h2>
+	  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= t('no-events'); ?></h2>
 	  		</div>
 	  	</div>
 	  <?php endif; ?>

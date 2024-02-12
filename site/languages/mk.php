@@ -9,7 +9,9 @@ return [
     ],
     'name' => 'Meänkieli',
     'translations' => [
-        'ongoing' => 'Juuri nyt'
+        'ongoing' => 'Juuri nyt',
+        'no-results' => 'Sinun haku ei onnistunnu. Pruuaa hakea toisela sanala.',
+        'no-events' => 'Tällä hetkelä ei ole tapahtumia.'
     ],
     'url' => NULL
 ];

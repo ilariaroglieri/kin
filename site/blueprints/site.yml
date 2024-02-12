@@ -1,9 +1,24 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+tabs: 
+  landing:
+    sections:
+      pages:
+        create: false
+        type: pages
+        query: site.pages.listed
 
-
+  events:
+    sections:
+      events:
+        label: Events
+        type: pages
+        parent: page("Events")
+        layout: cards
+        template: event
+        create: event
+        ratio: 3/4
+        image:
+          cover: true
 
 

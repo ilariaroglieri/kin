@@ -15,7 +15,9 @@ return [
         'subscribername' => 'Your name',
         'subscribermail' => 'E-mail
 ',
-        'policyagreement' => 'By clicking you agree to our'
+        'policyagreement' => 'By clicking you agree to our',
+        'no-results' => 'Your search gave no results. Try with another word!',
+        'no-events' => 'There are no events to show here at the moment.'
     ],
     'url' => NULL
 ];
