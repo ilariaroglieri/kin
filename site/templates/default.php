@@ -31,7 +31,7 @@
 				<div class="link-list">
 
 					<?php foreach ($items as $item): ?>
-					  <a href="$item->url()">— <?= $item->title() ?></a>
+					  <a href="<?= $item->url(); ?>">— <?= $item->title() ?></a>
 					<?php endforeach ?>
 				</div>
 			</div>

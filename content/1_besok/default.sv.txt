@@ -2,7 +2,59 @@ Title: Besök
 
 ----
 
-Text: Test test test
+Text:
+
+##Öppettider
+Måndag stängt 
+Tisdag 11:00—17:00
+Onsdag 11:00—17:00
+Torsdag 11:00—20:00 
+Fredag 11:00—17:00
+Lördag 12:00—16:00
+Söndag 12:00—16:00
+
+##Så hittar du på museet
+Välkommen till Kin museum för samtidskonst. Museet finns inne i Stadshuset Kristallen på plan 2, 3, 4 och 5, bakom de gröna dörrarna. Det går bra att ta trapporna eller hiss från lobbyn. Konstverkstan ligger på plan 0,5. 
+
+##Konstverkstan
+Besök Konstverkstan på våning 0,5. Med utgångspunkt och inspiration från konstverken i utställningarna kan man teckna, måla, skulptera och pyssla. Allt du gör får du ta med dig hem. Konstverkstan är för barn och vuxna och öppen varje helg. Då finns en konstförmedlare på plats som inspirerar och hjälper till. Lördag och söndag kl 13:00—15:30. Drop-in. Gratis. 
+
+##Kom med din arbetsplats eller skolklass
+Byt miljö och boka ditt arbetsplatsmöte på Kin museum för samtidskonst. Låna en lokal av oss och håll ert ordinarie veckomöte i lugn och ro och få sedan en kort introduktion till museet och våra aktuella utställningar. Skolklasser välkomnas och vi erbjuder både visning och verkstad i Konstverkstan. Bokning: emma@konstmuseetinorr.se
+
+##Busshållplats
+Under vardagar kan du ta busslinje Lila mot Hagelstigen. Se aktuell tidtabell hos Kiruna Lokaltrafik: > Res med buss
+
+##Parkering
+I närheten av Kristallen finns avgiftsfria parkeringsplatser, men hämta ut en P-skiva i stadshusets reception. Följ anvisade parkeringsskyltar när du är på plats, detta eftersom parkeringar kan komma att flyttas i och med byggandet av det nya stadshustorget. För dig med parkeringstillstånd för rörelsehindrade finns parkeringsplats direkt utanför Kristallens entré. 
+
+##Färdtjänst
+Färdtjänst kan köra hela vägen fram till Kristallens entré. Vägen är jämnt asfalterad, vilket är bra att veta för dig som kommer med rullstol eller rullator.
+
+##Garderob och förvaringsskåp 
+På entréplan finns en obemannad garderob där du kan hänga av din jacka. Du hittar garderob och låsbara förvaringsskåp till höger om trappan och varuhissen.
+
+##Förvaring
+I entrén finns särskilda ytor för att parkera barnvagnar, rullstolar och dylikt på. Stora väskor får ej tas med i utställningssalarna. Avgiftsfria förvaringsskåp i två olika storlekar finns i kapprummet.
+
+##Toaletter och skötbord 
+På entréplan finns flera toaletter samt en stor som är anpassad för rullstol och rullator. På den stora toaletten finns även skötbord. Toaletterna på entréplan hittar du på sidorna om den stora trappan. Fler toaletter finns i Kristallens trapphall.
+
+##Rullstol
+Rullstol kan vid behov lånas från Kristallens kundservice.
+
+##Wifi
+I Kristallen har du tillgång till det trådlösa nätverket KirunaWifiPublic som inte kräver någon inloggning.
+
+##Ta sig fram och hitta i museet
+Alla dörrar har automatiska dörröppnare. Museets dörrar är gröna. 
+Det finns två hissar i Kristallen. Hissens dörrar öppnas automatiskt.
+Det finns även två mindre hissar: en direkt till höger när du kommit in i entrén, samt en efter restaurang Lämmeln. Dessa går endast till våning 3. Samtliga hissar har automatiska dörröppnare. Hissmåtten är 190 x 210 cm.
+
+Alla utrymmen i konstmuseet är tillgängliga via trappor eller hissar. Trappor är försedda med ledstänger och kontrastmarkeringar. Trösklar finns inte i några av museets utrymmen.
+
+##Allergier
+Vi har inga allergiframkallande växter och samtliga toaletter har parfymfri tvål. Det kan förekomma damm och starka dofter i samband med installering av nya utställningar, under ombyggnation är lokalerna stängda och städas grundligt innan öppnande. Om du är osäker kontakta oss inför ditt besök. Ledarhundar och assistanshundar är välkomna. Övriga pälsdjur är inte tillåtna. Rökning är tillåten endast på utanför Kristallens huvudentré på höger sida.
 
 ----
 

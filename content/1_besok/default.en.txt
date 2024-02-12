@@ -6,7 +6,59 @@ Slug: visit
 
 ----
 
-Text: Test test test
+Text:
+
+##Opening hours
+Tuesday 11:00 – 17:00
+Wednesday 11:00 – 17:00
+Thursday 11:00 – 20:00 
+Friday 11:00 – 17:00
+Saturday 12:00 – 16:00
+Sunday 12:00 – 16:00
+Monday closed 
+
+##Get around
+Welcome to Kin Museum for Contemporary Art. Find us in Kiruna’s city hall Kristallen on floor 2, 3, 4 and 5, behind the green doors. Take the stairs or use the elevator from the lobby on the ground floor. Our Workshop is found on floor 0,5. 
+
+##Introductions to our exhibitions 
+Join us for a short introduction to our current exhibitions Thursday at 5PM, Saturday and Sunday at 1PM. We meet in the lobby on the ground floor. Introductions can also be arranged at request, including outside ordinary opening hours. 
+
+##The Workshop
+Visit our Workshop on floor 0,5. With the works in the exhibitions as a starting point, together we draw, sculpture and experiment. Everything you create can be brought home. The Workshop welcomes children and adults and is open every weekend. There you will always find a meditator who will inspire and help you out. Saturday and Sunday 1 – 3.30PM. Drop-in. Free of charge.  
+
+##Kom med din arbetsplats eller skolklass
+Change your everyday scenery and book your work meetings at Kin Museum for Contemporary. Hold your meeting in one of our rooms and get an introduction to the museum and our current exhibitions. Schools are welcome and we offer both guided tours as well as sessions in the Workshop. To book, please contact mediator Emma Pettersson Juntti: emma@konstmuseetinorr.se
+
+##Accessibility 
+Kin Museum for Contemporary Art is constantly working to improve the accessibility of our exhibitions, public programs and premises. Here you will find information about accessibility at the museum.
+
+##Plan your visit
+Bus stop
+During weekdays you can take bus route Lila (violet) in the direction Hagelstigen to the bus stop Kiruna Stadshustorg. Visit Kiruna Lokaltrafik for timetable: > Travel by bus
+
+##Parking
+Free parking is available near the city hall Kristallen. Parking signs on site will guide you. For visitors with disabled parking permits, there are accessible parking spaces directly in front of Kristallen’s entrance.
+
+##Mobility service 
+Mobility service can drive all the way up to the entrance of Kristallen. The surrounding area is evenly paved, making access easier for visitors with wheelchairs and walkers.
+
+##Cloakroom and lockers 
+On the ground floor is an unattended cloakroom where you can hang your coat. You will find the cloakroom and lockers to the right of the stairs and service lift.There are specified areas for parking strollers, wheelchairs etc. in the foyer. Large bags are not permitted in the exhibition spaces. Free storage lockers in two different sizes are located in the cloakroom.
+
+##Toilets and changing tables 
+There are several toilets on the ground floor, including a large accessible toilet for wheelchairs and walkers. There are baby changing facilities in the accessible toilet. The ground-floor toilets are located on the sides of the big staircase. More toilets are located in Kristallen’s stairwell.
+
+##Wheelchairs 
+Wheelchairs are available upon request at Kristallen’s information desk.
+
+##Wifi
+In Kristallen, visitors can access the wireless network KirunaWifiPublic, which does not require any log-in.
+
+##Getting around the museum 
+All doors have automatic door openers. There are two lifts in Kristallen. The lift doors open automatically.The dimensions of the small lifts are 190 x 210 cm. All of the museum’s premises are accessible via stairs or lifts. Stairs are fitted with railings and contrasting markings. There are no thresholds in any of the museum’s premises.
+
+##Allergies 
+There are no allergenic plants in the museum and all toilets have unscented soap. Dust and strong smells may occur when we build exhibitions. Exhibition spaces are closed during construction and are thoroughly cleaned prior to opening. If you have any concerns, please contact us before your visit. Guide dogs and assistance dogs are welcome at the museum. Other pets are not permitted. Smoking is only permitted outside to the right of Kristallen’s main entrance. If you have any questions or comments, you are always welcome to contact us at (email: info@konstmuseetinorr.se text: info@konstmuseetinorr.se)
 
 ----
 

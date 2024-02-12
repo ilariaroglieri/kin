@@ -4,6 +4,9 @@ permissions:
     update: false
   pages:
     delete: false
+    move: false
+    sort: false
+    create: false
   users: false
   user:
     changeRole: false
