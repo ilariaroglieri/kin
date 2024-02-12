@@ -462,6 +462,22 @@ body {
   }
 }
 
+// single page
+#content-single {
+  .images {
+    justify-content: flex-start;
+    .image {
+      margin-bottom: 0;
+    }
+    .link-list {
+      width: 100%;
+      a {
+        display: block;
+      }
+    }
+  }
+}
+
 // newsletter
 input[type="email"],
 input[type="text"],

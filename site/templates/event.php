@@ -25,7 +25,7 @@
 				<?php if ($c_image): 
 					$c_caption = $c_image->caption()->inline(); 
 					?>
-					<figure class="project">
+					<figure class="image">
 						<picture>
 							<img src="<?= $c_image->url(); ?>" />
 							<?php if (!(empty($c_caption))): ?>
@@ -40,7 +40,7 @@
 				<?php if ($images = $page->gallery_images()->toFiles()) : 
 					foreach ($images as $image): ?>
 						<?php $caption = $image->caption()->inline(); ?>
-						<figure class="project">
+						<figure class="image">
 							<picture>
 								<img src="<?= $image->url(); ?>" />
 								<?php if (!(empty($caption))): ?>

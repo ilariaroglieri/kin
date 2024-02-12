@@ -1,6 +1,6 @@
 	<?php snippet('header') ?>
 
-	<div class="content">
+	<div class="content" id="content-single">
 		<div class="d-grid">
 			<div class="text spacing-t-2 spacing-b-4">
 				<h2 class="s-big bold spacing-b-2"><?= $page->title() ?></h2>
@@ -14,7 +14,7 @@
 				<?php if ($image = $page->images()->first()) :
 					$caption = $image->caption()->inline(); 
 					?>
-					<figure class="project">
+					<figure class="image">
 						<picture>
 							<img src="<?= $image->url(); ?>" />
 							<?php if (!(empty($caption))): ?>
@@ -28,7 +28,7 @@
 
 				<?php
 				$items = $page->link()->toStructure(); ?>
-				<div class="link-list spacing-t-2">
+				<div class="link-list">
 
 					<?php foreach ($items as $item): ?>
 					  <a href="$item->url()">— <?= $item->title() ?></a>

@@ -656,6 +656,15 @@ body {
     .images figcaption a {
       color: white; }
 
+#content-single .images {
+  justify-content: flex-start; }
+  #content-single .images .image {
+    margin-bottom: 0; }
+  #content-single .images .link-list {
+    width: 100%; }
+    #content-single .images .link-list a {
+      display: block; }
+
 input[type="email"],
 input[type="text"],
 input[type="search"] {
