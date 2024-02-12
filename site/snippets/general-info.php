@@ -1,13 +1,9 @@
-<?php 
-	$infopage = $pages->findBy('title', 'General info');
-?>
-
 <div class="general-info">
 	<div class="spacing-t-2 spacing-b-2 spacing-m-t-1 spacing-m-b-1">
-		<p><?= $infopage->opening_hours()->kirbytext() ?></p>
+		<p><?= $site->opening_hours()->kirbytext() ?></p>
 	</div>
 	<div class="spacing-b-2 spacing-m-b-1">
-		<p><?= $infopage->address()->kirbytext() ?></p>
+		<p><?= $site->address()->kirbytext() ?></p>
 	</div>
 
 	<?php if ($p = page('sok')): ?>

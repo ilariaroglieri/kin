@@ -12,8 +12,8 @@ Stadshustorget 1,
 
 Opening-hours:
 
-## Öppetider
-Tis—fre: 10—18
-Lör—sön: 12—16
-Tors: 10—20
-Mån: stängt
+## Opening hours
+Tue—Fri: 10—18
+Sat—Sun: 12—16
+Thu: 10—20
+Mon: closed
