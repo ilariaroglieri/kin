@@ -4,13 +4,13 @@
 
 		<div class="d-flex flex-row">
 			<div class="d-ten-twelfth t-whole spacing-t-2">
-				<p><?= $site->intro_txt()->kirbytext() ?></p>
+				<p><?= $site->text()->kirbytext() ?></p>
 			</div>
 		</div>
 
 		<!-- just nu -->
 	  <?php 
-	  	$home_events =  $page->related()->toPages();
+	  	$home_events =  $site->related()->toPages();
 	  	if ( $home_events->count() > 0): 
 	  ?>
 

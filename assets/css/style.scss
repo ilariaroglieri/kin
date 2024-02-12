@@ -259,11 +259,22 @@ li {
   &::-webkit-scrollbar {
     display: none;
   }
-  #logo a {
-    display: inherit;
-    font-weight: 800;
-    line-height: 1;
+  #logo {
+    background: url('../../assets/svg/kin-logo.svg') no-repeat center center;
+    background-size: contain !important;
+    width: 110px;
+    height: 90px;
     margin-bottom: $spacing;
+    a {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    h1 {
+      display: none;
+    }
   }
   .menu {
   }
@@ -311,8 +322,8 @@ body {
   display: none;
   margin-top: $spacing;
   line-height: 1.5;
-  left: 100px;
-  width: calc(100vw - 80px);
+  left: calc(20ch + #{$spacing} + #{$half-spacing});
+  width: calc(100vw - (20ch + #{$spacing}) + #{$half-spacing});
   z-index: 100;
   max-width: 100%;
   height: 30px;
@@ -332,6 +343,7 @@ body {
     content: " ";
     display: block;
     width: 3em;
+    height: 3em;
     background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-19 19 32 32' style='enable-background:new -19 21 32 32;' xml:space='preserve'%3E%3Cpolygon fill='black' points='-1.4,29.4 3.4,34.2 -11.4,34.2 -11.4,35.2 3.4,35.2 -1.4,40 -0.7,40.7 5.4,34.7 -0.7,28.7 '/%3E%3C/svg%3E");
     position: absolute;
     top: 0;
@@ -451,6 +463,9 @@ body {
   figcaption {
     padding: 8px $half-spacing;
     text-align: left;
+    h4 {
+      line-height: 1.3;
+    }
     a {
       color: white;
     }
@@ -492,21 +507,34 @@ input[type="search"] {
 }
 
 .searchform {
+  display: flex;
+  align-items: center;
   input[type="search"] {
     @extend .s-medium;
-    margin-left: 40px;
-    width: calc(100% - 40px);
+    width: 100%;
     padding: 5px 0;
   }
-  .submit {
-    left: 0;
+  .search-icon {
     height: 30px;
     width: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg width='18' height='17' viewBox='0 0 18 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='7.28571' cy='7.28571' r='6.78571' stroke='black'/%3E%3Cline x1='12.4966' y1='11.7895' x2='17.3538' y2='16.6467' stroke='black'/%3E%3C/svg%3E%0A");    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-right: $half-spacing/2;
+  }
+  .submit {
+    // position: absolute;
+    // right: 0;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     border: none;
     background-color: transparent;
-    background-image: url("data:image/svg+xml,%3Csvg width='18' height='17' viewBox='0 0 18 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='7.28571' cy='7.28571' r='6.78571' stroke='black'/%3E%3Cline x1='12.4966' y1='11.7895' x2='17.3538' y2='16.6467' stroke='black'/%3E%3C/svg%3E%0A");    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-19 19 32 32' style='enable-background:new -19 21 32 32;' xml:space='preserve'%3E%3Cpolygon fill='black' points='-1.4,29.4 3.4,34.2 -11.4,34.2 -11.4,35.2 3.4,35.2 -1.4,40 -0.7,40.7 5.4,34.7 -0.7,28.7 '/%3E%3C/svg%3E");
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
     @include transition(all .3s);
   }
 }
@@ -648,8 +676,21 @@ input[type="search"] {
   }
 
   #logo-mobile {
-    top: $half-spacing + 4px;
+    top: $spacing;
     left: $spacing;
+    background: url('../../assets/svg/kin-mobile-logo.svg') no-repeat center center;
+    width: 60px;
+    height: 60px;
+  }
+
+  .navigation {
+    #logo {
+      background: none;
+      height: 30px;
+      h1 {
+        display: inline-block;
+      }
+    }
   }
 
   #navigation #logo a {

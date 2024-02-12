@@ -9,6 +9,20 @@ tabs:
         type: pages
         query: site.pages.listed
 
+  homepage:
+    label: Homepage
+    sections:
+      fields:
+        type: fields
+        fields:
+          text:
+            type: textarea
+            size: small
+          related:
+            label: Events to display in home
+            type: pages
+            query: site.find('events')
+
   events:
     sections:
       events:
@@ -25,13 +39,6 @@ tabs:
   info:
     label: Museum Info
     columns:
-      home:
-        type: fields
-        fields: 
-          intro_txt:
-            label: Text displayed in homepage
-            type: textarea
-            size: medium
       address:
         width: 1/2
         type: fields

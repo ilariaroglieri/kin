@@ -2,7 +2,22 @@ Title: Kin
 
 ----
 
-Intro-txt: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
+Text: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
+
+----
+
+Related:
+
+- page://2d427f0s6Lkiv575
+- page://k6Tsur6xi174jObg
+- page://xnWFZs5tVYkf3i1R
+- page://timqry0yAcZa0ZiQ
+- page://1KDV2z31zXQM1xVP
+- page://tyGwGzVbKu3bgAxu
+
+----
+
+Intro-txt: 
 
 ----
 

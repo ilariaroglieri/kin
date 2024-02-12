@@ -3,7 +3,7 @@ $items  = $pages->listed();
 ?>
 
 <div id="logo-mobile" class="p-absolute t-visible">
-  <h1><a class="s-big bold" href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
+  <a class="overall" href="<?= $site->url() ?>"></a>
 </div>
 
 <div class="marquee p-absolute">
@@ -16,8 +16,9 @@ $items  = $pages->listed();
 
 <nav class="navigation d-flex d-column space-between" role="navigation">
   <div class="header">
-  	<div id="logo">
-      <h1><a class="s-big" href="<?= $site->url() ?>"><?= $site->title() ?></a></h1>
+  	<div id="logo" class="p-relative">
+      <a class="s-big overall" href="<?= $site->url() ?>"></a>
+      <h1 class="s-big bold"><?= $site->title() ?></h1>
     </div>
 
     <ul class="menu">
