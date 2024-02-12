@@ -128,6 +128,11 @@ $col: 8.3333%;
   margin: 0 #{$half-spacing};
 }
 
+.d-five-twelfth {
+  width: calc(#{$col}*5 - #{$spacing});
+  margin: 0 #{$half-spacing};
+}
+
 .d-six-twelfth {
   width: calc(#{$col}*6 - #{$spacing});
   margin: 0 #{$half-spacing};

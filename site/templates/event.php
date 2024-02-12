@@ -1,9 +1,9 @@
 	<?php snippet('header') ?>
 
 	<div id="single-event" class="content">
-		<div class="d-grid">
-			<div class="text spacing-t-2 spacing-b-4">
-				<h1 class="s-medium bold spacing-b-2"><?= $page->title() ?></h1>
+		<div class="d-flex ht-column">
+			<div class="text d-five-twelfth ht-whole spacing-t-2 spacing-b-2">
+				<h1 class="s-big bold spacing-b-2"><?= $page->title() ?></h1>
 
 				<?php snippet('event-date', array('event' => $page)) ?>
 
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 
-			<div class="sidebar images">
+			<div class="sidebar images d-half ht-whole">
 				<?php 
 					$c_image = $page->c_image()->toFile();
 				?>

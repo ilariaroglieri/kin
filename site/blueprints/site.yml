@@ -43,7 +43,7 @@ tabs:
   privacy:
     label: Privacy
     sections:
-      pages:
+      privacy:
         create: false
         type: pages
         query: site.pages.filterBy('title','*=','policyn')

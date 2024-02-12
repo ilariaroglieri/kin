@@ -198,7 +198,7 @@ p {
 
 h1, h2, h3, h4 {
   font-weight: normal;
-  line-height: 1.3;
+  line-height: 1;
 }
 
 a {
@@ -237,11 +237,8 @@ li {
 .content {
   margin-left: $spacing;
   margin-right: $spacing;
-  .d-grid {
-    display: grid;
-    grid-template-columns: minmax(auto, 33vw) minmax(auto, 33vw);
-    grid-gap: 1.44rem;
-  }
+  padding-bottom: 4.1666666667rem;
+  
 }
 
 .flex-row{
@@ -288,7 +285,6 @@ li {
 
 .sidebar {
   position: sticky;
-  // top: $spacing + $half-spacing;
   height: 100vh;
   overflow: scroll;
   -ms-overflow-style: none; 
@@ -390,10 +386,6 @@ body {
 
 // single event
 #single-event {
-  margin: 0;
-  .d-grid {
-    grid-template-columns: minmax(25ch, 1fr) 2fr;
-  }
   h3.dates {
     font-weight: unset;
   }
@@ -401,21 +393,21 @@ body {
     @extend .s-regular;
   }
   .text {
-      h2 {
-        @extend .s-regular;
-        @extend .bold;
-        @extend .spacing-t-2;
-        @extend .spacing-b-1;
-      }
-      a {
-        @extend .bold;
-        @extend .italic;
-      }
+    h2 {
+      @extend .s-regular;
+      @extend .bold;
+      @extend .spacing-t-2;
+      @extend .spacing-b-1;
     }
+    a {
+      @extend .bold;
+      @extend .italic;
+    }
+  }
 }
 
 .text {
-  padding: $spacing;
+  max-width: 500px;
   padding-top: 0;
   .wysiwyg {
     line-height: 1.3;
@@ -428,7 +420,7 @@ body {
   justify-content: space-between;
   flex-flow: column nowrap;
   place-items: center;
-  padding: $spacing;
+  padding: $half-spacing;
   padding-top: $spacing + $half-spacing;
   // scroll-snap-type: y mandatory;
   figure {
@@ -449,7 +441,7 @@ body {
       display: flex;
       flex-flow: column;
       align-items: flex-start;
-      max-width: 500px;
+      // max-width: 500px;
     }
     img {
       max-width: 100%;
@@ -473,7 +465,8 @@ body {
       margin-bottom: 0;
     }
     .link-list {
-      width: 100%;
+      padding-left: $half-spacing;
+      width: calc(100% - #{$half-spacing});
       a {
         display: block;
       }
@@ -595,20 +588,24 @@ input[type="search"] {
 
   .ht-whole {
     width: calc(100% - #{$spacing});
-    margin-left: 0 #{$half-spacing};
-    margin-right: 0 #{$half-spacing};
+    margin-left: #{$half-spacing};
+    margin-right: #{$half-spacing};
   }
 
   .ht-half {
     width: calc(50% - #{$spacing});
-    margin-left: 0 #{$half-spacing};
-    margin-right: 0 #{$half-spacing};
+    margin-left: #{$half-spacing};
+    margin-right: #{$half-spacing};
   }
 
-  .content {
-    .d-grid {
-      grid-template-columns: 1fr 1fr;
-    }
+  .sidebar {
+    position: static;
+    height: unset;
+  }
+
+  .images {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -628,14 +625,14 @@ input[type="search"] {
 
   .t-whole {
     width: calc(100% - #{$spacing});
-    margin-left: 0 #{$half-spacing};
-    margin-right: 0 #{$half-spacing};
+    margin-left:#{$half-spacing};
+    margin-right:#{$half-spacing};
   }
 
   .t-half {
     width: calc(50% - #{$spacing});
-    margin-left: 0 #{$half-spacing};
-    margin-right: 0 #{$half-spacing};
+    margin-left:#{$half-spacing};
+    margin-right:#{$half-spacing};
   }
 
   body.nav-active {
@@ -667,7 +664,7 @@ input[type="search"] {
   .navigation {
     position: fixed;
     top: 0;
-    left: -40em;
+    left: -100vw;
     height: 100svh;
     width: 100vw;
     padding: 25px;
@@ -745,12 +742,6 @@ input[type="search"] {
       background: #4b6568;
       transition: opacity 600ms ease;
     }
-    .d-grid {
-      grid-template-columns: 1fr;
-      .text, .images {
-        padding: 0;
-      }
-    }
   }
 
   // archive
@@ -763,10 +754,6 @@ input[type="search"] {
   }
 
   #single-event {
-    .d-grid {
-      display: flex;
-      flex-flow: column;
-    }
     .text {
       padding: 0 $spacing;
     }
@@ -804,13 +791,13 @@ input[type="search"] {
 
   .m-whole {
     width: calc(100% - #{$spacing});
-    margin-left: 0 #{$half-spacing};
-    margin-right: 0 #{$half-spacing};
+    margin-left: #{$half-spacing};
+    margin-right: #{$half-spacing};
   }
 
   .m-half {
     width: calc(50% - #{$spacing});
-    margin-left: 0 #{$half-spacing};
-    margin-right: 0 #{$half-spacing};
+    margin-left: #{$half-spacing};
+    margin-right: #{$half-spacing};
   }
 }
