@@ -23,8 +23,15 @@ tabs:
           cover: true
 
   info:
-    label: Address & Opening Hours
+    label: Museum Info
     columns:
+      home:
+        type: fields
+        fields: 
+          intro_txt:
+            label: Text displayed in homepage
+            type: textarea
+            size: medium
       address:
         width: 1/2
         type: fields

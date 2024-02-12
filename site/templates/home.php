@@ -1,15 +1,10 @@
 	<?php snippet('header') ?>
 
-	<?php 
-		$introtxt = $page->text()->kirbytext(); 
-	?>
-
-
 	<div class="content">
 
 		<div class="d-flex flex-row">
 			<div class="d-ten-twelfth t-whole spacing-t-2">
-				<p><?= $page->text()->kirbytext() ?></p>
+				<p><?= $site->intro_txt()->kirbytext() ?></p>
 			</div>
 		</div>
 

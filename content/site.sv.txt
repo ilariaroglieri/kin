@@ -2,11 +2,16 @@ Title: Kin
 
 ----
 
+Intro-txt: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
+
+----
+
 Address:
 
-## Adress
-Stadshustorget 1, 
+##Kontakt
+Stadshustorget 1 
 981 30 Kiruna
+(link: mailto:info@kinmuseum.se text: info@kinmuseum.se)
 
 ----
 
