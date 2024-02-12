@@ -2,6 +2,7 @@ title: Site
 
 tabs: 
   landing:
+    label: Pages
     sections:
       pages:
         create: false
@@ -22,6 +23,7 @@ tabs:
           cover: true
 
   info:
+    label: Address & Opening Hours
     columns:
       address:
         width: 1/2
@@ -37,6 +39,14 @@ tabs:
           opening_hours:
             type: textarea
             size: small
+
+  privacy:
+    label: Privacy
+    sections:
+      pages:
+        create: false
+        type: pages
+        query: site.pages.filterBy('title','*=','policyn')
 
      
 
