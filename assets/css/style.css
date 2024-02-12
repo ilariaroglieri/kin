@@ -648,7 +648,8 @@ body {
       height: auto;
       max-height: 80vh; }
   .images figcaption {
-    padding: 8px 14px; }
+    padding: 8px 14px;
+    text-align: left; }
     .images figcaption a {
       color: white; }
 
