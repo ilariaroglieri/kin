@@ -2,7 +2,7 @@
 
 	<div class="content" id="content-single">
 		<div class="d-flex ht-column">
-			<div class="text d-five-twelfth ht-whole spacing-t-2 spacing-b-4">
+			<div class="text d-five-twelfth ht-whole spacing-p-t-2 spacing-b-4">
 				<h2 class="s-big bold spacing-b-2"><?= $page->title() ?></h2>
 
 				<div class="wysiwyg s-medium">

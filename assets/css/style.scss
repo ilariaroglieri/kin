@@ -250,6 +250,7 @@ li {
 .navigation {
   position: sticky;
   top: 0;
+  left: 0;
   padding: $spacing;
   height: 100vh;
   overflow: scroll;
@@ -291,20 +292,6 @@ li {
   &.active a {
     color: white;
     pointer-events: none;
-  }
-}
-
-.sidebar {
-  position: sticky;
-  height: 100vh;
-  overflow: scroll;
-  -ms-overflow-style: none; 
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-  img {
-    width: 100%;
   }
 }
 
@@ -395,17 +382,41 @@ body {
   }
 }
 
+.sidebar {
+  position: sticky;
+  max-height: 100vh;
+  overflow: scroll;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+}
+
 // single event
 #single-event {
+  padding-bottom: 0;
   h3.dates {
     font-weight: unset;
+    line-height: 1.3;
   }
   p {
     @extend .s-regular;
   }
   .text {
+    max-height: 100vh;
+    overflow: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    padding-bottom: 4.1666666667rem;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     h2 {
-      @extend .s-regular;
+      @extend .s-medium;
       @extend .bold;
       @extend .spacing-t-2;
       @extend .spacing-b-1;
@@ -419,9 +430,11 @@ body {
 
 .text {
   max-width: 500px;
-  padding-top: 0;
   .wysiwyg {
     line-height: 1.3;
+    p {
+      margin-bottom: $half-spacing;
+    }
   }
 }
 
@@ -514,28 +527,17 @@ input[type="search"] {
     width: 100%;
     padding: 5px 0;
   }
-  .search-icon {
+  .submit {
     height: 30px;
     width: 30px;
     background-image: url("data:image/svg+xml,%3Csvg width='18' height='17' viewBox='0 0 18 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='7.28571' cy='7.28571' r='6.78571' stroke='black'/%3E%3Cline x1='12.4966' y1='11.7895' x2='17.3538' y2='16.6467' stroke='black'/%3E%3C/svg%3E%0A");    background-repeat: no-repeat;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80%;
+    background-color: transparent;
     margin-right: $half-spacing/2;
-  }
-  .submit {
-    // position: absolute;
-    // right: 0;
-    height: 40px;
-    width: 40px;
     cursor: pointer;
     border: none;
-    background-color: transparent;
-    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-19 19 32 32' style='enable-background:new -19 21 32 32;' xml:space='preserve'%3E%3Cpolygon fill='black' points='-1.4,29.4 3.4,34.2 -11.4,34.2 -11.4,35.2 3.4,35.2 -1.4,40 -0.7,40.7 5.4,34.7 -0.7,28.7 '/%3E%3C/svg%3E");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 120%;
-    @include transition(all .3s);
   }
 }
 

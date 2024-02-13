@@ -10,7 +10,6 @@
 
   <div class="d-flex flex-row d-column">
     <form class="searchform d-half t-whole spacing-t-2 spacing-b-3 p-relative">
-      <div class="search-icon"></div>
       <input type="search" aria-label="Search" name="q" value="<?= html($query) ?>">
       <button class="submit" type="submit"></button>
     </form>

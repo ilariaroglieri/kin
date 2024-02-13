@@ -29,7 +29,7 @@
 
 	  	<div class="d-flex flex-row">
 	  		<div class="d-whole spacing-t-2">
-	  			<h4 class="spacing-b-2">Nothing to display in home.</h4>
+	  			<h4 class="spacing-b-2"><?= t('no-event'); ?></h4>
 	  		</div>
 	  	</div>
 	  	
