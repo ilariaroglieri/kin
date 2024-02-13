@@ -55,12 +55,12 @@ tabs:
             size: small
 
   privacy:
-    label: Privacy
+    label: Minor pages
     sections:
       privacy:
-        create: false
         type: pages
-        query: site.pages.filterBy('title','*=','policyn')
+        template: default
+        query: site.pages.unlisted.filterBy('title','!=','Home').filterBy('title','!=','Events').filterBy('title','!=','Sök').filterBy('title','!=','Error')
 
      
 
