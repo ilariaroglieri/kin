@@ -838,7 +838,14 @@ input[type="search"] {
     left: 28px;
     background: url("../../assets/svg/kin-mobile-logo.svg") no-repeat center center;
     width: 60px;
-    height: 60px; }
+    height: 60px;
+    position: relative; }
+    #logo-mobile a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
 
   .navigation #logo {
     background: none;
@@ -922,19 +929,20 @@ input[type="search"] {
       background: #4b6568;
       transition: opacity 600ms ease; }
 
+  .home .content {
+    margin-top: 0; }
+
   .events-category:first-of-type .cat-title {
     margin-top: 0; }
 
-  #single-event .text {
-    padding: 0 28px; }
-  #single-event .images {
+  #single-event .images, #single-event .text {
     position: static;
     height: auto;
+    max-height: unset;
     -webkit-scroll-snap-type: none;
     -ms-scroll-snap-type: none;
-    scroll-snap-type: none;
-    padding: 14px 28px 0; }
-    #single-event .images figure {
+    scroll-snap-type: none; }
+    #single-event .images figure, #single-event .text figure {
       height: auto; } }
 @media screen and (max-width: 640px) {
   .m-hidden {

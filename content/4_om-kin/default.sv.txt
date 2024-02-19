@@ -32,6 +32,9 @@ Link:
 - 
   title: Example link 2
   url: http://www.kinmuseum.se
+- 
+  title: Test
+  url: page://EG9SsK8Q86GDflSL
 
 ----
 

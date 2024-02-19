@@ -1,9 +1,0 @@
-Caption: <p>Test caption with <a href="https://google.it/" target="_blank">link</a></p>
-
-----
-
-Sort: 5
-
-----
-
-Uuid: XKT8FmNMTqEPzMsJ

@@ -60,7 +60,7 @@ tabs:
       privacy:
         type: pages
         template: default
-        query: site.pages.unlisted.filterBy('title','!=','Home').filterBy('title','!=','Events').filterBy('title','!=','Sök').filterBy('title','!=','Error')
+        query: site.pages.unlisted.filterBy('title','!=','Home').filterBy('title','!=','Events').filterBy('title','!=','Sök').filterBy('title','!=','Error').filterBy('title','!=','site')
 
      
 

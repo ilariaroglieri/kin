@@ -1,7 +1,7 @@
 	<?php snippet('header') ?>
 
 	<div id="single-event" class="content">
-		<div class="d-flex ht-column">
+		<div class="d-flex flex-row ht-column">
 			<div class="text d-five-twelfth ht-whole spacing-p-t-2">
 				<h1 class="s-big bold spacing-b-2"><?= $page->title() ?></h1>
 
@@ -18,25 +18,6 @@
 			</div>
 
 			<div class="sidebar images d-half ht-whole">
-				<?php 
-					$c_image = $page->c_image()->toFile();
-				?>
-
-				<?php if ($c_image): 
-					$c_caption = $c_image->caption()->inline(); 
-					?>
-					<figure class="image">
-						<picture>
-							<img src="<?= $c_image->url(); ?>" />
-							<?php if (!(empty($c_caption))): ?>
-								<figcaption>
-									<h4 class="s-regular italic"><?= $c_caption; ?></h4>
-								</figcaption>
-							<?php endif; ?>
-						</picture>
-					</figure>
-				<?php endif; ?>
-
 				<?php if ($images = $page->gallery_images()->toFiles()) : 
 					foreach ($images as $image): ?>
 						<?php $caption = $image->caption()->inline(); ?>

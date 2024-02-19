@@ -9,7 +9,7 @@ $items  = $pages->listed();
 <div class="marquee p-absolute">
   <div class="track">
     <div class="inner">
-      <h2 class="s-big bold">museum för samtidskonst—Dáládáidaga dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—museum för samtidskonst—Dáládáidaga dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—museum för samtidskonst—Dáládáidaga dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—</h2>
+      <h2 class="s-big bold">Museum för Samtidskonst—Dáládáidaga Dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—Museum för Samtidskonst—Dáládáidaga Dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—Museum för Samtidskonst—Dáládáidaga Dávvirvuorká—Nykyaijantaitemyseymmi—Museum of Contemporay Art—</h2>
     </div>
   </div>
 </div>

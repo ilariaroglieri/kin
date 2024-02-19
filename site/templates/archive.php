@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
 
 	<?php 	
-		$events = page('events')->children()->listed(); 
 		$t = date("d-m-Y"); 
 		$today = new DateTime($t);
 
@@ -9,6 +8,14 @@
 
 		$catfield = page('events')->children()->first()->blueprint()->field('cat');
 		$cats = $catfield['options']; 
+
+		$events = page('events')->children()->listed()->filterBy('eventStateInTime', $archiveTime);
+
+		if ($archiveTime == 'ongoing' || $archiveTime == 'future'):
+			$orderedEvents = $events->sortBy('starting_date','ASC'); 
+		else: 
+			$orderedEvents = $events->sortBy('starting_date','DESC'); 
+		endif;
 	?>
 	<div class="content">
 
@@ -25,7 +32,7 @@
 				$catarray = [];
 
 				foreach($events as $event): 
-					if ( $event->eventStateInTime() == $archiveTime && $event->cat()->value() ==  $cat ):
+					if ( $event->cat()->value() ==  $cat ):
 					$catarray[] = $event;
 					endif;
 				endforeach;
@@ -42,9 +49,9 @@
 			  	</div>
 
 			  	<div class="events-row d-flex flex-row d-column">
-					  <?php foreach($events as $event): 
+					  <?php foreach($orderedEvents as $event): 
 							
-							if ( $event->eventStateInTime() == $archiveTime && $event->cat()->value() ==  $cat ):
+							if ( $event->cat()->value() == $cat ):
 								snippet('event-module-list', array('event' => $event));
 							endif;?>
 

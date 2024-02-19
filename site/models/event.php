@@ -25,9 +25,6 @@
       endif;
     }
 
-    public function eventCat(): string {
-
-    }
   }
 
 ?>

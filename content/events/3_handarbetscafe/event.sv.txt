@@ -2,15 +2,19 @@ Title: Handarbetscafé
 
 ----
 
-Cat: inside
+Cat: mediation
 
 ----
 
-Starting-date: 
+Add-text: 
 
 ----
 
-Ending-date: 
+Starting-date: 2024-01-01
+
+----
+
+Ending-date: 2024-01-31
 
 ----
 

@@ -1,7 +1,7 @@
 	<?php snippet('header') ?>
 
 	<div class="content" id="content-single">
-		<div class="d-flex flex-row ht-column-reverse">
+		<div class="d-flex flex-row ht-column">
 			<div class="text d-five-twelfth ht-whole spacing-p-t-2 spacing-b-4">
 				<h2 class="s-big bold spacing-b-2"><?= $page->title() ?></h2>
 

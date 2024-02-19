@@ -1,9 +1,0 @@
-Caption: <p>lorem ipsum dolor.</p>
-
-----
-
-Uuid: KnW5NwQWAGo2l6gT
-
-----
-
-Focus: 73.7% 27.3%
