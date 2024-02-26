@@ -17,7 +17,7 @@ $items  = $pages->listed();
 <nav class="navigation d-flex d-column space-between" role="navigation">
   <div class="header">
   	<div id="logo" class="p-relative">
-      <a class="s-big overall" href="<?= $site->url() ?>" alt="<?= $site->title() ?>"></a>
+      <a class="s-big overall" href="<?= $site->url() ?>" alt="<?= $site->title() ?>"><?= $site->title() ?><?= $site->title() ?></a>
       <h1 class="s-big bold"><?= $site->title() ?></h1>
     </div>
 

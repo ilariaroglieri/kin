@@ -1,5 +1,5 @@
 <div data-id="<?= $event->uid() ?>" class="event d-one-third t-half m-whole spacing-b-2">
-	<a class="overall" href="<?= $event->url() ?>" alt="<?= $event->title()->html()?>"></a>
+	<a class="overall" href="<?= $event->url() ?>" alt="<?= $event->title()->html()?>"><?= $event->title()->html()?></a>
 
 	<?php if ($image = $event->c_image()->toFile()): 
 		$cropped = $image->crop(951, 1143); ?>
