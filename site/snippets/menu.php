@@ -3,7 +3,7 @@ $items  = $pages->listed();
 ?>
 
 <div id="logo-mobile" class="p-absolute t-visible">
-  <a class="overall" href="<?= $site->url() ?>"></a>
+  <a class="overall" href="<?= $site->url() ?>" alt="<?= $site->title() ?>"></a>
 </div>
 
 <div class="marquee p-absolute">
@@ -17,13 +17,13 @@ $items  = $pages->listed();
 <nav class="navigation d-flex d-column space-between" role="navigation">
   <div class="header">
   	<div id="logo" class="p-relative">
-      <a class="s-big overall" href="<?= $site->url() ?>"></a>
+      <a class="s-big overall" href="<?= $site->url() ?>" alt="<?= $site->title() ?>"></a>
       <h1 class="s-big bold"><?= $site->title() ?></h1>
     </div>
 
     <ul class="menu">
       <?php foreach($items as $item): ?>
-          <li <?php e($item->isActive(), ' class="active"') ?>><a href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
+          <li <?php e($item->isActive(), ' class="active"') ?>><a alt="<?= html($item->title()) ?>" href="<?= $item->url() ?>"><?= html($item->title()) ?></a></li>
       <?php endforeach ?>
     </ul>
   </div>

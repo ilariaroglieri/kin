@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="content">
+<div class="content" role="main">
 
   <div class="d-flex flex-row">
     <div class="d-whole">
@@ -20,7 +20,7 @@
       <?php if ($results->count() != 0): ?>
         <?php foreach ($results as $result): ?>
           <div class="event-list d-two-thirds t-whole">
-            <a class="bold" href="<?= $result->url() ?>"><?= $result->title() ?></a>
+            <a class="bold" href="<?= $result->url() ?>" alt="<?= $result->title() ?>"><?= $result->title() ?></a>
           </div>
         <?php endforeach ?>
       <?php else: ?>

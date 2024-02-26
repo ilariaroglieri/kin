@@ -1,6 +1,6 @@
 	<?php snippet('header') ?>
 
-	<div class="content" id="content-single">
+	<div class="content" id="content-single" role="main">
 		<div class="d-flex flex-row ht-column">
 			<div class="text d-five-twelfth ht-whole spacing-p-t-2 spacing-b-4">
 				<h2 class="s-big bold spacing-b-2"><?= $page->title() ?></h2>
@@ -19,7 +19,7 @@
 							<img src="<?= $image->url(); ?>" />
 							<?php if (!(empty($caption))): ?>
 								<figcaption>
-									<h4 class="s-regular italic"><?= $caption; ?></h4>
+									<p class="s-regular italic"><?= $caption; ?></p>
 								</figcaption>
 							<?php endif; ?>
 						</picture>

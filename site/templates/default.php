@@ -19,7 +19,7 @@
 							<img src="<?= $image->url(); ?>" />
 							<?php if (!(empty($caption))): ?>
 								<figcaption>
-									<h4 class="s-regular italic"><?= $caption; ?></h4>
+									<p class="s-regular italic"><?= $caption; ?></p>
 								</figcaption>
 							<?php endif; ?>
 						</picture>

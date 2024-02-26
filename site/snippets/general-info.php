@@ -10,7 +10,7 @@
 		<div class="spacing-t-2 spacing-b-2 spacing-m-t-1 spacing-m-b-1">
 			<ul>
 				<li <?php e($p->isActive(), ' class="active"') ?>>
-	  			<a href="<?= $p->url() ?>"><?= $p->title() ?></a>
+	  			<a href="<?= $p->url() ?>" alt="<?= $p->title() ?>"><?= $p->title() ?></a>
 	  		</li>
 	  	</ul>
 	  </div>

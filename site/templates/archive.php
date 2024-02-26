@@ -17,7 +17,7 @@
 			$orderedEvents = $events->sortBy('starting_date','DESC'); 
 		endif;
 	?>
-	<div class="content">
+	<div class="content" role="main">
 
   	<div class="d-flex flex-row">
   		<div class="d-whole">
@@ -44,7 +44,7 @@
 				if (!empty($catarray)):?>
 					<div class="d-flex flex-row">
 			  		<div class="d-whole">
-			  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= $catname; ?></h2>
+			  			<h3 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= $catname; ?></h3>
 			  		</div>
 			  	</div>
 
@@ -64,7 +64,7 @@
 		<?php if (empty($allcatsarray)): ?>
 			<div class="d-flex flex-row">
 	  		<div class="d-whole">
-	  			<h2 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= t('no-events'); ?></h2>
+	  			<h3 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= t('no-events'); ?></h3>
 	  		</div>
 	  	</div>
 	  <?php endif; ?>
