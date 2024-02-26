@@ -8,7 +8,7 @@
 				<?php snippet('event-date', array('event' => $page)) ?>
 
 				<?php $addText = $page->add_text(); ?>
-				<?php if ($addText): ?>
+				<?php if (!($addText->isEmpty())): ?>
 					<h3 class="additional-info s-medium"><?= $addText; ?></h3>
 				<?php endif; ?>
 

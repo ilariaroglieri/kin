@@ -3,7 +3,7 @@ $items  = $pages->listed();
 ?>
 
 <div id="logo-mobile" class="p-absolute t-visible">
-  <a class="overall" href="<?= $site->url() ?>" alt="<?= $site->title() ?>"></a>
+  <a class="overall" href="<?= $site->url() ?>" alt="<?= $site->title() ?>"><?= $site->title() ?></a>
 </div>
 
 <div class="marquee p-absolute">
