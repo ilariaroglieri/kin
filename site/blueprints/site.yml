@@ -21,6 +21,7 @@ tabs:
           related:
             label: Events to display in home
             type: pages
+            translate: false
             query: site.find('events')
 
   events:

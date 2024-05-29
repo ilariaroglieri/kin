@@ -1,0 +1,42 @@
+title: Events archive
+
+options:
+  update:
+    *: false
+    admin: true
+  delete:
+    *: false
+    admin: true
+
+sections:
+  type:
+    type: fields
+    fields:
+      time:
+        type: tags
+        translate: false
+        max: 1
+        options:
+          ongoing:
+            sv: Just nu
+            en: Ongoing
+            ns: Dušše dal
+            mk: Juuri nyt
+          ended:
+            sv: Tidigare
+            en: Previous
+            ns: Ovddit
+            mk: Entisiä
+          future:
+            sv: Kommande
+            en: Upcoming
+            ns: Boahtte
+            mk: Tulevaa
+          permanent:
+            sv: Alltid
+            en: Always on
+            ns: Álo
+            mk: Aina
+  current_events:
+    type: pagesdisplay
+    query: site.pages.find("events").children.filterBy('eventStateInTime', '==', page.time)

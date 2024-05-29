@@ -2,6 +2,10 @@ Title: Čáppat ja vuogas: Jon Tomas Utsi duodji
 
 ----
 
+Add-text: láhttegeardi  3
+
+----
+
 Info:
 
 Guovvamánu 15 beaivvis gitta miessemánu 26 beaivái 2024. 
@@ -15,7 +19,3 @@ Category: Mediation
 ----
 
 Images: 
-
-----
-
-Add-text: 

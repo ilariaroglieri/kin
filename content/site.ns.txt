@@ -1,0 +1,30 @@
+Title: Kin
+
+----
+
+Text: 
+
+----
+
+Address:
+
+##Oktavuohta
+Stadshustorget 1 
+981 30 Kiruna
+(link: mailto:info@kinmuseum.se text: info@kinmuseum.se)
+
+----
+
+Opening-hours:
+
+## Boađe guossin
+Disdat 11—17
+Gaskavahkku 11—17
+Duorastat 11—17
+Bearjadat 11—17
+Lávvordat, Bassi 12—16 	
+Mánnodat gitta
+
+----
+
+Intro-txt: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.

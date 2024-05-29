@@ -2,28 +2,32 @@ Title: Kin
 
 ----
 
-Text: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.
+Text: 
 
 ----
 
 Related:
 
-- page://2d427f0s6Lkiv575
-- page://k6Tsur6xi174jObg
 - page://xnWFZs5tVYkf3i1R
+- page://SieQApclq6yVWWav
+- page://b84gvl3Nn6ERh1Rb
 - page://timqry0yAcZa0ZiQ
-- page://1KDV2z31zXQM1xVP
-- page://tyGwGzVbKu3bgAxu
-
-----
-
-Intro-txt: 
+- page://9379T3Rej6lThM8u
+- page://BZtQpkKE991O1jz2
+- page://EMApeiuEoMB4MnLc
+- page://QoG0uqamSoPiKT8a
+- page://ZxaeGNQTTAagUYpR
+- page://TbcLdCNSqymsXtb2
+- page://vHZIyYWj9JkQDkUf
+- page://6JFODnCk9rkssNU0
+- page://SMNtW01ZP4QNJWZ1
+- page://MCOp905SCEZ8hCOQ
 
 ----
 
 Address:
 
-##Kontakt
+## Kontakt
 Stadshustorget 1 
 981 30 Kiruna
 (link: mailto:info@kinmuseum.se text: info@kinmuseum.se)
@@ -32,8 +36,12 @@ Stadshustorget 1
 
 Opening-hours:
 
-## Öppetider
-Tis—fre: 10—18
+## Öppettider
+Tis—fre: 11—17
 Lör—sön: 12—16
-Tors: 10—20
+Tors: 11—20
 Mån: stängt
+
+----
+
+Intro-txt: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.

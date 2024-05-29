@@ -2,18 +2,27 @@ Title: Kin
 
 ----
 
+Text: 
+
+----
+
 Address:
 
 ## Adress
-Stadshustorget 1, 
+Stadshustorget 1
 981 30 Kiruna
+(link: mailto:info@kinmuseum.se text: info@kinmuseum.se)
 
 ----
 
 Opening-hours:
 
 ## Opening hours
-Tue—Fri: 10—18
+Tue—Fri: 11—17
 Sat—Sun: 12—16
-Thu: 10—20
+Thu: 11—20
 Mon: closed
+
+----
+
+Intro-txt: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.

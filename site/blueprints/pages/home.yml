@@ -4,10 +4,9 @@ sections:
   fields:
     type: fields
     fields:
-      text:
-        type: textarea
       related:
-        label: Events to display in home
+        label: Events in home
         type: pages
+        translate: false 
         query: site.find('events')
  

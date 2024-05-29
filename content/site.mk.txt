@@ -2,59 +2,30 @@ Title: Kin
 
 ----
 
+Text: 
+
+----
+
 Address:
 
 ## Adress
-Stadshustorget 1, 
+Stadshustorget 1
 981 30 Kiruna
+(link: mailto:info@kinmuseum.se text: info@kinmuseum.se)
 
 ----
 
 Opening-hours:
 
 ##Auki näinä aikoina
-Tiistai 11:00 - 17:00
-Keskiviikko 11:00 - 17:00
-Tuorestai 11:00 - 20:00
-Perjantai 11:00 - 17:00
-Lauantai 12:00 - 16:00
-Pyhäpäivä/Sunnuntai 12:00 - 16:00
+Tiistai 11—17
+Keskiviikko 11—17
+Tuorestai 11—20
+Perjantai 11—17
+Lauantai 12—16
+Pyhäpäivä/Sunnuntai 12—16
 Maanantai kiini
 
 ----
 
-Policy-text:
-
-Konstmuseet i Norr värnar om din personliga integritet och stävar efter en hög nivå av dataskydd. Vår målsättning är att du ska känna dig säker på att din personliga integritet respekteras och att dina personuppgifter som behandlas av oss används endast för avsedda ändamål.
-
-Dataskyddsförordningen, (GDPR), är en lag som börjat gälla inom hela EU i maj 2018. Dataskyddsförordningen ersätter personuppgiftslagen (PuL) och syftet är att förbättra skyddet för individen vid behandling av personuppgifter.
-
-Personuppgifter är all information som kan knytas till din person indirekt eller direkt. Det handlar om uppgifter som namn, personnummer, adress, IP-nummer och bilder.
-
-##INSAMLING OCH HANTERING AV PERSONUPPGIFTER
-Konstmuseet i Norr samlar in och lagrar information om dig som du själv uppger när du kommunicerar med oss. Till exempel när du skickar ett e-post, anmäler dig till vårt nyhetsbrev eller till en aktivitet, skickar ett brev eller ansöker om en tjänst. I samband med att du gör en ansökan eller anmälan får du information om hur vi kommer att behandla dina personuppgifter.
-
-De personuppgifter som du lämnar till Konstmuseet i Norr kommer att behandlas elektroniskt. Uppgifterna kommer att användas för vår administration och för att underlätta kontakten mellan dig/ditt företag och Konstmuseet i Norr.
-
-##ÄNDAMÅL MED BEHANDLINGEN AV DINA PERSONUPPGIFTER
-Konstmuseet i Norr behandlar personuppgifter enligt gällande lagstiftning inom våra olika verksamhetsområden eller när det är nödvändigt för att utföra den uppgift, det vill säga ändamålet, som avses. I samband med insamlingen informeras du om varför vi behandlar dina personuppgifter, vilken rättslig grund som finns och hur länge vi kommer att behandla dina personuppgifter.
-
-##TILL VEM DELAR VI INFORMATIONEN?
-Konstmuseet i Norr kan komma att lämna ut personuppgifter till tredje part, som till exempel andra myndigheter, företag eller om vi har en laglig skyldighet att lämna ut dem. Konstmuseet i Norr omfattas av reglerna om allmänna handlingars offentlighet (offentlighetsprincipen). Det innebär att vi har en laglig skyldighet att lämna ut en handling som kan innehålla personuppgifter till den som begär det.
-
-De kan också lämnas till personuppgiftsbiträden som hanterar informationen för vår räkning. Vi har personuppgiftsbiträden som hjälper oss med till exempel betalningslösningar, IT-tjänster och kommunikationstjänster.
-
-Konstmuseet i Norr lämnar inte ut några personuppgifter i någon annan utsträckning än vad som beskrivs i denna punkt.
-
-##DINA RÄTTIGHETER
-Du kan alltid kontakta Konstmuseet i Norr med frågor eller klagomål som rör vår behandling av dina personuppgifter. Du har rätt att få ett utdrag på vilka uppgifter vi har sparade om dig och även få dem raderade. När vi raderar dina uppgifter så kommer vi att göra en så kallad anonymisering av dina uppgifter. Det innebär att dina personuppgifter överskrivs helt och inte längre kommer kunna avläsas och anknytas till dig. Om du anser att en uppgift om dig är felaktig eller missvisande bör du höra av dig till oss omgående.
-
-##TA TILLBAKA SAMTYCKE
-I de fall behandlingen av dina personuppgifter grundas på samtycke har du när som helst rätt att återkalla ditt samtycke som du har lämnat till Konstmuseet i Norr.
-
-Om du vill återkalla ett samtycke ska du kontakta oss. Du ska då uppge för vilket ärende du väljer att återkalla ditt samtycke. När du har återkallat samtycket kommer vi att upphöra att behandla dina personuppgifter för det berörda ändamålet.
-
-Kontakta: (link: mailto:selma@konstmuseetinorr.se text: selma(at)konstmuseetinorr.se)
-
-##KLAGOMÅL TILL TILLSYNSMYNDIGHET
-Du har även rätt att framföra klagomål om behandlingen av dina personuppgifter till Datainspektionen.
+Intro-txt: Välkommen till Kin museum för samtidskonst! Vi visar samhällsengagerad och kritiskt orienterad samtidskonst med en mångfald av konstnärliga uttryck, medier och praktiker.

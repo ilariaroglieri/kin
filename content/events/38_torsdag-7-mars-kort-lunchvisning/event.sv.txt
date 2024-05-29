@@ -1,0 +1,33 @@
+Title: Torsdag 7 mars kl 17:00: Temavisning Textil magi
+
+----
+
+Cat: inside
+
+----
+
+Add-text: Samling i lobbyn, Stadshuset Kristallen
+
+----
+
+Starting-date: 2024-03-07
+
+----
+
+Ending-date: 2024-03-07
+
+----
+
+Info: Välkommen på introduktion till utställningen Textil magi med Doris Wiklund, Kristina Pashkova, Maja Fredin och Matilda Kenttä. Vi ses i lobbyn! Judith Schwarzbart, producent på Kin, ger en ingång till de olika konstnärskapen. Välkomna!
+
+----
+
+C-image: - file://dBjfxaC4y4PZuXqf
+
+----
+
+Gallery-images: - file://dxtBxEZiRzKcbWHf
+
+----
+
+Uuid: F3QlfdDtnwglozNZ

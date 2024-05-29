@@ -6,11 +6,11 @@ Cat: mediation
 
 ----
 
-Add-text: 
+Add-text: Kin
 
 ----
 
-Starting-date: 2024-02-05
+Starting-date: 2024-02-15
 
 ----
 
@@ -22,11 +22,11 @@ Info:
 
 ##Här är programmet! 
 
-Fira konsten i fyra dagar! Fyra utställningar på fem våningsplan, ett fyrtiotal konstnärer och samtal, performance, workshops och täta publika visningar.  
- 
+Fira konsten i fyra dagar! Fyra utställningar på fem våningsplan, ett fyrtiotal konstnärer och samtal, performance, workshops och täta publika visningar.
+
 Plats: Kin museum för samtidskonst, Stadshuset Kristallen 
 
-Den 15 februari smäller det. Utifrån en stor samlingsutställning med fokus på livet på jorden, en presentation av fyra textilkonstnärer ur olika generationer – med den 93-åriga Kiruna-legendaren Doris Wiklund i centrum – och ett porträtt av en av regionens främsta duojár: Jon-Tomas Utsi.  
+Den 15 februari smäller det. Utifrån en stor samlingsutställning med fokus på livet på jorden, en presentation av fyra textilkonstnärer ur olika generationer—med den 93-åriga Kiruna-legendaren Doris Wiklund i centrum—och ett porträtt av en av regionens främsta duojár: Jon-Tomas Utsi.  
 
 Starten för festen är torsdagen den 15 februari kl 16:00. Missa inte öppningskvällen med den sedvanliga invigningsperformancen Markerna av Carola Grahn och Nils-Johan Labba och därefter konstnären Ingela Ihrmans performance Oljefågelns unge. Resten av kvällen är det introduktioner till utställningarna med museichefen Maria Lind.
 
@@ -38,8 +38,7 @@ Möt Jon Tomas Utsis värld av niibbit (knivar), gárit (skålar), skáhput (ask
 
 ##Torsdag 15 februari 
 
-16:00 Öppning i lobbyn: utställningarna Observatoriet: Konst och liv i den kritiska zonen, Formskön och funktionell: Jon Tomas Utsis duodji, Textil magi med Doris Wiklund, Kristina Pasjkova, Maja Fredin och Matilda Kenttä samt samlingen  
-
+**16:00 Öppning i lobbyn: utställningarna Observatoriet: Konst och liv i den kritiska zonen, Formskön och funktionell: Jon Tomas Utsis duodji, Textil magi med Doris Wiklund, Kristina Pasjkova, Maja Fredin och Matilda Kenttä samt samlingen  **
 – Maria Lind, chef på Kin museum för samtidskonst, hälsar välkomna 
 – Markerna, öppningsceremoni, verk av Carola Grahn och Nils-Johan Labba  
 – Joanna Warsza, konstnärlig ledare Curatorlab, presenterar programmet 
@@ -47,39 +46,33 @@ Möt Jon Tomas Utsis värld av niibbit (knivar), gárit (skålar), skáhput (ask
 – Konstnärerna Inga-Wiktoria Påve och Fredrik Prost om Kins nya visuella identitet framtagen i samarbete med formgivarna Johanna Lewengard och Benedetta Crippa 
 – Förfriskningar 
 
-**Närvarande konstnärer: **Alexander Ravskyj, Alexandra Ravskaja, Anastasia Kizilova, Bernd Krauss, Carin Ellberg, Fredrik Prost, Ilmira Bolotjan, Inga-Wiktoria Påve, Ingela Ihrman, Jon Tomas Utsi, Katarina Pirak Sikku, Kirill Agafonov, Kultivator, Luca Frei, Nina Svensson, Kristina Pasjkova, Maja Fredin, Matilda Kenttä och Olga Sjirokostup 
+Närvarande konstnärer: Alexander Ravskyj, Alexandra Ravskaja, Anastasia Kizilova, Bernd Krauss, Carin Ellberg, Fredrik Prost, Ilmira Bolotjan, Inga-Wiktoria Påve, Ingela Ihrman, Jon Tomas Utsi, Katarina Pirak Sikku, Kirill Agafonov, Kultivator, Luca Frei, Nina Svensson, Kristina Pasjkova, Maja Fredin, Matilda Kenttä och Olga Sjirokostup
 
-16:30 Ingela Ihrman, Oljefågelns unge, performance 
+**16:30 Ingela Ihrman, Oljefågelns unge, performance**
 
-17:00 Besök i utställningarna 
+**17:00 Besök i utställningarna **
 
 
 ##Fredag 16 februari 
 
-12:30 Lunchvisning med Maria Lind, samling vid receptionen i lobbyn. På svenska.  
+**12:30 Lunchvisning med Maria Lind, samling vid receptionen i lobbyn. På svenska.  **
 
-13:00-16:00 Konstnärerna introducerar sina verk i utställningarna: Alexander Ravskyj, Alexandra Ravskaja, Anastasia Kizilova, Bernd Krauss, Carin Ellberg, Fredrik Prost, Ilmira Bolotjan, Inga-Wiktoria Påve, Ingela Ihrman, Jon Tomas Utsi, Katarina Pirak Sikku, Kirill Agafonov, Kultivator, Nina Svensson, Kristina Pasjkova, Maja Fredin, Matilda Kenttä, plan 5. På engelska. 
+**13:00-16:00 Konstnärerna introducerar sina verk i utställningarna: Alexander Ravskyj, Alexandra Ravskaja, Anastasia Kizilova, Bernd Krauss, Carin Ellberg, Fredrik Prost, Ilmira Bolotjan, Inga-Wiktoria Påve, Ingela Ihrman, Jon Tomas Utsi, Katarina Pirak Sikku, Kirill Agafonov, Kultivator, Nina Svensson, Kristina Pasjkova, Maja Fredin, Matilda Kenttä, plan 5. På engelska. **
 
-16:00-16:45 **Duodji från renhorn till träarbeten – ett samtal med duojár Jon Tomas Utsi och Liselotte Winka, Curatorlab, plan 3. På svenska. **
-
+**16:00-16:45 Duodji från renhorn till träarbeten – ett samtal med duojár Jon Tomas Utsi och Liselotte Winka, Curatorlab, plan 3. På svenska. **
 Jon Tomas Utsi började med konsthantverk redan vid tio års ålder. Idag försörjer han sig delvis som duojár, sameslöjdare, och han är även utbildad lärare i trä och metall. Familjen Utsi tillhör dem som blev tvångsförflyttade från Garasavon/Karesuando i början av 1900-talet och idag bor han i Bårjås/Porjus och arbetar som renskötare. Utsis arbeten inkluderar alltifrån knivar och dryckeskärl till mjölkningsskålar och träaskar. Sitt material hittar han i naturen, mestadels från björkar och fällda renhorn. Formen bestämmer ofta objektets funktion. Utsis duodji är ett sätt att hålla samisk kultur levande.
 
-19:00-20:00 Giron Sámi Teáhter
-
-**I en förvrängd spegel: Om konst, gruvdrift och en rättvis klimatomställning i Sverige och Polen. På engelska. **
-
-Föreläsning av Aleksandra Kędziorek, Curatorlab, och respons från konstnären Lena Ylipää. På engelska.  
-
+**19:00-20:00 Giron Sámi Teáhter**
+**I en förvrängd spegel: Om konst, gruvdrift och en rättvis klimatomställning i Sverige och Polen. På engelska.
+Föreläsning av Aleksandra Kędziorek, Curatorlab, och respons från konstnären Lena Ylipää. På engelska. **
 Vilken inverkan har gruvindustrin på lokala samhällen och ursprungsbefolkningar, och hur dokumenteras komplexiteten i de här relationerna i samtida konst? Det här mötet är ett erbjudande till konstnärer, kritiska tänkare och invånare i Kiruna att reflektera över den sociala komplexiteten i miljöförändringar. Två till synes avlägsna sammanhang kommer att ställas mot varandra: LKAB:s järnmalmsgruva i Kiruna och Turóws brunkolsgruva i Bogatynia i sydvästra Polen. Att jämföra de två kan verka som att titta genom en förvrängd spegel, eftersom de befinner sig på två motsatta sidor av den välbehövliga gröna omställningen. Båda visar dock att ingen omställning är smärtfri och kan ha många nyanser när det gäller lokalbefolkningens och ursprungsbefolkningens liv och välbefinnande. 
 
 Aleksandra Kędziorek diskuterar kontroversen kring brunkolsgruvan i Turów med utgångspunkt i samtida konst, som sedan 1970-talet har kommenterat gruvkulturen i Polen och dess miljökonsekvenser. Lena Ylipää relaterar detta till Kiruna och andra gruvstäder på den svenska sidan av Sápmi. Genom att erbjuda olika perspektiv på konst och liv i kritiska zoner syftar evenemanget till att inspirera till diskussion om huruvida det är möjligt att göra den gröna omställningen rättvis för alla.  
 
 I samarbete med Giron Sámi Teáhter. 
 
-20:00-21:00 Giron Sámi Teáhter 
- 
+**20:00-21:00 Giron Sámi Teáhter **
 **In situ. Ett podcast-samtal med konstnärer från Norrbotten om levda erfarenheter och anknytning till en plats. Avsnitt 1: Katarina Pirak Sikku och Fredrik Prost samtalar med Sixten Liu, Curatorlab. På engelska. **
-
 Till skillnad från den koloniala uppfattningen om Norrbotten som en plats tillgänglig för exploatering ifrågasätter konstnärer från regionen ofta den här problematiska bilden. Genom att omfamna alternativa kopplingar mellan platser och mänskliga upplevelser handlar samtalet med konstnärerna Katarina Pirak Sikku och Fredrik Prost om de mångfacetterade identiteter som är förknippade med Norrbotten.  
 
 Katarina Pirak Sikku berättar om sin kartläggning av samiska historier i förhållande till de övergrepp mot samerna som gjordes av Statens institut för rasbiologi under 1920- och 1930-talen, och om hur hon försöker hitta en egen position och relation till det förflutna. Genom att gå i rasbiologernas fotspår och imitera våldet de gjorde mot hennes förfäder på sin egen kropp, försöker Pirak Sikku vara mentalt oberoende och på sitt eget sätt att definiera det känslomässiga bandet mellan människor och en plats. Hur kan det som hände förr och som raderats från den officiella historieskrivningen komma tillbaka för att hemsöka och läka en persons mentala landskap? 
@@ -91,58 +84,46 @@ I samarbete med Giron Sámi Teáhter.
  
 ##Lördag 17 februari   
 
-12:00-16:00 Konstverkstan, plan 0,5 
-
+**12:00-16:00 Konstverkstan, plan 0,5 **
 **Workshop om territorier och hemvist med konstnären Kirill Agafonov. På engelska. **
 
 Konstnären introducerar sitt projekt the Embassy of microterritories som han utvecklat under de två år som gått sedan han flydde från Ryssland i samband med landets fullskaliga invasion av Ukraina. Projektet kretsar kring en attachéväska, en dokumentportfölj, som han fyller med olika föremål under sin färd från staden Izjevsk i centrala Ryssland till Uzbekistan och vidare till Sverige och Schweiz. Attachéväskan blir en mini-ambassad och med hjälp av föremålen i den inleds samtal med människor han möter om territorier och hemvist.  
 
-12:00-12:45** Sammanvävda berättelser: Ett samtal med textilkonstnären Kristina Psjkova och Silvia Colombo, Curatorlab, plan 2. På engelska. 
-**
+**12:00-12:45 Sammanvävda berättelser: Ett samtal med textilkonstnären Kristina Pasjkova och Silvia Colombo, Curatorlab, plan 2. På engelska.**
 Kristina Pasjkovas konstnärliga praktik består av personliga berättelser och en intim röst, kombinerat med ett nyskapande närmande till den textila traditionen. Med ett djupt intresse för vävning är hennes arbete förankrat i det förflutna samtidigt som det sträcker sig mot framtiden. Med hennes egna ord: ”Eftersom jag är intresserad av feministiska idéer sedda genom teknologins lins tar min praktik sikte på gränssnittet mellan handens arbete och den digitala bilden. Mina första handvävda gobelänger ägnades åt videospel, medan mina nyare verk är resultatet av vävning på den digital halvautomatiska jacquardväven TC2 – de experimenterar med den vävda bildens animationer”.  
 
-**12:30 Introduktion till utställningarna av Paulina Sokolow, samling vid receptionen i lobbyn. På svenska.  
+**12:30 Introduktion till utställningarna av Paulina Sokolow, samling vid receptionen i lobbyn. På svenska.**  
 
-12:45-13:30 Samtal med konstnären Maja Fredin och Anastasia Shestak, Curatorlab, plan 2. På engelska. **
-
+**12:45-13:30 Samtal med konstnären Maja Fredin och Anastasia Shestak, Curatorlab, plan 2. På engelska. **
 Maja Fredin arbetar med installationer och performance baserade på djup kunskap om textila material och tekniker. För henne är installation och performance lika viktiga eftersom de automatiskt bjuder in betraktaren i verket så snart de kliver in i det. Med en blandning av humor och allvar rör hon sig sömlöst mellan fotografi, video, ljud, skulptur och kostymer i syfte att bygga upp en absurd scen. Med sina verk kritiserar hon till exempel konsumtionssamhället som har påverkat hennes sexualitet och orsakat en dysfunktionell relation till mat och till andra människor.  
 
-13:30-14:30 Kiruna stadsbibliotek 
-
-**Sitkeä/uthållighet. Samtal om dokumentation, identitet, historia och minne med konstnärerna Matilda Kenttä och Hilda Flygare, moderator Emma Pettersson Juntti, Curatorlab. På svenska.**
-
+**13:30-14:30 Kiruna stadsbibliotek 
+Sitkeä/uthållighet. Samtal om dokumentation, identitet, historia och minne med konstnärerna Matilda Kenttä och Hilda Flygare, moderator Emma Pettersson Juntti, Curatorlab. På svenska.**
 Två unga konstnärer från Kiruna, Matilda Kenttä och Hilda Flygare, berättar om hur de i sitt arbete navigerar teman som hem, tillhörighet, förändring och gemenskap. I Kiruna påverkas människors vardag och alla aspekter av samhället av att staden genomgår stora förändringar. I den här processen kan konsten både vara ett sätt att bearbeta det som sker och ett motstånd mot den pågående exploateringen av norra Sverige. Sitkeä (uthållighet på meänkieli) syftar på den påfrestande och svåra uppgiften att fånga minnen och historia genom konsten, särskilt i ett samhälle som flyttas på grund av industrins expansion. Samtidigt anknyter ordet sitkeä till den uthållighet som krävs av de konstnärer som arbetar med svåra och djupt personliga teman i stora sociala och politiska sammanhang som dessa.  
 
 I samarbete med Kiruna stadsbibliotek. 
 
-**15:00 Introduktion till utställningarna av Paulina Sokolow, samling vid receptionen i lobbyn. På svenska.  
+**15:00 Introduktion till utställningarna av Paulina Sokolow, samling vid receptionen i lobbyn. På svenska.**  
 
-15:00-15:45 Konstnärerna Ilmira Bolotjan, Carin Ellberg och Bernd Krauss i samtal med Joanna Warsza, konstnärlig ledare Curatorlab, plan 5. På engelska. 
-**
+**15:00-15:45 Konstnärerna Ilmira Bolotjan, Carin Ellberg och Bernd Krauss i samtal med Joanna Warsza, konstnärlig ledare Curatorlab, plan 5. På engelska.**
 I de tre konstnärernas verk förekommer det ofta promenader, strövtåg och resande. Frågan om vad det innebär att vara kvinna i norra Europa har Ilmira Bolotjan tagit med sig till Kolahalvön och de svenska och norska sidorna av Sápmi. Carin Ellberg strövar ofta på sandstränderna i Skåne bland sjögräs och maneter som inspirerar hennes arbete kring rikedomen av havsorganismer och deras relation till allt levande. Bernd Krauss har å sin sida, för att underlätta sina promenader runt Södertälje söder om Stockholm, tillverkat en tredje hand i trä som en sorts hemmagjord cyborgsk förlängning i kontakt med den yttre världen. Genom att referera till de olika konstnärernas praktiker diskuteras de mest grundläggande verktygen som de använder sig av – att gå, att se och att lyssna – i syfte att bli sedda, hörda och mötta någonstans på vägen.  
 
  ##Söndag 18 februari  
 
-Kin museum för samtidskonst 
+**12:00-16:00 Vävnings-workshop med konstnärerna Kristina Pasjkova och Maja Fredin i Konstverkstan, plan 0,5, som del av Handarbetscaféet. På svenska och engelska. **
 
-12:00-16:00 Vävnings-workshop med konstnärerna Kristina Pasjkova och Maja Fredin i Konstverkstan, plan 0,5, som del av Handarbetscaféet. På svenska och engelska. 
-
-12:00-12:45 Konstnärerna Ingela Ihrman och Inga-Wiktoria Påve i samtal med Ana Victoria Bruno, Curatorlab, plan 5. På engelska. 
-
+**12:00-12:45 Konstnärerna Ingela Ihrman och Inga-Wiktoria Påve i samtal med Ana Victoria Bruno, Curatorlab, plan 5. På engelska. **
 Samtalet handlar om kvinnors, naturens och mörkrets roll i Ingela Ihrmans och Inga-Wiktoria Påves verk. Inspirationskällor, kreativa processer, referenser och erfarenheter diskuteras utifrån deras olika perspektiv och kulturella bakgrund i södra Sverige och Sápmi. I verket Oljefågelns unge iscensätter Ihrman den moderliga gesten med en oljefågel som matar sin unge i en performance som på en och samma gång är omtänksam och våldsam. Ämnet ljus och mörker är viktiga komponenter i verket, en motsättning som kommer från att oljefåglarna är nattaktiva arter vars fett användes för lampor förr i tiden. Påves bilder är till stor del befolkade av djur, främst renar. De ljusa färgerna från det samiska arvet samexisterar med mörker och dunkel, vilket ger hennes målningar en aura av mystik. Starka kvinnor som stirrar rakt in i betraktarens ögon medan de tar hand om spädbarn eller familjer mot en mörk bakgrund dyker upp gång på gång.  
 
-**12:30 Introduktion till utställningarna av Paulina Sokolow, samling vid receptionen i lobbyn. På svenska. 
+**12:30 Introduktion till utställningarna av Paulina Sokolow, samling vid receptionen i lobbyn. På svenska.** 
 
-13:00-13:45 Postkapitalistisk arkitektur och det folkliga: En testund med samtal om Joar Nango och Ken Are Bongos teveserie, moderator Kerstin Möller, Curatorlab, plan 5. På engelska. **
-
+**13:00-13:45 Postkapitalistisk arkitektur och det folkliga: En testund med samtal om Joar Nango och Ken Are Bongos teveserie, moderator Kerstin Möller, Curatorlab, plan 5. På engelska. **
 Testunden erbjuder ett informellt samtal inspirerat av teveprogrammet Post-Capitalist Architecture TV Part 1 - On materiality and resource economy av Joar Nango och Ken Are Bongo. Nangos mångfacetterade praktik står i centrum, särskilt intresset för lokal och regional arkitektur och kunskap. Hur kan vi lära av det samiska sättet att leva och bygga? Mot bakgrund av Kiruna belyses det speciella sammanhang där stadskärnan flyttas eller rivs och dess arkitektur återuppbyggs, på bekostnad av det mångsidiga arv som finns i staden och regionen. Hur kan allmänningar, gemensamma platser och sammanhang, skapas bortom kapitalistisk exploatering? Det bjuds på te och kaffe.   
 
-14:00-14:45 **Konstnärerna Nina Svensson, Anastasia Kizilova och konst- och jordbrukskollektivet Kultivator i samtal med Anastasia Shestak, Curatorlab, plan 5. På engelska. **
-
+**14:00-14:45 Konstnärerna Nina Svensson, Anastasia Kizilova och konst- och jordbrukskollektivet Kultivator i samtal med Anastasia Shestak, Curatorlab, plan 5. På engelska. **
 Hur kan man bli vän med en skog? Kan traditionella verktyg lära oss radikala och experimentella förhållningssätt? Konstnärernas praktik involverar engagemang i skogen, jordbruk och relationer till gemenskaper och jordbundna icke-mänskliga invånare. I utställningen visar Kultivator Post (r)evolutionary Exercises där huvudfrågan är “Vad gör vi efter revolutionen?”. Nina Svenssons projekt Vänskog bygger på idén om vänskap och kunskapsutbyte mellan experter och andra människor genom olika skogsområden i olika delar av landet. Anastasia Kizilovas project Darwins kruka består av en uppsättning keramikkrukor, var och en fylld med jord där daggmaskar kan leva.  
 
-15:00-15:45 15:00-15:45 **Fördrivning och exilkonst: samtal med konstnärerna Alexander Ravskyi, Alexandra Ravskaja och Kirill Agafonov, modererat av Anastasia Shestak, Curatorlab, plan 5. På engelska. **
-
+**15:00-15:45 15:00-15:45  Fördrivning och exilkonst: samtal med konstnärerna Alexander Ravskyi, Alexandra Ravskaja och Kirill Agafonov, modererat av Anastasia Shestak, Curatorlab, plan 5. På engelska. **
 I sin konst berör de här tre konstnärerna sitt vardagsliv och sin omgivning genom blyertsteckningar, upphittade föremål och muntliga historier. Deras tillvaro är djupt påverkad av Rysslands storskaliga invasion av Ukraina. De svarta linjerna i Alexander Ravskyis teckningar visar spår av den massiva förestörelsen av arkitektoniska monument i olika städer i Ukraina — bland dessa finns en teater, en skola och ett kulturhus. Alexandra Ravskajas målningar avbildar till exempel henne själv och hennes partner som omfamnar varandra under det att en oljedepå syns explodera i bakgrunden. Kirill Agafonov vill erbjuda nya berättelser och ställa frågor som “hur symboliseras det land där du befinner dig permanent eller tillfälligt?”. Genom att fokusera på deras konst kretsar samtalet kring fördrivning och konst i exil, men också hur man kan behålla banden och stödja varandra i kris. 
 
 ----
@@ -151,7 +132,7 @@ C-image: - file://NNR8qpFWgUzhjp6T
 
 ----
 
-Gallery-images: 
+Gallery-images: - file://NNR8qpFWgUzhjp6T
 
 ----
 

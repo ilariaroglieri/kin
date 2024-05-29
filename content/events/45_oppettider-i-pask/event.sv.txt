@@ -1,0 +1,42 @@
+Title: Öppettider i påsk
+
+----
+
+Cat: inside
+
+----
+
+Add-text: 
+
+----
+
+Starting-date: 2024-03-28
+
+----
+
+Ending-date: 2024-04-01
+
+----
+
+Info:
+
+##Öppettider i påsk
+Skärtorsdag 11:00 – 16:00
+Långfredag Stängt
+Påskafton 12:00 – 16:00
+Påskdagen 12:00 – 16:00
+Annandag påsk Stängt
+
+Bild: Detalj ur Aleksandra Ravskajas målning Luftvärnssystem, 2023. Del av Observatoriet: konst och liv i den kritiska zonen
+
+----
+
+C-image: - file://JRsrGnM8na1hFOHR
+
+----
+
+Gallery-images: 
+
+----
+
+Uuid: c6Q4Wsx8hl7vcG6d

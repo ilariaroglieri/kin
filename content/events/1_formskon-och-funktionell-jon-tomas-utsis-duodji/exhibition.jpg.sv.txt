@@ -6,4 +6,4 @@ Uuid: ubCpSUVYn5WKT1nv
 
 ----
 
-Focus: 58.4% 43.6%
+Focus: 66.1% 43.5%

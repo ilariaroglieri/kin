@@ -1,4 +1,4 @@
-Title: Formskön och funktionell: Jon Tomas Utsis duodji
+Title: Formskön och funktionell: Jon Tomas Utsis duodji, 15 februari—26 maj 2024
 
 ----
 
@@ -6,11 +6,11 @@ Cat: inside
 
 ----
 
-Add-text: Plan 3, Kristallen
+Add-text: Plan 3, Kin
 
 ----
 
-Starting-date: 2024-02-17
+Starting-date: 2024-02-15
 
 ----
 
@@ -32,7 +32,11 @@ C-image: - file://ubCpSUVYn5WKT1nv
 
 ----
 
-Gallery-images: - file://haKWlqxqzGxVxVDr
+Gallery-images:
+
+- file://fP8qfHLDSgiNsCzB
+- file://ubCpSUVYn5WKT1nv
+- file://haKWlqxqzGxVxVDr
 
 ----
 

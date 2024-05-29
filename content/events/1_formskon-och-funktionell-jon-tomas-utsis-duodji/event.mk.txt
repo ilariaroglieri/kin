@@ -2,6 +2,10 @@ Title: Tyylikas ja toimiva: Jon Tomas Utsin duodji
 
 ----
 
+Add-text: Vooninki / Kerros 3
+
+----
+
 Info:
 
 Jon Tomas Utsi oon duojár, saamelaiskäsityöntekijä, joka 30 vuotta oon tehny kovista materiaalista käsitöitä. Näköselle oon niibbit, puukkoja, gárit, skoolia, skáhput, rasioita, giissát, kiisoja, nállogoadit, neulakoteloja ja sálkorat, suolasalkkaria. Kaikila oon alkuperä saamelaisessa elämässä Sáphmissa. Koska ussein oon siirtytty paikasta toisheen niin kampheet oon kevveitä ja näpperiä. Aivan niinku toisetki duojárat, Utsi tuntee kapihneitten koko elämänkaahreen, aina materiaalitten hakemisesta ja kampheitten tekemisestä niitten käythöön.
@@ -19,7 +23,3 @@ Category: Mediation
 ----
 
 Images: 
-
-----
-
-Add-text: 

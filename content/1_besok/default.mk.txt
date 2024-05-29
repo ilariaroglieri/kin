@@ -10,12 +10,12 @@ Text:
 
 ##Tule käyhmään!
 Auki näinä aikoina
-Tiistai 11:00 - 17:00
-Keskiviikko 11:00 - 17:00
-Tuorestai 11:00 - 20:00
-Perjantai 11:00 - 17:00
-Lauantai 12:00 - 16:00
-Pyhäpäivä/Sunnuntai 12:00 - 16:00
+Tiistai 11—17
+Keskiviikko 11—17
+Tuorestai 11—20
+Perjantai 11—17
+Lauantai 12—16
+Pyhäpäivä/Sunnuntai 12—16
 Maanantai kiini
 
 ##Näin löyät myseymmissä
@@ -35,7 +35,7 @@ Kin myseymmi nykyajantaitheele tekkee jatkuvasti työtä sen puolesta ette näyt
 
 ##Ennenko tulet
 Pyssin pysähtymispaikka
-Arkipäivinä saatat tulla pyssilinjala Liilala Hagelstigenhiin päin. Aikataulu löytyy sivulta Kiruna Lokaltrafik: > Res med buss
+Arkipäivinä saatat tulla pyssilinjala Liilala Hagelstigenhiin päin. Aikataulu löytyy sivulta (link: https://buss.kiruna.se/#/ text: Kiruna Lokaltrafik).
 
 ##Parkkeeraus/pysäköinti
 Kristallenin läheltä löytyy ilhmaisia parkkerinkipaikkoja, mutta muista noutaa P-levy kaupungintalon resepsuunista. Nouvata niitä P-tienmerkkiä jokka oon tällätty paikala, koska P-paikkoja saatethaan siirtää ko uusi kaupungintalon tori rakenethaan. Sulle jolla oon vammasen/liikuntarajotetun parkkeerauslupa oon järjestetty P-paikka Kristallenin oven kohala.
