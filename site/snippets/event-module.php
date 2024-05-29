@@ -3,7 +3,7 @@
 
 	<?php if ($image = $event->c_image()->toFile()): 
 		$cropped = $image->crop(951, 1143); ?>
-		<div class="cover_img" style="background: url('<?= $cropped->url(); ?>') no-repeat center center;">
+		<div class="cover_img" role="img" style="background: url('<?= $cropped->url(); ?>') no-repeat center center;">
 		</div>
 	<?php endif; ?>
 
