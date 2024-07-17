@@ -32,6 +32,67 @@ columns:
                 en: Various
                 ns: Iešguđetláganat
                 mk: Muutama asia
+          type:
+            type: tags
+            label: Type
+            translate: false
+            max: 1
+            options:
+              exhibition:
+                sv: Utställningar
+                en: Exhibition
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              collection:
+                sv: Samlingen
+                en: Collection
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              lecture:
+                sv: Föreläsningar och samtal
+                en: Lectured and talk
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              lecture:
+                sv: Föreläsningar och samtal
+                en: Lectured and talk
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              guidedvisit:
+                sv: Guidade visningar
+                en: Guided visit
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              workshop:
+                sv: Workshop och kurser
+                en: Workshop and courses
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              artworkshop:
+                sv: Konstverkstan
+                # en: Workshop and courses
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              konstkollo:
+                sv: Konstkollo
+                # en: Workshop and courses
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              skolor:
+                sv: För skolor
+                en: For schools
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              news:
+                sv: Nyheter
+                en: News
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
+              other:
+                sv: Kin i Norrbotten
+                # en: News
+                # ns: Gávpotviesus
+                # mk: Kaupungintalon sisälä
           add_text:
             label: Additional info
             type: text
@@ -39,13 +100,11 @@ columns:
             width: 1/2
             label: Starting date
             type: date
-            # display: D MMM YYYY
             translate: false
           ending_date:
             width: 1/2
             type: date
             label: Ending date
-            # display: D MMM YYYY
             translate: false
           info:
             type: textarea

@@ -8,9 +8,12 @@
 			</div>
 		</div>
 
-		<!-- just nu -->
+		<!-- selected events: see site.yml -->
 	  <?php 
-	  	$home_events =  $site->related()->toPages();
+	  	// in frontend ended events will be hidden
+	  	$archiveTime = 'ended';
+	  	$home_events =  $site->related()->toPages()->filterBy('eventStateInTime', '!=', $archiveTime);;
+
 	  	if ( $home_events->count() > 0): 
 	  ?>
 

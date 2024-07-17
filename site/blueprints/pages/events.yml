@@ -3,8 +3,14 @@ title: Events
 sections:
   events:
     type: pages
-    layout: cards
     template: event
+    create: event
+    search: true
+    layout: cards
+    size: small
+    sortby: date desc
+    flip: true
+    limit: 50
     ratio: 3/4
     image:
       cover: true

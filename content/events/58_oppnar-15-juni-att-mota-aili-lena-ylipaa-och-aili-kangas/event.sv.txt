@@ -6,6 +6,10 @@ Cat: inside
 
 ----
 
+Type: exhibition
+
+----
+
 Add-text: 
 
 ----

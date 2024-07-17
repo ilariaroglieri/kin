@@ -4,8 +4,8 @@
 
 	$start_fullDate = $event->starting_date()->toDate('d.m Y');
 	$end_fullDate = $event->ending_date()->toDate('d.m Y');
-	$start = $starting_year == $ending_year ? $event->starting_date()->toDate('d.m') : $event->starting_date()->toDate('d.m Y');
-	$end = $event->ending_date()->toDate('d.m Y');
+	$start = $starting_year == $ending_year ? $event->starting_date()->toDate('d M') : $event->starting_date()->toDate('d M Y');
+	$end = $event->ending_date()->toDate('d M Y');
 
 	$duration = $start_fullDate == $end_fullDate ? $end : $start.'—'.$end;
 ?>
