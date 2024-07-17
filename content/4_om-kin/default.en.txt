@@ -1,9 +1,0 @@
-Title: Schools
-
-----
-
-Text: Lorem ipsum dolor sit amet.
-
-----
-
-Link: 

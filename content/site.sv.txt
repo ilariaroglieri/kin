@@ -8,19 +8,25 @@ Text:
 
 Related:
 
+- page://c6Q4Wsx8hl7vcG6d
+- page://NLZKTSqFjB6YGwSW
 - page://xnWFZs5tVYkf3i1R
-- page://SieQApclq6yVWWav
-- page://b84gvl3Nn6ERh1Rb
 - page://timqry0yAcZa0ZiQ
+- page://qvkGD3R5i2HnHdm0
+- page://fXIeW0eOOG2VNsMK
+- page://ra7jyS8Vai0WQw3Y
+- page://gKe8UHG8fbBIHkOm
 - page://9379T3Rej6lThM8u
-- page://BZtQpkKE991O1jz2
-- page://EMApeiuEoMB4MnLc
-- page://QoG0uqamSoPiKT8a
 - page://ZxaeGNQTTAagUYpR
+- page://V4CPZ2I2770DUEgN
 - page://TbcLdCNSqymsXtb2
+- page://cWm945M8tewV5pZS
+- page://B9yZRd8Dq31beZST
 - page://vHZIyYWj9JkQDkUf
-- page://6JFODnCk9rkssNU0
 - page://SMNtW01ZP4QNJWZ1
+- page://B2NUfJ31pdkPV0Ah
+- page://v8EeK1afaK7DFzRf
+- page://aPiAOl3bryJNsC9W
 - page://MCOp905SCEZ8hCOQ
 
 ----
@@ -36,7 +42,7 @@ Stadshustorget 1
 
 Opening-hours:
 
-## Öppettider
+## Öppettider 
 Tis—fre: 11—17
 Lör—sön: 12—16
 Tors: 11—20

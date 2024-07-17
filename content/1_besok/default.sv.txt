@@ -5,6 +5,7 @@ Title: Besök
 Text:
 
 ##Öppettider
+Obs! Särskilda öppettider 1 juni - 18 augusti (link: https://kinmuseum.se/sv/events/oppettider-i-pask text: under sommaren.) 
 Måndag stängt 
 Tisdag 11:00—17:00
 Onsdag 11:00—17:00
@@ -12,15 +13,6 @@ Torsdag 11:00—20:00
 Fredag 11:00—17:00
 Lördag 12:00—16:00
 Söndag 12:00—16:00
-
-Särskilda öppettider
-Tisdag 30 april: stängt
-Onsdag 1 maj: öppet kl 12:00-16:00
-Torsdag 9 maj Kristi himmelfärd: öppet kl 12:00-16:00
-Torsdag 6 juni nationaldagen: öppet kl 12:00-16:00
-Fredag 21 juni midsommarafton: stängt
-Lördag 22 juni midsommardagen: stängt
-Söndag 23 juni: stängt
 
 ##Så hittar du på museet
 Välkommen till Kin museum för samtidskonst. Museet finns inne i Stadshuset Kristallen på plan 2, 3, 4 och 5, bakom dörrarna med gröna skyltar. Det går bra att ta trapporna eller hiss från lobbyn. Konstverkstan ligger på plan 0,5. 

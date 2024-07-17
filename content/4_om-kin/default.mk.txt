@@ -1,9 +1,0 @@
-Title: Koulut
-
-----
-
-Text: Lorem ipsum dolor sit amet.
-
-----
-
-Link: 

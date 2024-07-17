@@ -1,9 +1,0 @@
-Title: Skuvla
-
-----
-
-Text: Lorem ipsum dolor sit amet.
-
-----
-
-Link: 

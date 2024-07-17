@@ -9,6 +9,7 @@ Slug: visit
 Text:
 
 ##Opening hours
+(link: https://kinmuseum.se/sv/events/oppettider-i-pask text: Summer opening hours July 1 – August 18)
 Tuesday 11—17
 Wednesday 11—17
 Thursday 11—20 
@@ -16,15 +17,6 @@ Friday 11—17
 Saturday 12—16
 Sunday 12—16
 Monday closed 
-
-Special Opening Hours
-Tuesday April 30: closed
-Wednesday May 1: 12:00–16:00
-Thursday May 9: 12:00-16:00
-Thursday June 6: 12:00-16:00
-Friday June 21: closed
-Saturday June: closed
-Sunday June 23: closed
 
 ##Get around
 Welcome to Kin Museum for Contemporary Art. Find us in Kiruna’s city hall Kristallen on floor 2, 3, 4 and 5, behind the doors with green signs. Take the stairs or use the elevator from the lobby on the ground floor. Our Workshop is found on floor 0,5. 

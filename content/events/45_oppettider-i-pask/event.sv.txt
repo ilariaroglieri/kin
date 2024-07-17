@@ -1,4 +1,4 @@
-Title: Öppettider i påsk
+Title: Sommaröppettider 1 juli – 18 augusti
 
 ----
 
@@ -10,22 +10,24 @@ Add-text:
 
 ----
 
-Starting-date: 2024-03-28
+Starting-date: 2024-07-01
 
 ----
 
-Ending-date: 2024-04-01
+Ending-date: 2024-08-18
 
 ----
 
 Info:
 
-##Öppettider i påsk
-Skärtorsdag 11:00 – 16:00
-Långfredag Stängt
-Påskafton 12:00 – 16:00
-Påskdagen 12:00 – 16:00
-Annandag påsk Stängt
+Måndag – torsdag kl 12:00 – 17:00
+Fredag kl 12:00 – 16:00
+
+Introduktion till de aktuella utställningarna:
+Tisdag kl 12:30
+Torsdag kl 16:00
+
+Handarbetscafé i Konstverkstan kl 12:00 – 16:00 varje onsdag
 
 Bild: Detalj ur Aleksandra Ravskajas målning Luftvärnssystem, 2023. Del av Observatoriet: konst och liv i den kritiska zonen
 
