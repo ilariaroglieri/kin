@@ -9,7 +9,8 @@
 		$catfield = page('events')->children()->first()->blueprint()->field('cat');
 		$cats = $catfield['options']; 
 
-		$events = page('events')->children()->listed()->filterBy('eventStateInTime', $archiveTime);
+
+		$events = page('events')->children()->listed()->filterBy('eventStateInTime', $archiveTime)->filterBy('type', '!=', 'news'); // category news is hidden
 
 		if ($archiveTime == 'ongoing' || $archiveTime == 'future'):
 			$orderedEvents = $events->sortBy('starting_date','ASC'); 

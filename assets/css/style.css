@@ -27,7 +27,7 @@ Version: 1.0
 .s-medium, .wysiwyg h2, #single-event .text h2, .searchform input[type="search"] {
   font-size: 20px; }
 
-.s-regular, body, .navigation .general-info h2, #single-event p, input[type="email"],
+.s-regular, body, .navigation .general-info h2, .event-list .dates, .event-list .type, #single-event p, input[type="email"],
 input[type="text"],
 input[type="search"] {
   font-size: 17px; }
@@ -99,6 +99,9 @@ input[type="search"] {
 .d-eleven-twelfth {
   width: calc(8.3333%*11 - 28px);
   margin: 0 14px; }
+
+.spacing-b-half {
+  margin-bottom: 7px; }
 
 .spacing-b-1, .wysiwyg h2, #single-event .text h2 {
   margin-bottom: 14px; }
@@ -473,7 +476,7 @@ p {
 
 h1, h2, h3, h4 {
   font-weight: normal;
-  line-height: 1; }
+  line-height: 1.1; }
 
 a {
   color: black;
@@ -569,7 +572,8 @@ body {
 
 .event-list {
   position: relative;
-  border-top: 1px solid black; }
+  border-top: 1px solid black;
+  padding: 12px; }
   .event-list::after {
     content: " ";
     display: block;
@@ -584,7 +588,6 @@ body {
   .event-list:last-of-type {
     border-bottom: 1px solid black; }
   .event-list a {
-    padding: 12px;
     display: inline-block;
     width: calc(100% - 56px); }
 

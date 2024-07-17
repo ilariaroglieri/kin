@@ -6,6 +6,7 @@
 				<h1 class="s-big bold spacing-b-2"><?= $page->title() ?></h1>
 
 				<?php snippet('event-date', array('event' => $page)) ?>
+				<?php snippet('event-type', array('event' => $page)) ?>
 
 				<?php $addText = $page->add_text(); ?>
 				<?php if (!($addText->isEmpty())): ?>

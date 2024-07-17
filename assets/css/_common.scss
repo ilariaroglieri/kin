@@ -160,6 +160,10 @@ $col: 8.3333%;
 
 
 // spacers
+.spacing-b-half {
+  margin-bottom: $half-spacing/2;
+}
+
 .spacing-b-1 {
   margin-bottom: $half-spacing;
 }

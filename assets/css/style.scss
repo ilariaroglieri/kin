@@ -202,7 +202,7 @@ p {
 
 h1, h2, h3, h4 {
   font-weight: normal;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 a {
@@ -330,6 +330,10 @@ body {
 .event-list {
   position: relative;
   border-top: 1px solid black;
+  padding: 12px;
+  .dates, .type {
+    @extend .s-regular;
+  }
   &::after {
     content: " ";
     display: block;
@@ -346,7 +350,6 @@ body {
     border-bottom: 1px solid black;
   }
   a {
-    padding: 12px;
     display: inline-block;
     width: calc(100% - #{$double-spacing});
     &:hover {
