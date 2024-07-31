@@ -5,7 +5,7 @@ return [
     'default' => false,
     'direction' => 'ltr',
     'locale' => [
-        'LC_ALL' => 'ns'
+        'LC_ALL' => 'sv'
     ],
     'name' => 'Davvisámegiella',
     'translations' => [

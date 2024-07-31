@@ -5,7 +5,7 @@ return [
     'default' => false,
     'direction' => 'ltr',
     'locale' => [
-        'LC_ALL' => 'mk'
+        'LC_ALL' => 'sv'
     ],
     'name' => 'Meänkieli',
     'translations' => [
