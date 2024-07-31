@@ -96,6 +96,9 @@ columns:
           add_text:
             label: Additional info
             type: text
+          whole_day:
+            label: Single day event
+            type: toggle
           starting_date:
             width: 1/2
             label: Starting date
@@ -106,6 +109,15 @@ columns:
             type: date
             label: Ending date
             translate: false
+            when:
+              whole_day: false
+          hour:
+            width: 1/2
+            type: time
+            label: Time
+            translate: false
+            when:
+              whole_day: true
           info:
             type: textarea
 

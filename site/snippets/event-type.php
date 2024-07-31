@@ -4,4 +4,4 @@
 
 	$t = $type['options'][$value][$kirby->language()->code()] ?? $value;
 ?>
-<h3 class="type s-medium camelcase"><?= $t ?></h3>
+<h3 class="type s-medium camelcase spacing-t-half-half"><?= $t ?></h3>
