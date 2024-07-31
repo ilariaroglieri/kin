@@ -23,7 +23,7 @@ tabs:
             type: pages
             translate: false
             flip: true
-            query: site.find('events').children.filterBy('eventStateInTime', '==', 'ended')
+            query: site.find('events')
 
   events:
     sections:
