@@ -17,7 +17,8 @@ return [
         'policyagreement' => 'Härmed godkänner jag sparandet av mina personliga uppgifter enligt',
         'no-results' => 'Din sökning gav inga träffar. Testa ett annat sökord.',
         'no-events' => 'Det finns inga evenemang för närvarande.',
-        'until' => 'Pågar till'
+        'until' => 'Pågar till',
+        'ev-pages' => 'Sida'
     ],
     'url' => NULL
 ];

@@ -9,7 +9,7 @@
 
 	  <?= css(['assets/css/style.css', '@auto']) ?>
 
-	  <link rel="icon" type="image/x-icon" href="../assets/svg/favicon.ico">
+	  <link rel="icon" type="image/x-icon" href="./favicon.ico">
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	</head>

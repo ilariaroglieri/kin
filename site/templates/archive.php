@@ -26,7 +26,9 @@
   		</div>
   	</div>
 
-		<?php 
+
+  	<?php if (!($archiveTime == 'ended')):
+			
 			$allcatsarray = [];
 			foreach($cats as $cat => $key):
 				$catname = $key[$kirby->language()->code()];
@@ -59,16 +61,32 @@
 			      <?php endforeach; ?>
 			    </div>
 				<?php endif; ?>
-			<?php endforeach; 
-		?>
+			<?php endforeach; ?>
 
-		<?php if (empty($allcatsarray)): ?>
-			<div class="d-flex flex-row">
-	  		<div class="d-whole">
-	  			<h3 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= t('no-events'); ?></h3>
-	  		</div>
-	  	</div>
-	  <?php endif; ?>
+			<?php if (empty($allcatsarray)): ?>
+				<div class="d-flex flex-row">
+		  		<div class="d-whole">
+		  			<h3 class="cat-title s-regular spacing-t-2 spacing-b-1"><?= t('no-events'); ?></h3>
+		  		</div>
+		  	</div>
+		  <?php endif; ?>
+
+		<!-- past archive has pagination and no categories division -->
+		<?php else: ?>
+
+			<?php 
+				$list = $orderedEvents->paginate(10);
+				snippet('pagination', array('list' => $list)); ?>
+
+			<div class="events-row d-flex flex-row d-column spacing-t-2">
+			  <?php foreach($orderedEvents->paginate(10) as $event): 
+					
+					snippet('event-module-list', array('event' => $event));
+
+	      endforeach; ?>
+	    </div>
+		<?php endif; ?>
+
 	</div>
 
 <?php snippet('footer') ?>

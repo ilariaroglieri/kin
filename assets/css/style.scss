@@ -352,6 +352,7 @@ body {
   a {
     display: inline-block;
     width: calc(100% - #{$double-spacing});
+    line-height: 1.2;
     &:hover {
       // color: $secColor;
     }
@@ -401,6 +402,32 @@ body {
   }
   img {
     width: 100%;
+  }
+}
+
+// archives
+.pagination {
+  li {
+    margin-right: $half-spacing;
+    a {
+      opacity: .4;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+    &:hover {
+      a {
+        opacity: 1;
+      }
+    }
+    &.current {
+      a {
+        opacity: 1;
+        color: black;
+        font-weight: bold;
+        pointer-events: none;
+      }
+    }
   }
 }
 
@@ -866,5 +893,14 @@ input[type="search"] {
 
   .home .marquee {
     display: none;
+  }
+
+  nav.d-half {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .pagination {
+    justify-content: flex-start !important;
   }
 }

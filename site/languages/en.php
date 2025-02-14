@@ -19,7 +19,8 @@ return [
         'no-results' => 'Your search gave no results. Try with another word!',
         'no-events' => 'There are no events to show here at the moment.',
         'until' => 'Until
-'
+',
+        'ev-pages' => 'Pages'
     ],
     'url' => NULL
 ];

@@ -24,6 +24,8 @@ tabs:
             translate: false
             flip: true
             query: site.find('events')
+            info: "{{ page.starting_date.toDate('d-m-Y')}} {{ page.ending_date.toDate('d-m-Y') }}"
+            # info: "{{ page.eventStateInTime}}"
 
   events:
     sections:

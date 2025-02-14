@@ -40,59 +40,59 @@ columns:
             options:
               exhibition:
                 sv: Utställningar
-                en: Exhibition
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: Exhibitions
+                ns: Čájáhusat
+                mk: Näyttelyt
               collection:
                 sv: Samlingen
-                en: Collection
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: The Collection
+                ns: Čoakkálmas
+                mk: Kokoelma
               lecture:
                 sv: Föreläsningar och samtal
-                en: Lectured and talk
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
-              lecture:
-                sv: Föreläsningar och samtal
-                en: Lectured and talk
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: Lectures and talks
+                ns: Logaldallamat ja ságastallamat
+                mk: Föörelääsninkiä ja jutteluja
               guidedvisit:
                 sv: Guidade visningar
-                en: Guided visit
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: Guided tours
+                ns: Oahpisteamit láidesteddjiin
+                mk: Opastettuja näytöksiä
               workshop:
                 sv: Workshop och kurser
-                en: Workshop and courses
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: Courses and workshops
+                ns: Bargobájit ja kurssat
+                mk: Työpajoja ja kursia
               artworkshop:
                 sv: Konstverkstan
-                # en: Workshop and courses
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: The Art Workshop
+                ns: Dáiddabádji
+                mk: Taitevärsta
               konstkollo:
                 sv: Konstkollo
-                # en: Workshop and courses
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: Art Camp
+                ns: Dáiddagávnnadeapmi
+                mk: Taitekollo
               skolor:
                 sv: För skolor
-                en: For schools
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                en: School visits
+                ns: Skuvllaide
+                mk: Kouluile
               news:
                 sv: Nyheter
                 en: News
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                ns: Ođđasat
+                mk: Uutisia
+              norrbotten:
+                sv: Kin i Norrbotten 
+                en: Kin in Norrbotten
+                ns: Kin Norbottenis
+                mk: Kin Norrbottenissa
               other:
-                sv: Kin i Norrbotten
-                # en: News
-                # ns: Gávpotviesus
-                # mk: Kaupungintalon sisälä
+                sv: Övrigt
+                en: Other
+                ns: Eará
+                mk: Muuta
           add_text:
             label: Additional info
             type: text
