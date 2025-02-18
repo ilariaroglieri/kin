@@ -1002,9 +1002,10 @@ input[type="search"] {
   nav.d-half {
     width: 100%;
     margin-right: 0;
-    margin-left: 0; }
+    margin-left: 0;
+    justify-content: flex-start !important; }
 
   .pagination {
-    justify-content: flex-start !important; } }
+    max-width: calc(100% - 30px); } }
 
 /*# sourceMappingURL=style.css.map */

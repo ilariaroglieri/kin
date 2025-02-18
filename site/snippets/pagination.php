@@ -5,7 +5,7 @@
       <p><?php echo t('ev-pages'); ?></p>
 
       <ul class="pagination d-flex wrap">
-        <?php foreach ($pagination->range(10) as $r): ?>
+        <?php foreach ($pagination->range(100) as $r): ?>
           <li <?= $pagination->page() === $r ? 'class="current" aria-current="page"' : '' ?>>
             <a href="<?= $pagination->pageURL($r) ?>">
               <?= $r ?>

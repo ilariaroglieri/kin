@@ -75,11 +75,11 @@
 		<?php else: ?>
 
 			<?php 
-				$list = $orderedEvents->paginate(10);
+				$list = $orderedEvents->paginate(20);
 				snippet('pagination', array('list' => $list)); ?>
 
 			<div class="events-row d-flex flex-row d-column spacing-t-2">
-			  <?php foreach($orderedEvents->paginate(10) as $event): 
+			  <?php foreach($orderedEvents->paginate(20) as $event): 
 					
 					snippet('event-module-list', array('event' => $event));
 
