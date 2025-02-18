@@ -637,19 +637,19 @@ body {
   .sidebar img {
     width: 100%; }
 
-.pagination li {
-  margin-right: 14px; }
-  .pagination li a {
-    opacity: .4; }
-  .pagination li:last-of-type {
-    margin-right: 0; }
-  .pagination li:hover a {
-    opacity: 1; }
-  .pagination li.current a {
-    opacity: 1;
-    color: black;
-    font-weight: bold;
-    pointer-events: none; }
+.pagination {
+  max-width: 75%; }
+  .pagination li {
+    margin-left: 14px; }
+    .pagination li a {
+      opacity: .4; }
+    .pagination li:hover a {
+      opacity: 1; }
+    .pagination li.current a {
+      opacity: 1;
+      color: black;
+      font-weight: bold;
+      pointer-events: none; }
 
 #single-event {
   padding-bottom: 0; }

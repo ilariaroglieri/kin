@@ -85,6 +85,8 @@
 
 	      endforeach; ?>
 	    </div>
+
+	    <?php snippet('pagination', array('list' => $list)); ?>
 		<?php endif; ?>
 
 	</div>

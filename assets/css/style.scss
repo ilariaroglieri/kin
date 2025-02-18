@@ -407,13 +407,11 @@ body {
 
 // archives
 .pagination {
+  max-width: 75%;
   li {
-    margin-right: $half-spacing;
+    margin-left:$half-spacing;
     a {
       opacity: .4;
-    }
-    &:last-of-type {
-      margin-right: 0;
     }
     &:hover {
       a {
