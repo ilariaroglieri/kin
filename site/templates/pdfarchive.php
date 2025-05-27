@@ -15,7 +15,7 @@
 		</div>
 
   	<?php 
-  		$catalogues = page('pdf-archive')->children()->listed();
+  		$catalogues = $site->index()->filterBy('intendedTemplate', 'catalogue');
 	  	$list = $catalogues->paginate(30);
 	  	$pagination = $list->pagination();
   	?>
