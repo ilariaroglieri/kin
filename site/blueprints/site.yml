@@ -45,6 +45,25 @@ tabs:
         image:
           cover: true
 
+  pdfarchive:
+    label: Archive
+    sections:
+      fields:
+        type: fields
+        fields:
+          archivetext:
+            type: textarea
+            size: small
+      pdfarchive:
+        label: PDF Archive
+        type: pages
+        parent: site.index.findBy("intendedTemplate", "pdfarchive")
+        template: catalogue
+        create: catalogue
+        search: true
+        layout: list
+        sortby: date desc
+        limit: 50
   info:
     label: Museum Info
     columns:
@@ -68,7 +87,7 @@ tabs:
     sections:
       privacy:
         type: pages
-        template: default
+        # template: default
         query: site.pages.unlisted.filterBy('title','!=','Home').filterBy('title','!=','Events').filterBy('title','!=','Sök').filterBy('title','!=','Error').filterBy('title','!=','site')
 
      

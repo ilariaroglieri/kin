@@ -1,0 +1,11 @@
+title: Pdf Archive
+
+sections:
+  pdfarchive:
+    label: PDF Archive
+    type: pages
+    template: catalogue
+    create: catalogue
+    search: true
+    layout: list
+    sortby: date desc

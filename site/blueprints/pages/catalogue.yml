@@ -1,0 +1,44 @@
+title: Catalogue
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          whole_day:
+            label: Single day event
+            type: toggle
+          starting_date:
+            width: 1/2
+            label: Starting date
+            type: date
+            translate: false
+          ending_date:
+            width: 1/2
+            type: date
+            label: Ending date
+            translate: false
+            when:
+              whole_day: false
+  - width: 1/2
+    sections:
+      cover_image:
+        type: fields
+        fields:
+          c_image:
+            label: Cover Image
+            type: files
+            translate: false
+            layout: cards
+            size: medium
+            max: 1
+      pdfdownload:
+        type: fields
+        fields:
+          pdf:
+            label: PDF
+            type: files
+            multiple: false
+            translate: false
+            layout: cards
