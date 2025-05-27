@@ -1,4 +1,4 @@
-<div data-id="<?= $catalogue->uid() ?>" class="catalogue d-one-fifth t-half spacing-b-2">
+<div data-id="<?= $catalogue->uid() ?>" class="catalogue d-one-fifth t-half spacing-b-2 ?>">
 
 	<?php if($pdf = $catalogue->pdf()->toFile()): ?>
 		<a class="overall" href="<?= $pdf->url(); ?>" alt="<?= $catalogue->title()->html()?>"><?= $catalogue->title()->html()?></a>
