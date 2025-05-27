@@ -21,6 +21,12 @@
         <?php foreach ($results as $result): ?>
           <div class="event-list d-two-thirds t-whole">
             <a class="bold" href="<?= $result->url() ?>" alt="<?= $result->title() ?>"><?= $result->title() ?></a>
+
+            <?php 
+            $template = $result->template()->name();
+            if ($template == 'event'): 
+              snippet('event-date', array('event' => $result));
+            endif ?>
           </div>
         <?php endforeach ?>
       <?php else: ?>

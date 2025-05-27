@@ -598,6 +598,9 @@ body {
     width: calc(100% - 56px);
     line-height: 1.2; }
 
+.sok .dates {
+  margin-top: 0 !important; }
+
 .event {
   position: relative; }
   .event a.overall {
