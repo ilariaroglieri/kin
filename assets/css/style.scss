@@ -365,7 +365,7 @@ body {
   }
 }
 
-.event {
+.event, .catalogue {
   position: relative;
   a.overall {
     position: absolute;
@@ -394,6 +394,12 @@ body {
   }
   .event-info {
     padding: $half-spacing;
+  }
+}
+
+.catalogue {
+  .cover_img {
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
   }
 }
 

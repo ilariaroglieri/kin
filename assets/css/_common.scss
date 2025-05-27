@@ -61,6 +61,11 @@ $thirdColor: #588084;
 	font-size: 17px;
 }
 
+.s-small-2 {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
 .s-small {
   font-size: 14px;
 }
@@ -128,6 +133,11 @@ $col: 8.3333%;
 
 .d-four-twelfth {
   width: calc(#{$col}*4 - #{$spacing});
+  margin: 0 #{$half-spacing};
+}
+
+.d-one-fifth {
+  width: calc(#{$col}*2.4 - #{$spacing});
   margin: 0 #{$half-spacing};
 }
 

@@ -23,7 +23,7 @@ columns:
               whole_day: false
   - width: 1/2
     sections:
-      cover_image:
+      sidebar:
         type: fields
         fields:
           c_image:
@@ -33,9 +33,6 @@ columns:
             layout: cards
             size: medium
             max: 1
-      pdfdownload:
-        type: fields
-        fields:
           pdf:
             label: PDF
             type: files
