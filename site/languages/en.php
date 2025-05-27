@@ -20,7 +20,8 @@ return [
         'no-events' => 'There are no events to show here at the moment.',
         'until' => 'Until
 ',
-        'ev-pages' => 'Pages'
+        'ev-pages' => 'Pages',
+        'pdf-archive' => 'Archive'
     ],
     'url' => NULL
 ];

@@ -18,7 +18,8 @@ return [
         'no-results' => 'Din sökning gav inga träffar. Testa ett annat sökord.',
         'no-events' => 'Det finns inga evenemang för närvarande.',
         'until' => 'Pågar till',
-        'ev-pages' => 'Sida'
+        'ev-pages' => 'Sida',
+        'pdf-archive' => 'Arkiv'
     ],
     'url' => NULL
 ];
