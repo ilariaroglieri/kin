@@ -12,7 +12,7 @@ tabs:
   homepage:
     label: Homepage
     sections:
-      fields:
+      homefields:
         type: fields
         fields:
           text:

@@ -34,7 +34,7 @@
 	    <?php endif; ?>
 		</nav>
 
-  	<div class="d-flex flex-row wrap spacing-t-3">
+  	<div class="d-flex flex-row-2 wrap spacing-t-2">
 		  <?php foreach($catalogues->paginate(30) as $catalogue): 
 		  	snippet('catalogue-module', array('catalogue' => $catalogue));
 			endforeach; ?>

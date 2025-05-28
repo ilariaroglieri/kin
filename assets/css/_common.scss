@@ -141,8 +141,8 @@ $col: 8.3333%;
 }
 
 .d-one-fifth {
-  width: calc(#{$col}*2.4 - #{$spacing});
-  margin: 0 #{$half-spacing};
+  width: calc(#{$col}*2.4 - #{$double-spacing});
+  margin: 0 #{$spacing};
 }
 
 .d-five-twelfth {

@@ -19,21 +19,22 @@
     <?php if($query): ?>
       <?php if ($results->count() != 0): ?>
         <?php foreach ($results as $result): ?>
-          <div class="event-list d-two-thirds t-whole">
+          <div class="results-list event-list d-two-thirds t-whole p-relative">
             <?php 
-            $template = $result->intendedTemplate()->name();
-            if ($template == 'catalogue'): ?>
-              <?php if($pdf = $result->pdf()->toFile()): ?>
-                <a class="bold" href="<?= $pdf->url(); ?>" alt="<?= $result->title()->html()?>"><?= $result->title() ?></a>
-              <?php endif; ?>
-              <h3 class="type s-medium">Pdf</h3>
-            <?php else: ?>
-              <a class="bold" href="<?= $result->url() ?>" alt="<?= $result->title() ?>"><?= $result->title() ?></a>
-              <?php if ($template == 'event'): 
+              $template = $result->intendedTemplate()->name();
+              $href = $result->pdf()->toFile() ? $result->pdf()->toFile()->url() : $result->url();
+            ?>
+            <a href="<?= $href; ?>" class="overall" alt="<?= $result->title()->html()?>"></a>
+            <div class="result-info">
+              <h2 class="bold s-regular"><?= $result->title() ?></h2>
+              <?php if ($template == 'catalogue'): ?>
+                <h3 class="type s-medium">Pdf</h3>
+                <?php snippet('catalogue-date', array('catalogue' => $result)) ?>
+              <?php elseif ($template == 'event'): 
                 snippet('event-type', array('event' => $result)); 
                 snippet('event-date', array('event' => $result)); 
-              endif;
-            endif ?>
+              endif ?>
+            </div>
           </div>
         <?php endforeach ?>
       <?php else: ?>
