@@ -28,8 +28,8 @@
             <div class="result-info">
               <h2 class="bold s-regular"><?= $result->title() ?></h2>
               <?php if ($template == 'catalogue'): ?>
-                <h3 class="type s-medium">Pdf</h3>
-                <?php snippet('catalogue-date', array('catalogue' => $result)) ?>
+                <h3 class="type s-medium spacing-t-half-half">Pdf</h3>
+                <h3 class="type s-medium spacing-t-half-half"><?= $result->published()->toDate('d.m.Y') ?></h3>
               <?php elseif ($template == 'event'): 
                 snippet('event-type', array('event' => $result)); 
                 snippet('event-date', array('event' => $result)); 

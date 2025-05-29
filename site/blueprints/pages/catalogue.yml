@@ -26,6 +26,10 @@ columns:
       sidebar:
         type: fields
         fields:
+          published:
+            label: Published on
+            type: date
+            default: now
           c_image:
             label: Cover Image
             type: files
